@@ -1,0 +1,75 @@
+:root {
+  --bg-color: #f0f4f8; 
+  --navbar-bg-color: #1e293b !important; 
+  --footer-bg-color: #1e293b; 
+  --primary-color: #3b82f6; 
+  --text-color: black !important;
+  --font-body:'Arial', sans-serif;
+}
+body {
+  font-family:  var(--font-body)!important;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+p{
+  color: var(--text-color) !important;
+}
+
+nav {
+  background-color: var(--navbar-bg-color) !important;
+}
+
+nav a {
+  color: white;
+}
+
+svg, nav a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+  color: white;
+}
+
+footer a {
+  color: var(--primary-color);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb; 
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.text-footer {
+  color: var(--footer-bg-color);
+}
+
+.bg-footer {
+  background-color: var(--footer-bg-color);
+}
+#menu-btn{
+  background-color: var(--navbar-bg-color);
+
+}

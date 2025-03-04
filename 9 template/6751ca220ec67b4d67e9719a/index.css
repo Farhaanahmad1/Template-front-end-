@@ -1,0 +1,40 @@
+:root {
+  --bg-color: linear-gradient(90deg, #d53369 0%, #daae51 100%) !important; /* Body background */
+  --navbar-bg-color: #f8f9fa;
+  --footer-bg-color: #f1f3f5;
+  --primary-color: #007bff; 
+  --text-color: #212529; 
+  --font-body:'Satoshi', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-color); 
+  color: var(--text-color) !important;
+  margin: 0;
+  padding: 0;
+}
+p{
+  color: var(--text-color) !important;
+}
+nav {
+  background-color: var(--navbar-bg-color);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+button {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}

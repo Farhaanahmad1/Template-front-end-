@@ -1,0 +1,136 @@
+:root {
+    --bg-color: #111827 !important ;
+    --navbar-bg-color: #0E1E3E !important;
+    --footer-bg-color: #111827 !important;
+    --primary-color: #818CF8 !important;
+    --secondary-color: #2563EB !important;
+    --text-color: #FFF !important;
+    --font-body: "PT Serif", sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  svg{
+    color: var(--primary-color) !important;
+
+  }
+  h1,p{
+    color: var(--text-color) !important;
+  }
+  h2, i,h4,a,span{
+    color: var(--text-color) !important;
+
+  }
+
+
+  
+  nav{
+    background-color: var(--navbar-bg-color) !important;
+}
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-body) !important;
+  }
+i{
+    color: var(--primary-color) !important;
+  }
+
+  @keyframes spin-slow {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(-10px);
+    }
+
+    50% {
+      transform: translateY(10px);
+    }
+
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 20s linear infinite;
+  }
+
+  .animate-move {
+    animation: move 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 1s ease-in-out;
+  }
+
+
+  @keyframes randomMove {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    25% {
+      transform: translate(10px, -10px);
+    }
+
+    50% {
+      transform: translate(-10px, 10px);
+    }
+
+    75% {
+      transform: translate(10px, 10px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  .animate-random {
+    animation: randomMove 3s infinite ease-in-out;
+  }

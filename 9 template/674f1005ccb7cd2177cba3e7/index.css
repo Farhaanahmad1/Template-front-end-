@@ -1,0 +1,49 @@
+  :root {
+      --bg-color: #f9fafb; 
+      --navbar-bg-color: black; 
+      --footer-bg-color: black; 
+      --primary-color: #409C0B; 
+      --text-color: black; 
+      --secondary-text-color: white; 
+      /* --card-bg-color: #ffffff; 
+      --border-color: #e5e7eb; 
+      --radius: 8px; 
+      --transition-speed: 200ms;  */
+      --font-body: 'Roboto', 'serif';
+      
+    }
+    
+    body { 
+      font-family: var(--font-body) !important;
+      background-color: var(--bg-color) !important;
+      color: var(--text-color) !important;
+      margin: 0 !important;
+      line-height: 1.6 !important;
+      transition: background-color var(--transition-speed), color var(--transition-speed) !important;
+    }
+
+    header {
+      background-color: var(--navbar-bg-color) !important;
+      color: var(--secondary-text-color) !important;
+      transition: background-color var(--transition-speed), color var(--transition-speed) !important;
+    }
+
+    footer {
+      background-color: var(--footer-bg-color) !important;
+      color: var(--secondary-text-color) !important;
+      transition: background-color var(--transition-speed), color var(--transition-speed) !important;
+    }
+
+    h2, h3, h4, h5, h6 {
+      color: var(--primary-color) !important;
+      transition: color var(--transition-speed) !important;
+    }
+
+    a, button {
+      color: var(--secondary-text-color) !important;
+      transition: color var(--transition-speed) !important;
+    }
+
+    a:hover, button:hover {
+      color: var(--primary-color) !important;
+    }

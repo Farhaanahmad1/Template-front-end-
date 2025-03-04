@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>
+    Bl oo Z oo m - Event Management Website Template
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav
+    class="navbar sticky w-full py-4 px-8 md:px-16 bg-gradient-to-r from-[var(--navbar-bg-color)] via-black to-[var(--navbar-bg-color)] rounded-full border-4 border-purple-600 shadow-xl top-2 left-0 right-0 z-50"
+    id="navbar">
+    <div class="flex justify-between items-center" id="section-1">
+      <!-- Left Links (visible only on large screens) -->
+      <div class="hidden md:flex space-x-8" id="section-2">
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-8" id="link-2">
+          Attend
+        </a>
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-18" id="link-3">
+          Exhibitors
+        </a>
+      </div>
+      <!-- Logo -->
+      <div class="text-2xl font-extrabold text-white uppercase tracking-wider" id="section-3">
+        Bl oo Z oo m
+      </div>
+      <!-- Right Links (visible only on large screens) -->
+      <div class="hidden md:flex space-x-8" id="section-4">
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-37" id="link-4">
+          Media
+        </a>
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-44" id="link-5">
+          Partners
+        </a>
+      </div>
+      <!-- Hamburger Icon (visible on small screens) -->
+      <div class="md:hidden flex items-center" id="section-5">
+        <button class="text-white focus:outline-none" id="menu-btn">
+          <svg class="w-6 h-6" fill="none" id="svg-1" stroke="currentColor" viewbox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6h16M4 12h16M4 18h16" id="svg-2" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2">
+            </path>
+          </svg>
+        </button>
+      </div>
+      <!-- Register Now Button (hidden on mobile view) -->
+      <a class="ml-6 bg-purple-600 text-white px-6 py-2 rounded-full text-sm font-semibold uppercase shadow-lg hover:scale-105 transition duration-300 hidden lg:block"
+        href="#section-107" id="link-6" style="clip-path: polygon(10% 0%, 90% 0%, 100% 40%, 90% 100%, 10% 100%, 0% 40%);">
+        Register Now
+      </a>
+    </div>
+    <!-- Mobile Menu (Dropdown) -->
+    <div
+      class="md:hidden mt-16 text-center hidden bg-black bg-opacity-90 w-full absolute top-0 left-0 right-0 p-8 rounded-b-2xl border-t-4 border-purple-600 shadow-2xl"
+      id="mobile-menu">
+      <div class="flex flex-col items-center space-y-4" id="section-7">
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-8" id="link-7">
+          Attend
+        </a>
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-18" id="link-8">
+          Exhibitors
+        </a>
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-37" id="link-9">
+          Media
+        </a>
+        <a class="text-gray-300 hover:text-white text-sm font-semibold uppercase tracking-wider transition duration-300"
+          href="#section-44" id="link-10">
+          Partners
+        </a>
+        <a class="text-white rounded-full text-sm font-semibold uppercase" href="#section-107" id="link-11">
+          Register Now
+        </a>
+      </div>
+    </div>
+  </nav>
+  <section class="relative bg-white overflow-hidden h-screen" id="section-8">
+    <!-- Wavy Background Lines -->
+    <div class="absolute inset-0" id="section-9">
+      <div class="absolute inset-0 w-full h-full" id="section-10">
+        <!-- Multiple wavy lines -->
+        <svg class="absolute w-full" id="svg-3" preserveaspectratio="none" viewbox="0 0 1440 120"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-4" stroke="#e5e7eb" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-8" id="svg-5" preserveaspectratio="none" viewbox="0 0 1440 120"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-6" stroke="#d1d5db" stroke-width="1">
+          </path>
+        </svg>
+        <!-- Add 10 more lines -->
+        <svg class="absolute w-full top-16" id="svg-7" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-8" stroke="#cbd5e1" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-24" id="svg-9" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-10" stroke="#a0aec0" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-32" id="svg-11" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-12" stroke="#94a3b8" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-40" id="svg-13" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-14" stroke="#64748b" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-48" id="svg-15" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-16" stroke="#475569" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-56" id="svg-17" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-18" stroke="#334155" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-64" id="svg-19" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-20" stroke="#1e293b" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-72" id="svg-21" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-22" stroke="#0f172a" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-80" id="svg-23" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-24" stroke="#1f2937" stroke-width="1">
+          </path>
+        </svg>
+        <svg class="absolute w-full top-96" id="svg-25" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 Q360,100 720,60 T1440,60" fill="none" id="svg-26" stroke="#111827" stroke-width="1">
+          </path>
+        </svg>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div class="relative max-w-7xl mx-auto px-4 my-24" id="section-11">
+      <!-- Title -->
+      <h1
+        class="relative z-30 text-center text-5xl md:text-6xl font-extrabold !text-black tracking-tight leading-tight"
+        id="text-2">
+        Exclusive Events,
+        <br />
+        <span class="text-purple-600" id="text-3">
+          Priceless Memories
+        </span>
+      </h1>
+      <!-- Subtitle -->
+      <p class="text-center mt-4 text-lg text-gray-600" id="text-4">
+        Make your moments unforgettable with our carefully curated events.
+      </p>
+      <div class="relative z-0 hidden sm:block" id="section-12">
+        <div class="absolute top-30 left-10 w-40 h-40 bg-cover bg-center rounded-full z-10" id="section-13"
+          style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnR8ZW58MHx8MHx8fDA%3D');">
+        </div>
+        <div class="absolute top-30 right-16 w-48 h-48 bg-cover bg-center rounded-lg z-20" id="section-14"
+          style="background-image: url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXZlbnR8ZW58MHx8MHx8fDA%3D');">
+        </div>
+        <div class="absolute bottom-10 left-16 w-52 h-52 bg-cover bg-center rounded-full z-30" id="section-15"
+          style="background-image: url('https://plus.unsplash.com/premium_photo-1664474653221-8412b8dfca3e?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXZlbnR8ZW58MHx8MHx8fDA%3D');">
+        </div>
+        <div class="absolute bottom-6 right-16 w-60 h-60 bg-cover bg-center random-shape z-40" id="section-16"
+          style="background-image: url('https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZXZlbnR8ZW58MHx8MHx8fDA%3D');">
+        </div>
+      </div>
+      <!-- Button -->
+      <div class="flex justify-center mt-8" id="section-17">
+        <a class="relative group inline-block py-4 px-10 bg-purple-500 text-white font-semibold text-lg transform hover:scale-105 transition duration-300"
+          href="#" id="link-12" style="clip-path: polygon(10% 0%, 90% 0%, 100% 40%, 90% 100%, 10% 100%, 0% 40%);">
+          <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition duration-300 rounded-3xl"
+            id="text-5">
+          </span>
+          Schedule Now
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    class="relative bg-black text-white p-6 rounded-lg flex flex-wrap items-center justify-between max-w-7xl mx-auto shadow-lg space-y-6 sm:space-y-0"
+    id="section-18">
+    <!-- Left Section -->
+    <div class="w-full lg:w-1/2 space-y-4 text-center lg:text-left" id="section-19">
+      <p class="!text-white text-sm uppercase tracking-wide" id="text-6">
+        Featured Events
+      </p>
+      <h1 class="text-3xl sm:text-4xl font-bold !mb-6" id="text-7">
+        Dinner party of Luis Family
+      </h1>
+      <a class="mt-16 bg-purple-600 text-white px-6 py-2 rounded-full text-sm font-semibold uppercase shadow-lg hover:scale-105 transition duration-300"
+        href="#section-107" id="link-6" style="clip-path: polygon(10% 0%, 90% 0%, 100% 40%, 90% 100%, 10% 100%, 0% 40%);">
+        Register Now
+      </a>
+    </div>
+    <!-- Countdown and Image Section -->
+    <div class="w-full lg:w-1/2 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-2" id="section-20">
+      <!-- Countdown Section -->
+      <div class="text-center w-[70%] lg:w-2/3 mb-4 lg:mb-0" id="section-21">
+        <p class="!text-white text-sm uppercase tracking-wide mb-2" id="text-8">
+          Starts In...
+        </p>
+        <div class="!text-white flex justify-center lg:justify-start space-x-2 text-2xl sm:text-4xl font-bold" id="countdown">
+          <div id="section-23 !text-white">
+            <span id="days">
+              10
+            </span>
+            <p class="text-sm !text-white" id="text-10">
+              Days
+            </p>
+          </div>
+          <div id="section-24">
+            :
+          </div>
+          <div id="section-25">
+            <span id="hours">
+              06
+            </span>
+            <p class="text-sm !text-white" id="text-12">
+              Hours
+            </p>
+          </div>
+          <div id="section-26">
+            :
+          </div>
+          <div id="section-27">
+            <span id="minutes">
+              35
+            </span>
+            <p class="text-sm !text-white" id="text-14">
+              Mins
+            </p>
+          </div>
+          <div id="section-28">
+            :
+          </div>
+          <div id="section-29">
+            <span id="seconds">
+              42
+            </span>
+            <p class="text-sm !text-white" id="text-16">
+              Sec
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Right Image Section -->
+      <div class="w-full lg:w-2/3 rounded-lg overflow-hidden" id="section-30">
+        <img alt="Dinner Party" class="w-full h-48 lg:h-full object-cover" id="image-1"
+          src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV2ZW50fGVufDB8fDB8fHww" />
+      </div>
+    </div>
+  </section>
+  <section
+    class="relative mt-10 bg-gradient-to-r from-purple-900 via-black to-purple-900 text-white py-10 px-6 rounded-xl max-w-7xl mx-auto shadow-lg overflow-hidden"
+    id="section-31">
+    <!-- Content Section -->
+    <div class="relative flex flex-col items-center space-y-6 sm:space-y-0 sm:flex-row sm:justify-between"
+      id="section-32">
+      <!-- Title -->
+      <h1 class="text-3xl sm:text-4xl font-bold text-center sm:text-left" id="text-17">
+        We are BlooZoom
+      </h1>
+      <!-- Statistics -->
+      <div class="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-10 text-center sm:text-left"
+        id="section-33">
+        <!-- Stat 1 -->
+        <div id="section-34">
+          <p class="text-3xl font-bold !text-white" id="text-18">
+            600+
+          </p>
+          <p class="text-sm uppercase tracking-wide !text-white" id="text-19">
+            Ideal Events
+          </p>
+        </div>
+        <!-- Stat 2 -->
+        <div id="section-35">
+          <p class="text-3xl font-bold !text-white" id="text-20">
+            12K+
+          </p>
+          <p class="text-sm uppercase tracking-wide !text-white" id="text-21">
+            Customers
+          </p>
+        </div>
+        <!-- Stat 3 -->
+        <div id="section-36">
+          <p class="text-3xl font-bold !text-white" id="text-22">
+            10+
+          </p>
+          <p class="text-sm uppercase tracking-wide !text-white" id="text-23">
+            Years Of Exp
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container mx-auto space-y-12 p-6" id="section-37">
+    <!-- First Section -->
+    <div class="grid md:grid-cols-2 gap-8 items-center" id="section-38">
+      <div class="relative" id="section-39">
+        <img alt="Party Planning" class="rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl shadow-lg" id="image-2"
+          src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGV2ZW50fGVufDB8fDB8fHww">
+        </img>
+      </div>
+      <div class="space-y-4" id="section-40">
+        <h2 class="text-2xl md:text-3xl font-semibold text-indigo-700" id="text-24">
+          Our Mission
+        </h2>
+        <p class="text-gray-600 sm:leading-[5]" id="text-25">
+          At Party Bliss, our mission is to create unforgettable events that leave lasting memories. Whether it's a
+          wedding, corporate gathering, or a private party, we aim to deliver perfection with a touch of magic.
+        </p>
+      </div>
+    </div>
+    <!-- Second Section -->
+    <div class="grid md:grid-cols-2 gap-8 items-center" id="section-41">
+      <div class="order-last md:order-first space-y-4" id="section-42">
+        <h2 class="text-2xl md:text-3xl font-semibold text-indigo-700" id="text-26">
+          Our Vision
+        </h2>
+        <p class="text-gray-600 sm:leading-[5]" id="text-27">
+          Our vision is to revolutionize event planning by combining creativity, precision, and passion. We strive to
+          make every celebration unique, inspiring joy and excitement in every detail.
+        </p>
+      </div>
+      <div class="relative" id="section-43">
+        <img alt="Event Vision" class="rounded-tr-3xl rounded-br-3xl rounded-bl-3xl shadow-lg" id="image-3"
+          src="https://images.unsplash.com/photo-1561489396-888724a1543d?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50fGVufDB8fDB8fHww" />
+      </div>
+    </div>
+  </section>
+  <section class="bg-gradient-to-r from-purple-900 via-black to-purple-900 text-white py-16 px-6" id="section-44">
+    <div class="container mx-auto space-y-6" id="section-45">
+      <h2 class="text-3xl md:text-4xl font-bold text-center" id="text-28">
+        Our Partners
+      </h2>
+      <p class="text-center text-gray-300" id="text-29">
+        We are proud to collaborate with some of the best brands in the industry.
+      </p>
+      <!-- Logos Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center" id="section-46">
+        <img alt="Google" class="w-16 h-16" id="image-4"
+          src="https://www.vectorlogo.zone/logos/google/google-icon.svg" />
+        <img alt="Apple" class="w-16 h-16" id="image-5"
+          src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
+        <img alt="Microsoft" class="w-16 h-16" id="image-6"
+          src="https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg" />
+        <img alt="Facebook" class="w-16 h-16" id="image-7"
+          src="https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg" />
+      </div>
+    </div>
+  </section>
+  <section class="container mx-auto px-6 my-10" id="section-47">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6" id="section-48">
+      <!-- Card 1 -->
+      <div
+        class="bg-white border-2 border-gray-800 shadow-xl p-6 text-center rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl"
+        id="section-49">
+        <i class="fas fa-headset text-4xl text-black mb-4 !text-[var(--primary-color)]" id="text-30">
+        </i>
+        <h3 class="text-lg font-semibold" id="text-31">
+          24 × 7 Support
+        </h3>
+      </div>
+      <!-- Card 2 -->
+      <div
+        class="bg-white border-2 border-gray-800 shadow-xl p-6 text-center rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl"
+        id="section-50">
+        <i class="fas fa-person text-4xl text-black mb-4 !text-[var(--primary-color)]" id="text-32">
+        </i>
+        <h3 class="text-lg font-semibold" id="text-33">
+          Perfect Venues
+        </h3>
+      </div>
+      <!-- Card 3 -->
+      <div
+        class="bg-white border-2 border-gray-800 shadow-xl p-6 text-center rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl"
+        id="section-51">
+        <i class="fas fa-users text-4xl text-black mb-4 !text-[var(--primary-color)]" id="text-34">
+        </i>
+        <h3 class="text-lg font-semibold" id="text-35">
+          Great Team
+        </h3>
+      </div>
+      <!-- Card 4 -->
+      <div
+        class="bg-white border-2 border-gray-800 shadow-xl p-6 text-center rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl"
+        id="section-52">
+        <i class="fas fa-lightbulb text-4xl text-black mb-4 !text-[var(--primary-color)]" id="text-36">
+        </i>
+        <h3 class="text-lg font-semibold" id="text-37">
+          Brilliant Ideas
+        </h3>
+      </div>
+    </div>
+  </section>
+  <section class="" id="section-53">
+    <div class="container mx-auto px-4" id="section-54">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-purple-700 mb-8" id="text-38">
+        Photo Gallery
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-0" id="section-55">
+        <div class="overflow-hidden" id="section-56">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-8"
+            src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 200px;" />
+        </div>
+        <div class="overflow-hidden mb-6" id="section-57">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-9"
+            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 300px;" />
+        </div>
+        <div class="overflow-hidden" id="section-58">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-10"
+            src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 250px;" />
+        </div>
+        <div class="overflow-hidden" id="section-59">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-11"
+            src="https://images.unsplash.com/photo-1522158637959-30385a09e0da?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 220px;" />
+        </div>
+        <div class="overflow-hidden" id="section-60">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-12"
+            src="https://plus.unsplash.com/premium_photo-1674197235155-fd390a937c3a?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 280px;" />
+        </div>
+        <div class="overflow-hidden" id="section-61">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-13"
+            src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 320px;" />
+        </div>
+        <div class="overflow-hidden" id="section-62">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-14"
+            src="https://plus.unsplash.com/premium_photo-1672354234377-38ef695dd2ed?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 260px;" />
+        </div>
+        <div class="overflow-hidden" id="section-63">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-15"
+            src="https://plus.unsplash.com/premium_photo-1674197235155-fd390a937c3a?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 300px;" />
+        </div>
+        <div class="overflow-hidden" id="section-64">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-16"
+            src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 240px;" />
+        </div>
+        <div class="overflow-hidden" id="section-65">
+          <img alt="Gallery Image" class="w-full object-cover" id="image-17"
+            src="https://images.unsplash.com/photo-1561489396-888724a1543d?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50fGVufDB8fDB8fHww"
+            style="height: 350px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="flex justify-center items-center py-10" id="section-66">
+    <div class="bg-white rounded-2xl shadow-lg flex items-center p-6 max-w-4xl w-full" id="section-67">
+      <!-- Image Section -->
+      <img alt="User Photo" class="w-24 h-24 rounded-full object-cover mr-6" id="image-18"
+        src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+      <!-- Content Section -->
+      <div class="flex-1" id="section-68">
+        <p class="text-gray-600 text-lg" id="text-39">
+          "This team transformed our annual gala into a magical experience. From creative decor to flawless execution,
+          every detail was handled with care. Highly recommended!"
+        </p>
+        <p class="mt-4 text-lg font-semibold text-gray-800" id="text-40">
+          - Jane Smith
+        </p>
+        <div class="text-yellow-400 text-xl mt-2" id="section-69">
+          ★★★★★
+        </div>
+      </div>
+      <!-- Navigation Section -->
+      <div class="flex items-center ml-6" id="section-70">
+        <div class="w-2.5 h-2.5 bg-gray-300 rounded-full mr-2" id="section-71">
+        </div>
+        <div class="w-2.5 h-2.5 bg-blue-500 rounded-full mr-2" id="section-72">
+        </div>
+        <div class="w-2.5 h-2.5 bg-gray-300 rounded-full mr-4" id="section-73">
+        </div>
+        <a
+          class="bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition"
+          id="button-2">
+          →
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="relative bg-gradient-to-r from-purple-900 via-black to-purple-900 text-white py-16 overflow-hidden" id="section-74">
+    <!-- Background Decorations -->
+    <div class="absolute inset-0" id="section-75">
+      <!-- Random Decorative Lines -->
+      <div class="absolute top-10 left-5 w-40 h-1 bg-gray-300 opacity-20 rotate-12" id="section-76">
+      </div>
+      <div class="absolute top-32 right-10 w-60 h-1 bg-gray-300 opacity-20 -rotate-6" id="section-77">
+      </div>
+      <div class="absolute bottom-20 left-20 w-52 h-1 bg-gray-300 opacity-20 rotate-45" id="section-78">
+      </div>
+      <div class="absolute bottom-10 right-16 w-32 h-1 bg-gray-300 opacity-20 -rotate-12" id="section-79">
+      </div>
+      <div class="absolute top-5 left-1/2 w-56 h-1 bg-gray-300 opacity-20 -rotate-45" id="section-80">
+      </div>
+      <div class="absolute bottom-5 right-1/3 w-44 h-1 bg-gray-300 opacity-20 rotate-6" id="section-81">
+      </div>
+      <div class="absolute top-1/3 left-1/4 w-64 h-1 bg-gray-300 opacity-20 rotate-12" id="section-82">
+      </div>
+      <div class="absolute bottom-1/4 right-1/4 w-48 h-1 bg-gray-300 opacity-20 -rotate-6" id="section-83">
+      </div>
+      <div class="absolute top-1/2 left-10 w-40 h-1 bg-gray-300 opacity-20 rotate-3" id="section-84">
+      </div>
+      <div class="absolute bottom-1/3 right-12 w-36 h-1 bg-gray-300 opacity-20 -rotate-18" id="section-85">
+      </div>
+      <div class="absolute top-1/4 right-20 w-44 h-1 bg-gray-300 opacity-20 rotate-24" id="section-86">
+      </div>
+      <div class="absolute bottom-10 left-1/3 w-32 h-1 bg-gray-300 opacity-20 rotate-15" id="section-87">
+      </div>
+      <div class="absolute top-3/4 right-5 w-50 h-1 bg-gray-300 opacity-20 -rotate-9" id="section-88">
+      </div>
+      <div class="absolute top-0 left-10 w-40 h-1 bg-gray-300 opacity-20 rotate-10" id="section-89">
+      </div>
+      <div class="absolute bottom-0 right-10 w-60 h-1 bg-gray-300 opacity-20 rotate-20" id="section-90">
+      </div>
+      <div class="absolute top-1/4 right-1/3 w-48 h-1 bg-gray-300 opacity-20 -rotate-30" id="section-91">
+      </div>
+      <div class="absolute top-2/3 left-1/5 w-36 h-1 bg-gray-300 opacity-20 rotate-15" id="section-92">
+      </div>
+      <div class="absolute bottom-1/5 right-1/5 w-40 h-1 bg-gray-300 opacity-20 -rotate-5" id="section-93">
+      </div>
+    </div>
+    <!-- Content Wrapper -->
+    <div class="relative z-10 container mx-auto text-center" id="section-94">
+      <!-- Title -->
+      <h2 class="text-3xl font-bold mb-4" id="text-41">
+        Our Sponsors
+      </h2>
+      <p class="!text-white mb-8" id="text-42">
+        We are grateful for the support of our incredible sponsors. Their contributions make our events successful and
+        impactful.
+      </p>
+      <!-- Sponsor Icons -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-4xl" id="section-95">
+        <i class="fab fa-snapchat mx-auto text-white" id="text-43">
+        </i>
+        <i class="fab fa-apple mx-auto text-white" id="text-44">
+        </i>
+        <i class="fab fa-microsoft mx-auto text-white" id="text-45">
+        </i>
+        <i class="fab fa-google mx-auto text-white" id="text-46">
+        </i>
+        <i class="fab fa-amazon mx-auto text-white" id="text-47">
+        </i>
+        <i class="fab fa-digital-ocean mx-auto text-white" id="text-48">
+        </i>
+        <i class="fab fa-spotify mx-auto text-white" id="text-49">
+        </i>
+        <i class="fab fa-facebook mx-auto text-white" id="text-50">
+        </i>
+        <i class="fab fa-github mx-auto text-white" id="text-51">
+        </i>
+        <i class="fab fa-twitter mx-auto text-white" id="text-52">
+        </i>
+        <i class="fab fa-linkedin mx-auto text-white" id="text-53">
+        </i>
+        <i class="fab fa-instagram mx-auto text-white" id="text-54">
+        </i>
+      </div>
+    </div>
+  </section>
+  <section class="py-16" id="section-96">
+    <div class="container mx-auto text-center" id="section-97">
+      <!-- Section Title -->
+      <h2 class="text-3xl font-bold text-blue-900 mb-8" id="text-55">
+        World Class Team
+      </h2>
+      <!-- Team Members Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8" id="section-98">
+        <!-- Team Member 1 -->
+        <div class="flex flex-col items-center" id="section-99">
+          <div class="w-36 h-36 overflow-hidden mb-4" id="section-100"
+            style="clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%); border-radius: 1rem 1rem 0 1rem;">
+            <img alt="Adelina Stiff" class="w-full h-full object-cover" id="image-19"
+              src="https://images.unsplash.com/photo-1498771251419-a1f4fbecd022?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcm9zbnxlbnwwfHwwfHx8MA%3D%3Ds" />
+          </div>
+          <h3 class="text-lg font-semibold" id="text-56">
+            Adelina Stiff
+          </h3>
+          <p class="text-gray-500" id="text-57">
+            CEO
+          </p>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="flex flex-col items-center" id="section-101">
+          <div class="w-36 h-36 overflow-hidden mb-4" id="section-102"
+            style="clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%); border-radius: 1rem 1rem 0 1rem;">
+            <img alt="Den Josek" class="w-full h-full object-cover" id="image-20"
+              src="https://images.unsplash.com/photo-1514869544270-4abb16d77949?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcm9zbnxlbnwwfHwwfHx8MA%3D%3D" />
+          </div>
+          <h3 class="text-lg font-semibold" id="text-58">
+            Den Josek
+          </h3>
+          <p class="text-gray-500" id="text-59">
+            Director
+          </p>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="flex flex-col items-center" id="section-103">
+          <div class="w-36 h-36 overflow-hidden mb-4" id="section-104"
+            style="clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%); border-radius: 1rem 1rem 0 1rem;">
+            <img alt="Chiyo Katoke" class="w-full h-full object-cover" id="image-21"
+              src="https://images.unsplash.com/photo-1592948078640-39656341be54?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyb3NufGVufDB8fDB8fHww" />
+          </div>
+          <h3 class="text-lg font-semibold" id="text-60">
+            Chiyo Katoke
+          </h3>
+          <p class="text-gray-500" id="text-61">
+            Creative Designer
+          </p>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="flex flex-col items-center" id="section-105">
+          <div class="w-36 h-36 overflow-hidden mb-4" id="section-106"
+            style="clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%); border-radius: 1rem 1rem 0 1rem;">
+            <img alt="Zahra Foxi" class="w-full h-full object-cover" id="image-22"
+              src="https://images.unsplash.com/photo-1609543563735-d7cfaf71addb?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyb3NufGVufDB8fDB8fHww" />
+          </div>
+          <h3 class="text-lg font-semibold" id="text-62">
+            Zahra Foxi
+          </h3>
+          <p class="text-gray-500" id="text-63">
+            Manager
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative flex flex-col items-center justify-center text-white py-16 px-6 bg-black overflow-hidden"
+    id="section-107">
+    <!-- Background Wavy Lines -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none" id="section-108">
+      <svg id="svg-27" viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,64L80,80C160,96,320,128,480,138.7C640,149,800,139,960,138.7C1120,139,1280,149,1360,154.7L1440,160"
+          fill="none" id="svg-28" stroke="rgba(255,255,255,0.2)" stroke-width="2">
+        </path>
+      </svg>
+    </div>
+    <!-- Heading -->
+    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-purple-600 tracking-wide" id="text-64">
+      Subscribe To Our Party
+    </h2>
+    <p class="text-gray-300 text-lg max-w-xl text-center" id="text-65">
+      Get VIP access to exclusive events, discounts, and surprises!
+    </p>
+    <!-- Subscription Box -->
+    <div
+      class="relative bg-opacity-20 bg-gray-900 p-8 mt-8 w-full max-w-2xl flex flex-col items-center rounded-2xl shadow-lg border border-gray-700 backdrop-blur-md glass-box"
+      id="section-109">
+      <!-- Name Input -->
+      <form class="space-y-4" id="form-1">
+      <input
+        class="w-full bg-transparent border-b border-gray-600 text-white px-4 py-3 text-lg focus:outline-none focus:border-pink-400 placeholder-gray-400 mb-5"
+        id="form-2" placeholder="Your Name" type="text" />
+      <!-- Email Input -->
+      <input
+        class="w-full bg-transparent border-b border-gray-600 text-white px-4 py-3 text-lg focus:outline-none focus:border-pink-400 placeholder-gray-400"
+        id="form-3" placeholder="Your Email" type="email" />
+      <!-- Subscribe Button -->
+      <button
+        class="mt-6 text-white px-8 py-3 font-semibold text-lg glow-btn transition duration-300 hover:scale-105"
+        id="button-3" style="clip-path: polygon(10% 0%, 90% 0%, 100% 40%, 90% 100%, 10% 100%, 0% 40%);">
+        Subscribe Now
+      </button>
+      </form>
+      <!-- Paper Plane Animation -->
+      <div class="absolute top-8 right-8 animate-fly" id="section-110">
+        <i class="fas fa-paper-plane text-4xl !text-[var(--primary-color)]" id="text-66">
+        </i>
+      </div>
+    </div>
+  </section>
+  <footer class="flex flex-col items-center text-center py-8 px-4" id="section-111">
+    <!-- Logo -->
+    <h1 class="text-6xl font-bold tracking-wide" id="text-67">
+      <span class="text-black" id="text-68">
+        Bl
+      </span>
+      <span class="!text-[var(--primary-color)]" id="text-69">
+        oo
+      </span>
+      <span class="text-black" id="text-70">
+        Z
+      </span>
+      <span class="!text-[var(--primary-color)]" id="text-71">
+        oo
+      </span>
+      <span class="text-black" id="text-72">
+        m
+      </span>
+      <span class="!text-[var(--primary-color)]" id="text-73">
+        .
+      </span>
+    </h1>
+    <!-- Tagline -->
+    <p class="text-lg text-gray-500 mt-2 tracking-wide" id="text-74">
+      Life is an event. Make it memorable.
+    </p>
+    <!-- Navigation Menu -->
+    <div class="mt-6" id="section-112">
+      <ul class="flex gap-6 text-lg font-medium text-gray-700" id="list-1">
+        <li id="item-1">
+          <a class="!text-black transition" href="#" id="link-14">
+            Home
+          </a>
+        </li>
+        <li id="item-2">
+          <a class="!text-black transition" href="#" id="link-15">
+            About Us
+          </a>
+        </li>
+        <li id="item-3">
+          <a class="!text-black transition" href="#" id="link-16">
+            Our Team
+          </a>
+        </li>
+        <li id="item-4">
+          <a class="!text-black transition" href="#" id="link-17">
+            Sponsors
+          </a>
+        </li>
+        <li id="item-5">
+          <a class="!text-black transition" href="#" id="link-18">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+      <!-- Social Media Icons -->
+      <div class="mt-4 flex gap-4 justify-center !text-black" id="section-113">
+          <i class="fab fa-facebook !text-[var(--primary-color)]" id="text-75">
+          </i>
+          <i class="fab fa-twitter !text-[var(--primary-color)]" id="text-76">
+          </i>
+          <i class="fab fa-linkedin !text-[var(--primary-color)]" id="text-77">
+          </i>
+          <i class="fab fa-instagram !text-[var(--primary-color)]" id="text-78">
+          </i>
+      </div>
+    </footer>
+    <script>
+      const menuBtn = document.getElementById('menu-btn');
+      const dropdownMenu = document.getElementById('mobile-menu');
+
+      // Toggle dropdown menu on button click
+      menuBtn.addEventListener('click', () => {
+        dropdownMenu.classList.toggle('hidden');
+      });
+
+      // Close dropdown menu when a menu item is clicked
+      const menuItems = dropdownMenu.querySelectorAll('a');
+
+      menuItems.forEach((menuItem) => {
+        menuItem.addEventListener('click', () => {
+          dropdownMenu.classList.add('hidden'); // Ensure the menu is closed
+        });
+      });
+
+
+
+
+
+
+      // JavaScript to hide navbar on scroll down and show on scroll up
+      let lastScrollTop = 0;
+      const navbar = document.getElementById('navbar');
+
+      window.addEventListener('scroll', function () {
+        let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        // If scrolling down
+        if (currentScroll > lastScrollTop) {
+          navbar.classList.add('hide-navbar'); // Hide navbar immediately
+        } else {
+          navbar.classList.remove('hide-navbar'); // Show navbar immediately
+        }
+
+        // Set last scroll position
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+      });
+
+
+
+
+      // Countdown Timer
+      document.addEventListener("DOMContentLoaded", () => {
+        const targetDate = new Date(Date.now() + 10 * 24 * 60 * 60 * 1000); // 10 days from now
+        const countdownElements = {
+          days: document.getElementById("days"),
+          hours: document.getElementById("hours"),
+          minutes: document.getElementById("minutes"),
+          seconds: document.getElementById("seconds"),
+        };
+
+        function updateCountdown() {
+          const now = new Date();
+          const diff = targetDate - now;
+
+          if (diff <= 0) {
+            clearInterval(timerInterval);
+            document.getElementById("countdown").innerHTML = "Event Started!";
+            return;
+          }
+
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+          countdownElements.days.textContent = days.toString().padStart(2, "0");
+          countdownElements.hours.textContent = hours.toString().padStart(2, "0");
+          countdownElements.minutes.textContent = minutes.toString().padStart(2, "0");
+          countdownElements.seconds.textContent = seconds.toString().padStart(2, "0");
+        }
+
+        const timerInterval = setInterval(updateCountdown, 1000);
+        updateCountdown();
+      });
+
+
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+      document.getElementById('form-1').addEventListener('submit', function () {
+            // Retrieve form data
+            const firstName = document.getElementById('form-2').value;
+            const email = document.getElementById('form-3').value;
+
+
+
+    
+            const mailtoLink = `mailto:event@gmail.com?subject=New event ${firstName} &body=${encodeURIComponent(
+                ``
+            )}`;
+
+
+            window.location.href = mailtoLink;
+
+  
+            document.getElementById("form-1").reset();
+        });
+    </script>
+</body>
+
+</html>

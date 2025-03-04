@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionX - Trendy Clothing Store</title>
+    <meta name="description" content="Discover the latest fashion trends at FashionX. Check out our featured products, download our app, and shop the latest styles.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">   
+</head>
+<body id="body-main" class="">
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="fixed w-full shadow-lg z-50">
+        <div id="navbar-container" class="container mx-auto px-4 flex justify-between items-center py-4">
+            <div id="logo" class="text-2xl font-semibold text-blue-600">FashionX</div>
+            <div id="nav-links" class="hidden md:flex space-x-8">
+                <a id="nav-home" href="#home" class="text-gray-800 hover:text-blue-600">Home</a>
+				<a id="nav-download" href="#section-1" class="text-gray-800 hover:text-blue-600">About</a>
+                <a id="nav-products" href="#products" class="text-gray-800 hover:text-blue-600">Products</a>
+                
+                <a id="nav-contact" href="#contact" class="text-gray-800 hover:text-blue-600">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800 focus:outline-none">
+                <i id="mobile-menu-icon" class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a id="mobile-nav-home" href="#home" class="block py-2 px-4 text-center text-gray-800 hover:bg-gray-100">Home</a>
+            <a id="mobile-nav-products" href="#products" class="block py-2 px-4 text-center text-gray-800 hover:bg-gray-100">Products</a>
+            <a id="mobile-nav-download" href="#download" class="block py-2 px-4 text-center text-gray-800 hover:bg-gray-100">Download App</a>
+            <a id="mobile-nav-contact" href="#contact" class="block py-2 px-4 text-center text-gray-800 hover:bg-gray-100">Contact</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-center bg-cover" style="background-image: url('https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+        <div id="hero-overlay" class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div id="hero-content" class="relative z-10 text-center !text-white px-4">
+            <h1 id="hero-title" class="text-5xl md:text-7xl font-bold mb-6 !text-white animate-fade-in">Welcome to FashionX</h1>
+            <p id="hero-subtitle" class="!text-white text-xl md:text-2xl mb-8 animate-fade-in-up">Step into the Future of Fashion</p>
+            <a id="hero-cta" href="#products" class="inline-block bg-blue-600 !text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-500 transition-colors duration-300 animate-fade-in-up">Explore Collection</a>
+        </div>
+    </section>
+<!-- About section -->
+<section class="px-5 py-10 sm:p-10 md:py-20" id="section-1">
+	<div class="max-w-7xl mx-auto" id="section-2">
+	 <h1 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6" id="text-1">
+	  About Fashion X
+	 </h1>
+	 <p class="text-lg text-center mb-8" id="text-2">
+	  Founded in 1999, Fashion X has been at the forefront of the fashion industry for over two decades. We specialize in creating custom-designed, high-quality clothing that reflects the unique personality and brand of our clients. Our range includes promotional and corporate apparel, all locally manufactured to ensure the highest standards of quality and craftsmanship.
+	 </p>
+	 <p class="text-lg text-center mb-8" id="text-3">
+	  Our young and dynamic team continuously anticipates market trends, enabling us to offer cutting-edge products that perfectly match fashion design with brand personality. Fashion X's customers include some of South Africa's leading companies, and we take pride in ensuring that their brand is reflected through what they wear.
+	 </p>
+	</div>
+   </section>
+   
+	 
+    <!-- Products Section -->
+    <section id="products" class="py-20">
+        <div id="products-container" class="container mx-auto px-4">
+            <h2 id="products-title" class="text-4xl font-semibold text-center mb-10">Featured Products</h2>
+            <div id="products-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Product 1 -->
+                <div id="product-1" class="product-card bg-gray-100 rounded-lg overflow-hidden shadow-lg">
+                    <img id="product-image-1" src="https://images.pexels.com/photos/8400220/pexels-photo-8400220.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Product 1" class="w-full h-60 object-cover">
+                    <div id="product-content-1" class="p-6">
+                        <h3 id="product-title-1" class="text-xl font-semibold mb-2">Trendy Jacket</h3>
+                        <p id="product-description-1" class="mb-4">A perfect blend of style and comfort.</p>
+                        <span id="product-price-1" class="block text-xl font-bold text-blue-600 mb-4">$79.99</span>
+                        <button id="product-buy-1" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition-colors duration-300">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div id="product-2" class="product-card bg-gray-100 rounded-lg overflow-hidden shadow-lg">
+                    <img id="product-image-2" src="https://images.pexels.com/photos/7857577/pexels-photo-7857577.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Product 2" class="w-full h-60 object-cover">
+                    <div id="product-content-2" class="p-6">
+                        <h3 id="product-title-2" class="text-xl font-semibold mb-2">Casual Sneakers</h3>
+                        <p id="product-description-2" class="mb-4">Experience unmatched comfort and style.</p>
+                        <span id="product-price-2" class="block text-xl font-bold text-blue-600 mb-4">$59.99</span>
+                        <button id="product-buy-2" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition-colors duration-300">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div id="product-3" class="product-card bg-gray-100 rounded-lg overflow-hidden shadow-lg">
+                    <img id="product-image-3" src="https://images.pexels.com/photos/5418902/pexels-photo-5418902.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Product 3" class="w-full h-60 object-cover">
+                    <div id="product-content-3" class="p-6">
+                        <h3 id="product-title-3" class="text-xl font-semibold mb-2">Elegant Dress</h3>
+                        <p id="product-description-3" class="mb-4">Step out in style with this elegant piece.</p>
+                        <span id="product-price-3" class="block text-xl font-bold text-blue-600 mb-4">$89.99</span>
+                        <button id="product-buy-3" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition-colors duration-300">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	 
+	<!-- Team Section -->
+	<section id="team" class="px-5 py-10 sm:p-10 md:py-20">
+		<div class="max-w-7xl mx-auto">
+		   <h2 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6">
+			  Meet Our Team
+		   </h2>
+		   <p class="text-lg text-center text-gray-700 mb-8">
+			  Our talented team of designers, artisans, and visionaries work tirelessly to push the boundaries of fashion. Get to know the people behind Fashion X.
+		   </p>
+		   <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+			  <div id="team-member1" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member 1" class="w-24 h-24 rounded-full mx-auto mb-4">
+				 <h3 class="text-xl font-bold text-center">
+					Alice Johnson
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Chief Executive Officer
+				 </p>
+			  </div>
+			  <div id="team-member2" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member 2" class="w-24 h-24 rounded-full mx-auto mb-4">
+				 <h3 class="text-xl font-bold text-center">
+					Bob Smith
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Creative Director
+				 </p>
+			  </div>
+			  <div id="team-member3" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member 3" class="w-24 h-24 rounded-full mx-auto mb-4">
+				 <h3 class="text-xl font-bold text-center">
+					Clara Lee
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Head of Design
+				 </p>
+			  </div>
+			  <div id="team-member4" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member 4" class="w-24 h-24 rounded-full mx-auto mb-4">
+				 <h3 class="text-xl font-bold text-center">
+					David Brown
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Marketing Manager
+				 </p>
+			  </div>
+			  <div id="team-member5" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member 5" class="w-24 h-24 rounded-full mx-auto mb-4">
+				 <h3 class="text-xl font-bold text-center">
+					Emma White
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Production Manager
+				 </p>
+			  </div>
+			  <div id="team-member6" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member 6" class="w-24 h-24 rounded-full mx-auto mb-4">
+				 <h3 class="text-xl font-bold text-center">
+					Frank Green
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Customer Relations
+				 </p>
+			  </div>
+		   </div>
+		</div>
+	 </section>
+	 
+	<!-- Sustainability -->
+	<section id="sustainability" class="px-5 py-10 sm:p-10 md:py-20">
+		<div class="max-w-7xl mx-auto">
+		   <h2 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6">
+			  Our Commitment to Sustainability
+		   </h2>
+		   <p class="text-lg text-center text-gray-700 mb-8">
+			  At Fashion X, we are dedicated to promoting sustainability and ethical practices in the fashion industry. Our goal is to minimize our environmental impact while producing high-quality apparel.
+		   </p>
+		   <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+			  <div id="sustainability1" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Eco-Friendly Materials
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					We use sustainable materials such as organic cotton, recycled polyester, and eco-friendly dyes to create our garments. Our commitment to using eco-friendly materials helps reduce our carbon footprint.
+				 </p>
+			  </div>
+			  <div id="sustainability2" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Ethical Manufacturing
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Our manufacturing processes prioritize fair labor practices and safe working conditions. We partner with factories that adhere to strict ethical standards to ensure the well-being of our workers.
+				 </p>
+			  </div>
+			  <div id="sustainability3" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Reducing Waste
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					We aim to minimize waste through responsible production methods and recycling initiatives. Our efforts include using upcycled fabrics and implementing zero-waste patterns in our designs.
+				 </p>
+			  </div>
+			  <div id="sustainability4" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Community Support
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Fashion X supports local communities by sourcing materials locally and providing fair wages to our workers. We also engage in community development projects to give back to the regions where we operate.
+				 </p>
+			  </div>
+			  <div id="sustainability5" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Energy Efficiency
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					We strive to reduce our energy consumption through efficient manufacturing processes and renewable energy sources. Our facilities are equipped with energy-saving technologies to help us achieve our sustainability goals.
+				 </p>
+			  </div>
+			  <div id="sustainability6" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Transparent Reporting
+				 </h3>
+				 <p class="text-gray-600 text-center">
+					Transparency is key to our sustainability efforts. We provide regular updates on our sustainability practices and progress through detailed reports, ensuring our customers are informed and engaged.
+				 </p>
+			  </div>
+		   </div>
+		</div>
+	 </section>
+	 
+	<!-- Testimonials -->
+	<section id="testimonials" class="px-5 py-10 sm:p-10 md:py-20">
+		<div class="max-w-7xl mx-auto">
+		   <h2 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6">
+			  What Our Customers Say
+		   </h2>
+		   <div class="flex flex-wrap justify-center">
+			  <div id="testimonial1" class="w-full sm:w-1/2 md:w-1/3 mb-8">
+				 <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Customer 1" class="w-16 h-16 rounded-full mx-auto mb-4">
+				 <blockquote class="text-center">
+					<p>"Fashion X has been a game-changer for our brand. Their custom designs are top-notch!"</p>
+					<div class="">— Jane Doe, CEO of XYZ Corp</div>
+				 </blockquote>
+			  </div>
+			  <div id="testimonial2" class="w-full sm:w-1/2 md:w-1/3 mb-8">
+				 <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Customer 2" class="w-16 h-16 rounded-full mx-auto mb-4">
+				 <blockquote class="text-center">
+					<p>"The quality and attention to detail are unmatched. Highly recommend Fashion X!"</p>
+					<div class="">— John Smith, Marketing Director</div>
+				 </blockquote>
+			  </div>
+			  <div id="testimonial3" class="w-full sm:w-1/2 md:w-1/3 mb-8">
+				 <img src="https://images.pexels.com/photos/16530590/pexels-photo-16530590/free-photo-of-portrait-of-woman-in-dress.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Customer 3" class="w-16 h-16 rounded-full mx-auto mb-4">
+				 <blockquote class="text-center">
+					<p>"Fashion X's team is incredibly professional and creative. They exceeded our expectations!"</p>
+					<div class="">— Emily Johnson, Brand Manager</div>
+				 </blockquote>
+			  </div>
+		   </div>
+		</div>
+	 </section>
+	 <!-- our story -->
+	 <section id="our-story" class="px-5 py-10 sm:p-10 md:py-20">
+		<div class="max-w-4xl mx-auto">
+		   <h2 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6">
+			  Our Story
+		   </h2>
+		   <p class="text-lg text-gray-700 mb-6 text-center">
+			  Founded in 1999, Fashion X began with a vision to revolutionize the fashion industry by creating unique, high-quality clothing that resonates with individuality and style. What started as a small boutique has now grown into a leading fashion brand known for its innovative designs and exceptional craftsmanship.
+		   </p>
+		   <p class="text-lg text-gray-700 mb-6 text-center">
+			  Our journey has been marked by continuous growth and evolution. From the early days of crafting bespoke garments to now offering a diverse range of apparel, each piece we create is a testament to our dedication to quality and creativity.
+		   </p>
+		   <p class="text-lg text-gray-700 mb-6 text-center">
+			  Over the years, we have built a strong community of loyal customers who share our passion for fashion. Our commitment to sustainability and ethical practices has been a cornerstone of our brand, guiding us to make conscious choices in our materials and production processes.
+		   </p>
+		   <p class="text-lg text-gray-700 mb-6 text-center">
+			  At Fashion X, we believe in the power of collaboration and innovation. Our talented team of designers, artisans, and visionaries work tirelessly to push the boundaries of fashion, creating collections that inspire and empower.
+		   </p>
+		   <p class="text-lg text-gray-700 text-center">
+			  We are proud of our heritage and excited for the future. As we continue to grow and evolve, we remain dedicated to our mission of bringing you the finest in fashion, while staying true to our values of integrity, creativity, and sustainability.
+		   </p>
+		</div>
+	 </section>
+	 
+	 
+	 <!-- faqs -->
+	 <section id="faqs" class="px-5 py-10 sm:p-10 md:py-20">
+		<div class="max-w-7xl mx-auto">
+		   <h2 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6">
+			  Frequently Asked Questions
+		   </h2>
+		   <div class="space-y-4">
+			  <details id="faq1" class="border border-gray-300 rounded-md p-4">
+				 <summary class="text-lg font-medium cursor-pointer">
+					What is Fashion X?
+				 </summary>
+				 <div id="answer1" class="mt-2 text-gray-600">
+					<p>Fashion X is a premier clothing brand specializing in high-quality, custom-designed apparel. We focus on creating unique pieces that reflect the individual personality and brand of our clients.</p>
+				 </div>
+			  </details>
+			  <details id="faq2" class="border border-gray-300 rounded-md p-4">
+				 <summary class="text-lg font-medium cursor-pointer">
+					How do I place an order?
+				 </summary>
+				 <div id="answer2" class="mt-2 text-gray-600">
+					<p>To place an order, visit our website and browse through our collections. Select the items you wish to purchase and proceed to checkout. For custom orders, contact our support team directly.</p>
+				 </div>
+			  </details>
+			  <details id="faq3" class="border border-gray-300 rounded-md p-4">
+				 <summary class="text-lg font-medium cursor-pointer">
+					What is your return policy?
+				 </summary>
+				 <div id="answer3" class="mt-2 text-gray-600">
+					<p>We offer a 30-day return policy on all standard items. Custom orders are non-refundable unless there is a manufacturing defect. Please refer to our return policy page for more details.</p>
+				 </div>
+			  </details>
+			  <details id="faq4" class="border border-gray-300 rounded-md p-4">
+				 <summary class="text-lg font-medium cursor-pointer">
+					Do you offer international shipping?
+				 </summary>
+				 <div id="answer4" class="mt-2 text-gray-600">
+					<p>Yes, we offer international shipping to many countries around the world. Shipping rates and delivery times may vary based on the destination. Check our shipping policy page for more information.</p>
+				 </div>
+			  </details>
+		   </div>
+		</div>
+	 </section>
+	 
+	 <!-- Customer Section -->
+	<section id="customer-service" class="px-5 py-10 sm:p-10 md:py-20">
+		<div class="max-w-7xl mx-auto">
+		   <h2 class="text-3xl font-bold text-center sm:text-4xl md:text-5xl mb-6">
+			  Customer Service
+		   </h2>
+		   <p class="text-lg text-center text-gray-700 mb-8">
+			  We are here to assist you with any questions or concerns you may have. Our dedicated customer service team is ready to help you with your orders, returns, and any other inquiries.
+		   </p>
+		   <div class="grid gap-8 md:grid-cols-2">
+			  <div id="service-contact" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Contact Us
+				 </h3>
+				 <p class="text-gray-600 text-center mb-4">
+					Reach out to our customer service team for assistance.
+				 </p>
+				 <p class="text-gray-600 text-center">
+					<strong>Email:</strong> support@fashionx.com
+				 </p>
+				 <p class="text-gray-600 text-center">
+					<strong>Phone:</strong> +1 234 567 890
+				 </p>
+				 <p class="text-gray-600 text-center">
+					<strong>Address:</strong> 123 Fashion Street, Style City, Country
+				 </p>
+			  </div>
+			  <div id="service-faq" class="bg-gray-100 p-6 rounded-lg shadow-md">
+				 <h3 class="text-xl font-bold mb-4 text-center">
+					Frequently Asked Questions
+				 </h3>
+				 <p class="text-gray-600 text-center mb-4">
+					Find answers to common questions about our products and services.
+				 </p>
+				 <ul class="list-disc list-inside text-gray-600">
+					<li><a href="#faq1" class="text-blue-500 hover:underline">What is Fashion X?</a></li>
+					<li><a href="#faq2" class="text-blue-500 hover:underline">How do I place an order?</a></li>
+					<li><a href="#faq3" class="text-blue-500 hover:underline">What is your return policy?</a></li>
+					<li><a href="#faq4" class="text-blue-500 hover:underline">Do you offer international shipping?</a></li>
+				 </ul>
+			  </div>
+		   </div>
+		</div>
+	 </section>
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20">
+        <div id="contact-container" class="container mx-auto px-4">
+            <h2 id="contact-title" class="text-4xl font-semibold text-center mb-10">Get in Touch</h2>
+            <form id="contact-form" class="max-w-lg mx-auto space-y-6">
+                <div id="contact-name">
+                    <label id="contact-name-label" for="name" class="block mb-2">Name</label>
+                    <input id="first-name" type="text" class="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                </div>
+                <div id="contact-email">
+                    <label id="contact-email-label" for="email" class="block mb-2">Email</label>
+                    <input id="email" type="email" class="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                </div>
+                <div id="contact-message">
+                    <label id="contact-message-label" for="message" class="block mb-2">Message</label>
+                    <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" required></textarea>
+                </div>
+                <button id="contact-submit" type="submit" class="w-full bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-500 transition-colors duration-300">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="
+    text-white py-12">
+        <div id="footer-container" class="container mx-auto px-4">
+            <div id="footer-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div id="footer-about">
+                    <h3 id="footer-about-title" class="text-lg font-semibold mb-4">About FashionX</h3>
+                    <p id="footer-about-description" class="text-gray-400">At FashionX, we are committed to bringing you the latest trends and styles. Quality and customer satisfaction are our top priorities.</p>
+                </div>
+                <div id="footer-links">
+                    <h3 id="footer-links-title" class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul id="footer-links-list" class="text-gray-400 space-y-2">
+                        <li id="footer-link-products"><a href="#products" class="hover:text-blue-400">Products</a></li>
+                        <li id="footer-link-download"><a href="#download" class="hover:text-blue-400">Download App</a></li>
+                        <li id="footer-link-contact"><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="footer-social">
+                    <h3 id="footer-social-title" class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div id="footer-social-icons" class="flex space-x-4">
+                        <a id="footer-facebook" href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                        <a id="footer-instagram" href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+                        <a id="footer-twitter" href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-copyright" class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p id="footer-copyright-text">&copy; 2024 FashionX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script id="script-tag1">
+ document.addEventListener("DOMContentLoaded", () => {
+    const mobileMenuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const mobileMenuLinks = mobileMenu.querySelectorAll("a");
+    const mobileMenuIcon = document.getElementById("mobile-menu-icon");
+
+    // Toggle mobile menu visibility when clicking on the mobile menu button
+    mobileMenuButton.addEventListener("click", () => {
+        const isMenuVisible = !mobileMenu.classList.contains("hidden");
+        mobileMenu.classList.toggle("hidden");
+        mobileMenuIcon.classList.toggle("fa-bars");
+        mobileMenuIcon.classList.toggle("fa-times");
+    });
+
+    // Close the mobile menu when clicking on a menu link
+    mobileMenuLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            if (!mobileMenu.classList.contains("hidden")) {
+                mobileMenu.classList.add("hidden");
+                mobileMenuIcon.classList.add("fa-bars");
+                mobileMenuIcon.classList.remove("fa-times");
+            }
+        });
+    });
+});
+
+
+        
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+        document.getElementById('contact-form').addEventListener('submit', function () {
+    // Retrieve form data
+    const firstName = document.getElementById('first-name').value;
+
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+
+    // Construct the mailto link
+    const mailtoLink = `mailto:ceo@icod.ai?subject=new contact message from ${firstName}&body=${encodeURIComponent(
+      `${message}`
+    )}`;
+
+    // Open the default email client
+    window.location.href = mailtoLink;
+  });
+    </script>
+</body>
+</html>

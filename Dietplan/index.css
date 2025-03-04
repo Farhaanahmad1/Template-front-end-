@@ -1,0 +1,52 @@
+:root {
+    --bg-color: #fff !important ;
+    --navbar-bg-color: #f0fdf4f2 !important;
+    --footer-bg-color: #16a34a !important;
+    --primary-color: #fff !important;
+    --secondary-color: #16a34a !important;
+    --text-color: black !important;
+    --font-body: "PT Serif", sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  svg{
+    color: #ffffff !important;
+  }
+  p,a{
+    color: var(--text-color) !important;
+  }
+  h2,h4{
+    color: var(--text-color) !important;
+
+  }
+  nav{
+    background-color: var(--navbar-bg-color) !important;
+  }
+
+
+  
+  .header-white {
+    background-color: var(--navbar-bg-color);
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--secondary-color) !important;
+    font-family: var(--font-body) !important;
+  }
+  h1,i{
+    color: var(--secondary-color) !important;
+  }
+
+  .header-transparent {
+    background-color: transparent;
+    color: white;
+}

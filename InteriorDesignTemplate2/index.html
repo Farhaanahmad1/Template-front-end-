@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Aura Interiors
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Vollkorn:ital,wght@0,400..900;1,400..900&amp;display=swap"
+        rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        referrerpolicy="no-referrer" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="relative w-full bg-top bg-cover md:bg-center tails-selected-element" id="section-1"
+        style="background-image:url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1')"
+        x-data="{ showMenu: false }">
+        <div class="absolute inset-0 w-full h-full bg-zinc-900 opacity-25" id="section-2">
+        </div>
+        <div class="absolute inset-0 w-full h-64 opacity-50 bg-gradient-to-b from-black to-transparent" id="section-3">
+        </div>
+        <!-- Navigation -->
+        <nav class="fixed shadow-lg w-full z-50" id="link-1" x-data="{ isOpen: false }">
+            <div class="max-w-7xl mx-auto px-4" id="section-4">
+                <div class="flex justify-between items-center h-16" id="section-5">
+                    <div class="flex-shrink-0" id="section-6">
+                        <h3 class="text-2xl font-bold" id="text-1">
+                            Aura Interiors
+                        </h3>
+                    </div>
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:flex items-center space-x-8" id="section-7">
+                        <a class="font-bold" href="#section-11" id="link-2">
+                            Home
+                        </a>
+                        <a class="font-bold" href="#section-16" id="link-3">
+                            Services
+                        </a>
+                        <a class="font-bold" href="#section-30" id="link-4">
+                            Portfolio
+                        </a>
+                        <a class="font-bold" href="#section-52" id="link-5">
+                            Contact
+                        </a>
+                    </div>
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden" id="mobile-menu-button">
+                        <button @click="isOpen = !isOpen" id="button-1">
+                            <svg class="h-6 w-6 text-gray-800 hover:text-blue-500 transition duration-300 ease-in-out cursor-pointer"
+                                fill="none" id="svg-1" stroke="currentColor" viewbox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <!-- Line 1 -->
+                                <path d="M4 6h16" id="svg-2" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                </path>
+                                <!-- Line 2 -->
+                                <path d="M4 12h16" id="svg-3" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                </path>
+                                <!-- Line 3 -->
+                                <path d="M4 18h16" id="svg-4" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- Mobile Menu -->
+                <div class="md:hidden" id="mobile-menu" x-show="isOpen">
+                    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3" id="section-10">
+                        <a class="block px-3 py-2" href="#section-11" id="link-6">
+                            Home
+                        </a>
+                        <a class="block px-3 py-2" href="#section-16" id="link-7">
+                            Services
+                        </a>
+                        <a class="block px-3 py-2" href="#section-30" id="link-8">
+                            Portfolio
+                        </a>
+                        <a class="block px-3 py-2" href="#section-52" id="link-9">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="relative z-10 max-w-6xl px-10 py-40 mx-auto" id="section-11">
+            <div class="flex flex-col items-center h-full lg:flex-row" id="section-12">
+                <div class="flex flex-col items-center justify-center w-full h-full lg:w-2/3 lg:items-start"
+                    id="section-13">
+                    <h4 class="inline-block w-auto px-3 py-1 mb-5 text-xl font-medium text-white uppercase rounded-full bg-gradient-to-br"
+                        id="text-2">
+                        YOUR SPACE WITH AURA INTERIORS
+                    </h4>
+                    <h1 class="font-extrabold tracking-tight text-center text-white text-7xl lg:text-left xl:pr-32"
+                        id="text-3">
+                        Turn Your Space Into Reality with Aura Interiors
+                    </h1>
+                </div>
+                <div class="w-full max-w-sm mt-20 lg:mt-0 lg:w-1/3" id="section-14">
+                    <div class="relative" id="section-15">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="box-border relative overflow-hidden leading-7 text-zinc-900 border-0 border-zinc-200 border-solid tails-selected-element"
+        id="section-16">
+        <div class="relative z-10 mx-auto max-w-7xl" id="section-17">
+            <div class="flex flex-col items-center justify-center w-full px-6 py-10 space-y-4 text-center border-solid md:w-2/3 lg:w-1/2 md:space-y-10 md:items-start md:py-20 md:text-left lg:py-30 xl:py-30 lg:pl-12 lg:pr-16 xl:pl-16 xl:pr-24"
+                id="section-18">
+                <h2 class="text-4xl font-black xl:text-5xl" id="text-4">
+                    Inspiring Spaces That Reflect Your Culture
+                </h2>
+                <p class="text-lg leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-5">
+                    Our platform will help you create stunning spaces that speak for themselves. Contact Us today!
+                </p>
+                <form
+                    class="grid w-full gap-2 leading-7 text-left text-zinc-900 border-0 border-zinc-200 md:grid-cols-2 md:w-auto"
+                    id="form-1">
+                    <a href="#section-44" id="link-10">
+                        <button
+                            class="box-border inline-flex items-center justify-center px-5 py-4 font-sans text-base leading-none text-center text-white no-underline border border-blue-600 border-solid rounded cursor-pointer hover:bg-green-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white md:text-lg md:text-xl"
+                            data-primary="blue-600" data-rounded="rounded" id="button-2" type="submit">
+                            Contact Us
+                        </button>
+                    </a>
+                </form>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 hidden w-1/3 h-full md:block lg:w-1/2" id="section-19">
+            <img class="object-cover w-full h-full" id="image-1"
+                src="https://images.pexels.com/photos/3923427/pexels-photo-3923427.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1" />
+        </div>
+    </section>
+    <section class="h-auto tails-selected-element" id="section-20">
+        <div class="mx-auto max-w-2xl px-10 py-10 md:text-center" id="section-21">
+            <h2 class="text-3xl font-black xl:text-4xl" id="text-6">
+                Designed with Your Vision in Mind
+            </h2>
+            <p class="mt-4 text-lg leading-tight text-center border-0 border-zinc-200 w md:text-lg" id="text-7">
+                We've crafted some of the finest design elements to help you create the perfect space that showcases
+                your unique style and vision.
+            </p>
+        </div>
+    </section>
+    <section class="py-4 tails-selected-element" id="section-22">
+        <div class="flex flex-col items-start px-10 mx-auto space-y-20 lg:space-y-0 lg:flex-row max-w-7xl"
+            id="section-23">
+            <div class="flex flex-col justify-center flex-shrink-0 w-full h-full max-w-lg space-y-5 text-zinc-800 lg:max-w-none lg:w-5/12 xl:w-6/12"
+                id="section-24">
+                <div class="flex items-center space-x-5 text-green-500" data-primary="blue-500" id="section-25">
+                    <div class="w-20 h-0.5 bg-green-500" data-primary="blue-500" id="section-26">
+                    </div>
+                    <p class="uppercase text-lg text-left border-0 w md:text-xl" id="text-8">
+                        The New Standard
+                    </p>
+                </div>
+                <h2 class="text-3xl font-black xl:text-4xl" id="text-9">
+                    Trusted by Leading Brands and Homeowners
+                </h2>
+                <div class="relative flex flex-col items-start w-full space-y-5 sm:items-center sm:flex-row sm:space-y-0 sm:space-x-3"
+                    id="section-27">
+                    <a href="#section-44" id="link-11">
+                        <button
+                            class="box-border inline-flex items-center justify-center px-5 py-4 font-sans text-base leading-none text-center text-white no-underline border border-blue-600 border-solid rounded cursor-pointer hover:bg-green-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white md:text-lg md:text-xl"
+                            data-primary="blue-600" data-rounded="rounded" id="button-3" type="submit">
+                            Contact Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-lg lg:max-w-none lg:w-7/12 lg:pl-8 xl:w-6/12" id="section-28">
+                <div class="grid grid-cols-3 text-zinc-400 gap-x-12 gap-y-12" id="section-29">
+                    <img alt="firstcomapny" class="border border-gray-400 rounded-md" id="image-2"
+                        src="https://images.pexels.com/photos/7511747/pexels-photo-7511747.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" />
+                    <img alt="secondimage" class="border border-gray-400 rounded-md" id="image-3"
+                        src="https://images.pexels.com/photos/7511755/pexels-photo-7511755.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400&amp;lazy=load" />
+                    <img alt="thirdimage" class="border border-gray-400 rounded-md" id="image-4"
+                        src="https://images.pexels.com/photos/2451616/pexels-photo-2451616.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400&amp;lazy=load" />
+                    <img alt="fourthimage" class="border border-gray-400 rounded-md" id="image-5"
+                        src="https://images.pexels.com/photos/10099172/pexels-photo-10099172.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400&amp;lazy=load" />
+                    <img alt="fifthimage" class="border border-gray-400 rounded-md" id="image-6"
+                        src="https://images.pexels.com/photos/2983018/pexels-photo-2983018.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400&amp;lazy=load" />
+                    <img alt="sixthimage" class="border border-gray-400 rounded-md" id="image-7"
+                        src="https://images.pexels.com/photos/1181342/pexels-photo-1181342.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400&amp;lazy=load" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-16 pb-10 sm:pt-18 sm:pb-24 tails-selected-element" id="section-30">
+        <div class="items-center max-w-6xl px-12 mx-auto sm:px-20 md:px-5" id="section-31">
+            <div class="flex flex-wrap items-center -mx-12" id="section-32">
+                <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0" id="section-33">
+                    <div class="w-full max-w-md xl:max-w-xl" id="section-34">
+                        <h2 class="text-3xl font-black xl:text-4xl" id="text-10">
+                            Elegant Interiors Designed to Reflect Your Style
+                        </h2>
+                        <ul id="list-1">
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-1">
+                                <i class="fa-solid fa-check" id="text-11" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-12">
+                                    Effortless Design Process
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-2">
+                                <i class="fa-solid fa-check" id="text-13" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-14">
+                                    Innovative Design
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-3">
+                                <i class="fa-solid fa-check" id="text-15" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-16">
+                                    Unlimited API Calls
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-4">
+                                <i class="fa-solid fa-check" id="text-17" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-18">
+                                    Unlimited Design Consultations
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-5">
+                                <i class="fa-solid fa-check" id="text-19" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-20">
+                                    24/7 Expert Design Support
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-6">
+                                <i class="fa-solid fa-check" id="text-21" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-22">
+                                    On-Time Project Completion
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-7">
+                                <i class="fa-solid fa-check" id="text-23" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-24">
+                                    Detailed Design Insights
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-8">
+                                <i class="fa-solid fa-check" id="text-25" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-26">
+                                    Fully Tailored Spaces
+                                </p>
+                            </li>
+                            <li class="flex items-center py-2 space-x-4 xl:py-3" id="item-9">
+                                <i class="fa-solid fa-check" id="text-27" style="color:#091540">
+                                </i>
+                                <p class="leading-tight text-left border-0 border-zinc-200 w md:text-lg" id="text-28">
+                                    And Much More to Explore!
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="relative w-full px-3 mb-12 lg:-ml-20 lg:w-1/2 order-0 lg:order-1 lg:mb-0" id="section-35">
+                    <img class="absolute top-0 right-0 z-10 hidden mx-auto -mt-32 rounded-lg shadow-2xl opacity-100 xl:-mr-12 sm:max-w-xs lg:max-w-sm lg:block"
+                        id="image-8"
+                        src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1">
+                    <img alt="feature image"
+                        class="relative z-20 w-full mx-auto mt-3 rounded-lg shadow-2xl sm:max-w-none lg:-ml-10 lg:max-w-sm"
+                        id="image-9"
+                        src="https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1">
+                    <img class="absolute bottom-0 right-0 z-10 hidden mx-auto -mb-48 rounded-lg shadow-2xl xl:-mr-12 sm:max-w-xs lg:max-w-sm lg:block"
+                        id="image-10"
+                        src="https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1">
+                    </img>
+                    </img>
+                    </img>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="w-full py-12 lg:py-24 tails-selected-element" id="section-1">
+        <div class="max-w-6xl px-12 mx-auto text-center" id="section-2">
+         <div class="space-y-12 md:text-center" id="section-3">
+          <div class="max-w-3xl mb-20 space-y-5 sm:mx-auto sm:space-y-4" id="section-4">
+           <h2 class="relative text-4xl font-extrabold tracking-tight sm:text-5xl" id="text-1">
+            Our Awesome Team
+           </h2>
+           <p class="text-xl text-zinc-500" id="text-2">
+            We take pride in the people we work with. This is because we all collectively help each other become more awesome every day.
+           </p>
+          </div>
+         </div>
+         <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3" id="section-5">
+          <div class="w-full border border-zinc-200 rounded-lg shadow-sm" id="section-6">
+           <div class="flex flex-col items-center justify-center p-10" id="section-7">
+            <img class="w-32 h-32 mb-6 rounded-full object-cover" id="image-1" src="https://images.pexels.com/photos/30096509/pexels-photo-30096509/free-photo-of-casual-urban-fashion-in-berlin-architecture.jpeg?auto=compress&cs=tinysrgb&w=400"/>
+            <h2 class="text-lg font-medium" id="text-3">
+             John Doe
+            </h2>
+            <p class="font-medium text-blue-500" id="text-4">
+             CEO and Founder
+            </p>
+            <p class="text-zinc-400" id="text-5">
+             Team member as of 2015
+            </p>
+           </div>
+           <div class="flex border-t border-zinc-200 divide-x divide-zinc-200" id="section-8">
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-1">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-2">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-3">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+           </div>
+          </div>
+          <div class="w-full border border-zinc-200 rounded-lg shadow-sm" id="section-9">
+           <div class="flex flex-col items-center justify-center p-10" id="section-10">
+            <img class="w-32 h-32 mb-6 rounded-full object-cover" id="image-2" src="https://images.pexels.com/photos/7205937/pexels-photo-7205937.jpeg?auto=compress&cs=tinysrgb&w=400"/>
+            <h2 class="text-lg font-medium" id="text-6">
+             Mike Smith
+            </h2>
+            <p class="font-medium text-blue-500" id="text-7">
+             CTO and Co-Founder
+            </p>
+            <p class="text-zinc-400" id="text-8">
+             Team member as of 2015
+            </p>
+           </div>
+           <div class="flex border-t border-zinc-200 divide-x divide-zinc-200" id="section-11">
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-4">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-5">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-6">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+           </div>
+          </div>
+          <div class="w-full border border-zinc-200 rounded-lg shadow-sm" id="section-12">
+           <div class="flex flex-col items-center justify-center p-10" id="section-13">
+            <img class="w-32 h-32 mb-6 rounded-full object-cover" id="image-3" src="https://images.pexels.com/photos/1998306/pexels-photo-1998306.jpeg?auto=compress&cs=tinysrgb&w=400"/>
+            <h2 class="text-lg font-medium" id="text-9">
+             Fred Clemens
+            </h2>
+            <p class="font-medium text-blue-500" id="text-10">
+             Marketing Manager
+            </p>
+            <p class="text-zinc-400" id="text-11">
+             Team member as of 2016
+            </p>
+           </div>
+           <div class="flex border-t border-zinc-200 divide-x divide-zinc-200" id="section-14">
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-7">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-8">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-9">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+           </div>
+          </div>
+          <div class="w-full border border-zinc-200 rounded-lg shadow-sm" id="section-15">
+           <div class="flex flex-col items-center justify-center p-10" id="section-16">
+            <img class="w-32 h-32 mb-6 rounded-full object-cover" id="image-4" src="https://images.pexels.com/photos/18885576/pexels-photo-18885576/free-photo-of-gmy-wear-by-dhanno.jpeg?auto=compress&cs=tinysrgb&w=400"/>
+            <h2 class="text-lg font-medium" id="text-12">
+             Sandra Mitchell
+            </h2>
+            <p class="font-medium text-blue-500" id="text-13">
+             Lead Designer
+            </p>
+            <p class="text-zinc-400" id="text-14">
+             Team member as of 2017
+            </p>
+           </div>
+           <div class="flex border-t border-zinc-200 divide-x divide-zinc-200" id="section-17">
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-10">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-11">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-12">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+           </div>
+          </div>
+          <div class="w-full border border-zinc-200 rounded-lg shadow-sm" id="section-18">
+           <div class="flex flex-col items-center justify-center p-10" id="section-19">
+            <img class="w-32 h-32 mb-6 rounded-full object-cover" id="image-6" src="https://images.pexels.com/photos/3760954/pexels-photo-3760954.jpeg?auto=compress&cs=tinysrgb&w=400"/>
+            <h2 class="text-lg font-medium" id="text-15">
+             Kelly Rogers
+            </h2>
+            <p class="font-medium text-blue-500" id="text-16">
+             Designer
+            </p>
+            <p class="text-zinc-400" id="text-17">
+             Team member as of 2018
+            </p>
+           </div>
+           <div class="flex border-t border-zinc-200 divide-x divide-zinc-200" id="section-20">
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-13">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-14">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-15">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+           </div>
+          </div>
+          <div class="w-full border border-zinc-200 rounded-lg shadow-sm" id="section-21">
+           <div class="flex flex-col items-center justify-center p-10" id="section-22">
+            <img class="w-32 h-32 mb-6 rounded-full object-cover" id="image-6" src="https://images.pexels.com/photos/9604304/pexels-photo-9604304.jpeg?auto=compress&cs=tinysrgb&w=400"/>
+            <h2 class="text-lg font-medium" id="text-18">
+             Sarah Neilson
+            </h2>
+            <p class="font-medium text-blue-500" id="text-19">
+             Designer
+            </p>
+            <p class="text-zinc-400" id="text-20">
+             Team member as of 2018
+            </p>
+           </div>
+           <div class="flex border-t border-zinc-200 divide-x divide-zinc-200" id="section-23">
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-16">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-17">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="flex-1 block p-5 text-center text-zinc-300 transition duration-200 ease-out hover:bg-zinc-100 hover:text-zinc-500" href="#_" id="link-18">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+       
+
+
+
+
+
+    <section
+        class="box-border relative block py-0 overflow-hidden leading-6 text-center text-indigo-900 bg-no-repeat bg-cover tails-selected-element"
+        id="section-51">
+        <div class="w-full px-4 mx-auto leading-6 text-center xl:px-0" id="section-52">
+            <div class="box-border flex flex-wrap justify-center -mx-4 text-indigo-900" id="section-53">
+                <div class="relative w-full px-4 leading-6 text-center xl:flex-grow-0 xl:flex-shrink-0 lg:flex-grow-0 lg:flex-shrink-0"
+                    id="section-54">
+                    <h2 class="text-3xl font-black xl:text-4xl mb-12" id="text-48">
+                        Contact Us today and get 10% off.
+                    </h2>
+                    <form class="box-border text-center text-indigo-900" id="contactForm2">
+                        <div class="justify-center  md:flex-row" id="section-55">
+                            <input
+                                class="inline-block w-full h-16 px-6 py-0 mx-0 mt-0 mb-8 overflow-visible text-xl font-semibold text-zinc-700 align-top bg-transparent border-2 border-zinc-300 border-solid rounded-full resize-none md:w-auto focus:outline-none cursor-text md:text-left"
+                                data-primary="green-500" data-rounded="rounded-full" id="form-3" placeholder="Your Name"
+                                required="" type="text" />
+                            <input
+                                class="inline-block w-full h-16 px-6 py-0 mx-0 mt-0 mb-8 overflow-visible text-xl font-semibold text-zinc-700 align-top bg-transparent border-2 border-zinc-300 border-solid rounded-full resize-none md:w-auto focus:outline-none cursor-text md:text-left"
+                                data-primary="green-500" data-rounded="rounded-full" id="form-4"
+                                placeholder="Your email" required="" type="email" />
+                            <input
+                                class="inline-block w-full h-16 px-6 py-0 mx-0 mt-0 mb-8 overflow-visible text-xl font-semibold text-zinc-700 align-top bg-transparent border-2 border-zinc-300 border-solid rounded-full resize-none md:w-auto focus:outline-none cursor-text md:text-left"
+                                data-primary="green-500" data-rounded="rounded-full" id="form-5"
+                                placeholder="Enter Message" required="" type="text" />
+                            <button
+                                class="inline-block w-full h-16 px-10 py-0 m-0 overflow-visible text-xl font-semibold text-center text-white normal-case align-middle bg-green-500 border border-transparent border-solid rounded cursor-pointer select-none md:w-auto focus:outline-none focus:shadow-xs"
+                                data-primary="green-500" data-rounded="rounded-full" id="button-4" type="submit">
+                                Contact Us
+                            </button>
+                        </div>
+                        <p class="mt-3 leading-6 text-zinc-400" id="text-49">
+                            By signing up, you agree to the Terms of Service.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-10 bg-zinc-50 tails-selected-element" id="section-56">
+        <div class="px-10 mx-auto max-w-7xl" id="section-57">
+            <div class="flex flex-col items-center sm:flex-row sm:justify-between" id="section-58">
+                <a class="flex items-center text-lg font-bold" href="#section-1" id="link-12">
+                    <h3 class="ml-1" id="text-50">
+                        Aura Interiors
+                    </h3>
+                </a>
+            </div>
+            <div class="flex flex-col justify-between mt-5 mb-5 text-center sm:mb-0 sm:mt-12 sm:flex-row"
+                id="section-59">
+                <ul class="flex flex-row justify-center pb-3 -ml-4 -mr-4 text-sm font-bold" id="list-2">
+                    <li id="item-10">
+                        <a class="px-2 text-zinc-500 hover:text-zinc-600" href="#section-11" id="link-13">
+                            Home
+                        </a>
+                    </li>
+                    <li id="item-11">
+                        <a class="px-2 text-zinc-500 hover:text-zinc-600" href="#section-16" id="link-14">
+                            About US
+                        </a>
+                    </li>
+                    <li id="item-12">
+                        <a class="px-2 text-zinc-500 hover:text-zinc-600" href="#section30" id="link-15">
+                            FAQ's
+                        </a>
+                    </li>
+                    <li id="item-13">
+                        <a class="px-2 text-zinc-500 hover:text-zinc-600" href="#section-52" id="link-16">
+                            Terms
+                        </a>
+                    </li>
+                </ul>
+                <p class="mt-3 text-xs leading-tight text-zinc-500 sm:mt-0" id="text-51">
+                    Copyright © 2025 Icod.ai All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+ const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+// Ensure the menu is hidden when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    mobileMenu.classList.add('hidden');
+});
+
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+mobileMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+});
+
+
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+        document.getElementById('contactForm2').addEventListener('submit', function () {
+            // Retrieve form data
+            const name = document.getElementById('form-3').value;
+            const email = document.getElementById('form-4').value;
+            const message = document.getElementById('form-5').value;
+
+
+            // Construct the mailto link
+            const mailtoLink = `mailto:ceo@icod.ai?subject=New contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(
+                `${message}`
+            )}`;
+
+            // Open the default email client
+            window.location.href = mailtoLink;
+
+            document.getElementById('contactForm2').reset(); 
+        });
+    </script>
+</body>
+
+</html>

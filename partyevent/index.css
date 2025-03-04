@@ -1,0 +1,105 @@
+:root {
+    --bg-color: #fff !important ;
+    --navbar-bg-color: #4A148C;
+    --footer-bg-color: #fff !important;
+    --primary-color: #9333EA !important;
+    --secondary-color: #fff !important;
+    --text-color: #000 !important;
+    --font-body: "Cabin", sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  /* nav{
+    background-color: linear-gradient(to right, var(--navbar-bg-color), #000000, var(--navbar-bg-color)) ;  
+  } */
+
+  p{
+    color: var(--text-color) !important;
+  }
+  a{
+    color: var(--secondary-color) !important;
+  }
+  h4{
+    color: var(--text-color) !important;
+
+  }
+  h2{
+    color: var(--primary-color) !important;
+  }
+  i{
+    color: var(--primary-color) !important;
+  }
+  nav{
+    background-color: var(--navbar-bg-color) !important;
+    }
+h1{
+    color: var(--text-color) !important;
+}
+  
+  .header-white {
+    background-color: var(--navbar-bg-color);
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-body) !important;
+  }
+  h1,i{
+    color: var(--secondary-color) !important;
+  }
+   /* Custom CSS for navbar transition */
+    .navbar {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .hide-navbar {
+      transform: translateY(-100%);
+    }
+
+    .random-shape {
+      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    }
+
+    .star-shape {
+      clip-path: polygon(50% 0%,
+          61% 35%,
+          98% 35%,
+          68% 57%,
+          79% 91%,
+          50% 70%,
+          21% 91%,
+          32% 57%,
+          2% 35%,
+          39% 35%);
+    }
+
+
+
+
+    /* Paper Plane Animation */
+    @keyframes fly {
+      0% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-10px) rotate(5deg);
+      }
+
+      100% {
+        transform: translateY(0) rotate(0deg);
+      }
+    }
+
+    .animate-fly {
+      animation: fly 3s infinite ease-in-out;
+    }

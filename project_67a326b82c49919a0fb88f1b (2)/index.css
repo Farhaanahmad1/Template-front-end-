@@ -1,0 +1,240 @@
+
+    :root {
+       --primary-color: #1E3050;
+ --secondary-color: #4A90E2;
+ --bg-color: #FFFFFF;
+ --navbar-bg-color: #1E3050;
+ --text-color: #333333;
+ --footer-bg-color: #1E3050;
+ --font-body: 'Roboto', sans-serif;
+    }
+    body { font-family: var(--font-body); background-color: var(--bg-color); color: var(--text-color); } .navbar { background-color: var(--navbar-bg-color); color: #fff; } footer { background-color: var(--footer-bg-color); color: #fff; } .button { background-color: var(--primary-color); color: #fff; } h1, h2, h3, h4, h5, h6 { color: var(--text-color); } p { color: var(--text-color); }
+      .navbar {
+    background-color: var(--navbar-bg-color);
+    transition: all 0.3s ease;
+}
+
+.navbar a {
+    font-family: var(--font-body);
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    #mobile-menu {
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.hero-section {
+    background-color: var(--bg-color);
+}
+
+.hero-section h1 {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.hero-section p {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.hero-image {
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.02);
+}
+#search-form-container {
+    background-color: var(--navbar-bg-color);
+}
+
+#search-title {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+#search-submit-btn {
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+#search-submit-btn:hover {
+    transform: translateY(-2px);
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-label {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+.room-card {
+    background-color: var(--navbar-bg-color);
+    transition: transform 0.3s ease;
+}
+
+.room-card:hover {
+    transform: translateY(-5px);
+}
+
+.room-title {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.select-button {
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.room-image {
+    transition: transform 0.3s ease;
+}
+
+.room-image:hover {
+    transform: scale(1.05);
+}
+.amenities-card {
+    background-color: var(--navbar-bg-color);
+    transition: all 0.3s ease;
+}
+
+.amenities-title {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.amenities-icon {
+    color: var(--primary-color);
+}
+
+.amenities-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+#booking-form {
+    background-color: var(--bg-color);
+}
+
+#form-wrapper {
+    background-color: var(--navbar-bg-color);
+}
+
+#booking-title {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+#booking-submit {
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+#booking-submit:hover {
+    transform: translateY(-2px);
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-label {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+#contact-form-wrapper {
+    background-color: var(--navbar-bg-color);
+}
+
+#contact-title {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+#contact-submit {
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+#contact-submit:hover {
+    transform: translateY(-2px);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-label {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+#faq-section {
+    background-color: var(--bg-color);
+}
+
+#faq-title {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.faq-item {
+    background-color: var(--navbar-bg-color);
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.faq-answer {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+.footer {
+    background-color: var(--footer-bg-color);
+    font-family: var(--font-body);
+}
+
+.footer h3 {
+    color: var(--text-color);
+}
+
+.footer p, .footer span {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.footer a {
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--primary-color);
+}
+
+.social-icon {
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-2px);
+}
+    

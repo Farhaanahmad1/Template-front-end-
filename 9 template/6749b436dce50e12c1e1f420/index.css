@@ -1,0 +1,67 @@
+:root {
+    --font-body: 'Poppins', sans-serif !important;
+    --bg-color: #fff !important;
+    --primary-color: #2563EB !important;
+    --color-accent: #FACC15 !important;
+    --text-color: #595c60 !important;
+    --color-bg-light: #FFFFFF !important;
+    --navbar-bg-color: #fff;
+    --footer-bg-color: rgb(5, 5, 5);
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: var(--text-color) !important;
+}
+
+header, nav {
+    background-color: var(--navbar-bg-color);
+    color: var(--text-color);
+}
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--text-color);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6, i {
+    color: var(--primary-color) !important;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* a:hover {
+    color: var(--color-accent) ;
+} */
+
+button {
+    background-color: var(--color-bg-light-color);
+    color: var(--color-bg-light);
+    font-family: var(--font-primary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--color-accent);
+}
+#button-1{
+    background-color: var(--color-bg-light-color) !important;
+}

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Yoga Bliss
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="index.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  
+ </head>
+ <body>
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-4 border-orange-500 rounded-lg shadow-md px-6 py-4 mx-4 mt-4 animate-fade-in" id="link-1">
+   <div class="flex items-center justify-between" id="section-1">
+    <!-- Logo -->
+    <div class="flex items-center" id="section-2">
+     <img alt="Gym Logo" class="h-12 w-12 rounded-lg" id="image-1" src="https://plus.unsplash.com/premium_photo-1668902223840-4f29626b25c3?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3ltJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D"/>
+    </div>
+    <!-- Desktop Links -->
+    <div class="hidden md:flex space-x-8 text-lg font-bold" id="section-3">
+     <a class="!text-orange-500 !bg-transparent hover:text-orange-600" href="#section-6" id="link-2">
+      HOME
+     </a>
+     <a class="text-gray-800 !bg-transparent hover:text-gray-900" href="#section-10" id="link-3">
+      CLASSES
+     </a>
+     <a class="text-gray-800 !bg-transparent hover:text-gray-900" href="#section-34" id="link-4">
+      LOCATIONS
+     </a>
+     <a class="text-gray-800 !bg-transparent hover:text-gray-900" href="#section-47" id="link-5">
+      TRAINING
+     </a>
+    </div>
+    <!-- Join Button -->
+    <div class="hidden md:block" id="section-4">
+     <a class="bg-orange-500 text-white px-6 py-2 rounded-full flex items-center hover:bg-orange-600" href="#section-67" id="link-6">
+      <span class="font-bold" id="text-1">
+       JOIN NOW
+      </span>
+     </a>
+    </div>
+    <!-- Hamburger Menu -->
+    <button class="md:hidden text-gray-800 hover:text-orange-500 focus:outline-none" id="menu-btn">
+     <svg class="h-6 w-6" fill="none" id="svg-1" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 6h16M4 12h16M4 18h16" id="svg-2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path>
+     </svg>
+    </button>
+   </div>
+   <!-- Mobile Dropdown Menu -->
+   <div class="hidden md:hidden mt-4 space-y-2" id="dropdown-menu">
+    <a class="block text-gray-800 !bg-transparent hover:text-orange-500" href="#section-6" id="link-7">
+     HOME
+    </a>
+    <a class="block text-gray-800 !bg-transparent hover:text-orange-500" href="#section-10" id="link-8">
+     CLASSES
+    </a>
+    <a class="block text-gray-800 !bg-transparent hover:text-orange-500" href="#section-34" id="link-9">
+     LOCATIONS
+    </a>
+    <a class="block text-gray-800 !bg-transparent hover:text-orange-500" href="#section-47" id="link-10">
+     TRAINING
+    </a>
+    <a class="block bg-orange-500 text-white px-4 py-2 rounded-full text-center hover:bg-orange-600" href="#section-67" id="link-11">
+     JOIN NOW
+    </a>
+   </div>
+  </nav>
+  <!-- Section Container -->
+  <section class="relative flex items-center justify-center h-screen bg-white overflow-hidden" id="section-6">
+   <!-- Background Image -->
+   <img alt="Fitness Model" class="absolute top-0 left-0 w-full h-full object-cover z-0 animate-fade-in" id="image-2" src="https://images.unsplash.com/photo-1623874514711-0f321325f318?w=1&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bSUyMGFpJTIwcmVhbHRlZCUyMGltYWdlfGVufDB8fDB8fHww"/>
+   <!-- Animated Gradient Circle -->
+   <div class="absolute bg-gradient-to-r from-orange-300 via-orange-400 to-orange-500 rounded-full opacity-50 blur-3xl z-10 animate-scale-pulse" id="section-7" style="width: 300px; height: 300px; animation-delay: 0.5s;">
+   </div>
+   <!-- Secondary Circle for Depth -->
+   <div class="absolute bg-gradient-to-r from-orange-200 via-orange-300 to-orange-400 rounded-full opacity-40 blur-2xl z-10 animate-scale-pulse" id="section-8" style="width: 450px; height: 450px; animation-delay: 1s;">
+   </div>
+   <!-- Text Overlay -->
+   <div class="absolute text-center z-20 px-4 animate-slide-up" id="section-9">
+    <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white drop-shadow-xl" id="text-2">
+     FIND YOUR FLOW
+    </h1>
+    <h2 class="mt-3 text-lg sm:text-xl lg:text-2xl font-medium text-white tracking-wide" id="text-3">
+     Discover the balance between mind and body
+    </h2>
+    <button class="mt-6 px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300" id="button-2">
+     Start Your Journey
+    </button>
+   </div>
+  </section>
+  <section class="py-12 px-6" id="section-10">
+   <div class="max-w-7xl mx-auto" id="section-11">
+    <h1 class="text-4xl font-bold text-center mb-12" id="text-4">
+     CHOOSE TRAINING
+    </h1>
+    <div class="grid md:grid-cols-2 gap-8 items-center" id="section-12">
+     <!-- Image Section -->
+     <div class="p-4" id="section-13">
+      <img alt="Group Training" class="rounded-lg w-full shadow-lg" id="image-3" src="https://plus.unsplash.com/premium_photo-1661301057249-bd008eebd06a?w=1&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fHww"/>
+     </div>
+     <!-- Text Section -->
+     <div class="relative bg-black border border-gray-200 p-6 rounded-lg shadow-lg" id="section-14">
+      <!-- Black line with orange scroll effect -->
+      <div class="absolute left-0 top-1/2 -translate-y-1/2 h-3/4 w-1 bg-black ml-6" id="section-15">
+       <div class="h-1/2 bg-orange-500 animate-scroll" id="section-16">
+       </div>
+      </div>
+      <div class="ml-6" id="section-17">
+       <h2 class="text-2xl font-bold text-white mb-4" id="text-5">
+        GROUP TRAINING
+       </h2>
+       <p class="text-white mb-6" id="text-6">
+        Our team of certified and experienced trainers is dedicated to helping you achieve your fitness goals.
+                  Whether you want to lose muscle mass or improve overall health, our trainers will create a personalized
+                  plan to guide you every step of the way.
+       </p>
+       <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 transition duration-300" id="button-3">
+        Join Now
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-12 px-6" id="section-18">
+   <div class="max-w-7xl mx-auto" id="section-19">
+    <div class="grid md:grid-cols-2 gap-8 items-center" id="section-20">
+     <!-- Text Section -->
+     <div class="relative bg-black border border-gray-200 p-6 rounded-lg shadow-lg" id="section-21">
+      <!-- Black line with orange scroll effect -->
+      <div class="absolute left-0 top-1/2 -translate-y-1/2 h-3/4 w-1 bg-black ml-6" id="section-22">
+       <div class="h-1/2 bg-orange-500 animate-scroll" id="section-23">
+       </div>
+      </div>
+      <div class="ml-6" id="section-24">
+       <h2 class="text-2xl font-bold text-white mb-4" id="text-7">
+        ONLINE TRAINING
+       </h2>
+       <p class="text-white mb-6" id="text-8">
+        Train from anywhere with our expert-led online fitness programs. Our virtual sessions are designed to help you 
+                      stay motivated and achieve your goals, whether you’re at home, at the office, or on the go.
+       </p>
+       <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 transition duration-300" id="button-4">
+        Get Started
+       </button>
+      </div>
+     </div>
+     <!-- Image Section -->
+     <div class="p-4" id="section-25">
+      <img alt="Online Training" class="rounded-lg w-full shadow-lg" id="image-4" src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bXxlbnwwfHwwfHx8MA%3D%3D"/>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-12 px-6" id="section-26">
+   <div class="max-w-7xl mx-auto" id="section-27">
+    <div class="grid md:grid-cols-2 gap-8 items-center" id="section-28">
+     <!-- Image Section -->
+     <div class="p-4" id="section-29">
+      <img alt="Personal Training" class="rounded-lg w-full shadow-lg" id="image-5" src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=1&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGd5bXxlbnwwfHwwfHx8MA%3D%3D"/>
+     </div>
+     <!-- Text Section -->
+     <div class="relative bg-black border border-gray-200 p-6 rounded-lg shadow-lg" id="section-30">
+      <!-- Black line with orange scroll effect -->
+      <div class="absolute left-0 top-1/2 -translate-y-1/2 h-3/4 w-1 bg-black ml-6" id="section-31">
+       <div class="h-1/2 bg-orange-500 animate-scroll" id="section-32">
+       </div>
+      </div>
+      <div class="ml-6" id="section-33">
+       <h2 class="text-2xl font-bold text-white mb-4" id="text-9">
+        PERSONAL TRAINING
+       </h2>
+       <p class="text-white mb-6" id="text-10">
+        Work one-on-one with a professional trainer to create a fitness plan tailored to your unique goals. 
+                      From strength building to weight loss, we are here to help you every step of the way with personalized attention and motivation.
+       </p>
+       <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 transition duration-300" id="button-5">
+        Start Now
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-12 px-6 sm:px-6" id="section-34">
+   <div class="max-w-7xl mx-auto" id="section-35">
+    <!-- Title -->
+    <h1 class="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12" id="text-11">
+     OUR TRAINER
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center" id="section-36">
+     <!-- Left Section: About Trainer -->
+     <div class="space-y-6 text-center md:text-left" id="section-37">
+      <h2 class="text-lg sm:text-xl font-bold text-orange-500 uppercase" id="text-12">
+       About Trainer
+      </h2>
+      <p class="!text-black text-sm sm:text-base" id="text-13">
+       Welcome to our gym center. We have more than 30+ data points that we offer according to your patience.
+                    You can join our club. We are all known to be trained. Join us.
+      </p>
+      <div class="flex flex-col md:flex-row md:items-center gap-4 sm:gap-6 justify-center md:justify-start" id="section-38">
+       <a class="bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 transition duration-300 text-sm sm:text-base" id="link-12">
+        Learn More
+       </a>
+       <span class="text-lg sm:text-xl font-bold text-gray-800" id="text-14">
+        16+ TRAINER
+       </span>
+      </div>
+     </div>
+     <!-- Right Section: Trainer Images -->
+     <div class="relative flex justify-center" id="section-39">
+      <!-- First Image (Back Image) -->
+      <img alt="Trainer 1" class="absolute z-10 top-10 right-16 sm:right-20 w-28 sm:w-36 h-36 sm:h-48 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 hidden sm:block" id="image-6" src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8fDB8fHww"/>
+      <!-- Second Image (Middle Image) -->
+      <img alt="Trainer 2" class="relative z-20 w-90 sm:w-44 h-70 sm:h-56 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" id="image-7" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fHww"/>
+      <!-- Third Image (Front Image) -->
+      <img alt="Trainer 3" class="absolute z-30 bottom-10 left-10 sm:left-20 w-24 sm:w-36 h-32 sm:h-48 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 hidden sm:block" id="image-8" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fHww"/>
+     </div>
+    </div>
+    <!-- See All Section -->
+    <div class="mt-12 sm:mt-16 flex flex-col items-center" id="section-40">
+     <div class="relative w-full max-w-xl" id="section-41">
+      <!-- Line -->
+      <div class="h-[2px] bg-gray-300 w-full" id="section-42">
+      </div>
+      <!-- Dumbbell Icon -->
+      <div class="absolute -top-6 left-1/2 transform -translate-x-1/2" id="section-43">
+       <img alt="Dumbbell Icon" class="w-8 sm:w-12 h-8 sm:h-12 animate-scale-pulse" id="image-9" src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHVtYmVsbHxlbnwwfHwwfHx8MA%3D%3D"/>
+      </div>
+     </div>
+     <!-- See All Button -->
+     <a class="mt-6 flex items-center gap-2 text-base sm:text-lg font-semibold text-gray-800 hover:text-red-500 transition" id="link-13">
+      See All
+      <i class="fas fa-arrow-right text-lg sm:text-xl" id="text-15">
+      </i>
+     </a>
+    </div>
+   </div>
+  </section>
+  <section class="flex flex-col md:flex-row items-center bg-gradient-to-b from-white via-black to-white text-white p-6" id="section-44">
+   <!-- Left Section: Video/Image -->
+   <div class="relative w-full md:w-1/3 rounded-lg overflow-hidden" id="section-45">
+    <img alt="Live Class" class="w-full h-auto object-cover rounded-lg shadow-lg" id="image-10" src="https://images.unsplash.com/photo-1641582858581-7eb78baec60d?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGR1bWJlbGx8ZW58MHx8MHx8fDA%3D">
+     <button class="absolute bottom-4 left-4 flex items-center bg-white text-black px-4 py-2 rounded-full shadow-lg" id="button-6">
+      <svg class="w-6 h-6 mr-2" fill="currentColor" id="svg-3" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+       <path d="M10.804 8.697L5.143 12.114a.5.5 0 0 1-.742-.434V4.32a.5.5 0 0 1 .742-.434l5.661 3.417a.5.5 0 0 1 0 .867z" id="svg-4">
+       </path>
+      </svg>
+      See Live Class
+     </button>
+    </img>
+   </div>
+   <!-- Right Section: Text -->
+   <div class="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0 md:pl-8" id="section-46">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4" id="text-16">
+     WATCH OUR
+     <br/>
+     LIVE CLASS.
+    </h2>
+    <p class="text-lg" id="text-17">
+     (10am-11pm)
+    </p>
+   </div>
+  </section>
+  <section class=" py-16" id="section-47">
+   <!-- Title Section -->
+   <div class="text-center mb-12" id="section-48">
+    <h2 class="text-5xl font-extrabold tracking-wide text-gray-800" id="text-18">
+     OUR PRICE
+
+    </h2>
+    <p class="text-gray-600 mt-4" id="text-20">
+     Flexible membership plans to suit your fitness journey
+    </p>
+   </div>
+   <!-- Pricing Cards Section -->
+   <div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-6 md:px-12 relative" id="section-49">
+    <!-- Day Card -->
+    <div class="relative bg-white rounded-xl shadow-lg p-8 overflow-hidden transform rotate-2 hover:rotate-0 hover:scale-105 transition-transform duration-300" id="section-50">
+     <!-- Decorative Elements -->
+     <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 to-orange-500" id="section-51">
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-orange-500 to-transparent" id="section-52">
+     </div>
+     <!-- Content -->
+     <h3 class="text-3xl font-bold text-orange-500 mb-4" id="text-21">
+      Day Pass
+     </h3>
+     <p class="!text-black text-sm mb-6" id="text-22">
+      Perfect for those who want a one-day access to our facilities. Stay on track without commitment.
+     </p>
+     <div class="text-center" id="section-53">
+      <span class="block text-4xl font-bold text-gray-800" id="text-23">
+       $15
+      </span>
+      <span class="text-sm text-gray-500" id="text-24">
+       per day
+      </span>
+     </div>
+    </div>
+    <!-- Week Card -->
+    <div class="relative bg-white rounded-xl shadow-lg p-8 overflow-hidden transform -rotate-2 hover:rotate-0 hover:scale-105 transition-transform duration-300" id="section-54">
+     <!-- Decorative Elements -->
+     <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 to-orange-500" id="section-55">
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-orange-500 to-transparent" id="section-56">
+     </div>
+     <!-- Content -->
+     <h3 class="text-3xl font-bold text-orange-500 mb-4" id="text-25">
+      Weekly Pass
+     </h3>
+     <p class="!text-black text-sm mb-6" id="text-26">
+      Get access for a full week. Stay committed to your fitness journey with flexibility.
+     </p>
+     <div class="text-center" id="section-57">
+      <span class="block text-4xl font-bold text-gray-800" id="text-27">
+       $35
+      </span>
+      <span class="text-sm text-gray-500" id="text-28">
+       per week
+      </span>
+     </div>
+    </div>
+    <!-- Month Card -->
+    <div class="relative bg-white rounded-xl shadow-lg p-8 overflow-hidden transform rotate-3 hover:rotate-0 hover:scale-105 transition-transform duration-300" id="section-58">
+     <!-- Decorative Elements -->
+     <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 to-orange-500" id="section-59">
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-orange-500 to-transparent" id="section-60">
+     </div>
+     <!-- Content -->
+     <h3 class="text-3xl font-bold text-orange-500 mb-4" id="text-29">
+      Monthly Pass
+     </h3>
+     <p class="!text-black text-sm mb-6" id="text-30">
+      A great option for consistent gym-goers. Enjoy unlimited access for the entire month.
+     </p>
+     <div class="text-center" id="section-61">
+      <span class="block text-4xl font-bold text-gray-800" id="text-31">
+       $150
+      </span>
+      <span class="text-sm text-gray-500" id="text-32">
+       per month
+      </span>
+     </div>
+    </div>
+    <!-- Year Card -->
+    <div class="relative bg-white rounded-xl shadow-lg p-8 overflow-hidden transform -rotate-3 hover:rotate-0 hover:scale-105 transition-transform duration-300" id="section-62">
+     <!-- Decorative Elements -->
+     <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 to-orange-500" id="section-63">
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-orange-500 to-transparent" id="section-64">
+     </div>
+     <!-- Content -->
+     <h3 class="text-3xl font-bold text-orange-500 mb-4" id="text-33">
+      Yearly Pass
+     </h3>
+     <p class="!text-black text-sm mb-6" id="text-34">
+      Best value for long-term fitness enthusiasts. Commit for the year and save more!
+     </p>
+     <div class="text-center" id="section-65">
+      <span class="block text-4xl font-bold text-gray-800" id="text-35">
+       $2500
+      </span>
+      <span class="text-sm text-gray-500" id="text-36">
+       per year
+      </span>
+     </div>
+    </div>
+   </div>
+  </section>
+  <footer class="relative bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center" id="section-66" style="background-image: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=1&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bXxlbnwwfHwwfHx8MA%3D%3D');">
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/50" id="section-67">
+    </div>
+    <!-- Footer Content -->
+    <div class="relative z-10 text-center px-2 sm:px-8 md:px-8 max-w-5xl" id="section-68">
+     <!-- Brand Name -->
+     <h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl font-extrabold tracking-wide text-gray-200 leading-tight" id="text-37">
+      FITNESS
+      <span class="text-red-500" id="text-38">•</span>
+      OKAY
+     </h1>
+     <!-- Newsletter -->
+     <p class="mt-6 text-lg sm:text-xl md:text-2xl font-semibold text-gray-400" id="text-39">
+      LET'S JOIN OUR NEWSLETTER.
+     </p>
+     <p class="mt-2 text-sm sm:text-base md:text-lg text-gray-500" id="text-40">
+      We will keep you updated with news via email.
+     </p>
+     <!-- Subscription Form -->
+     <form class="mt-8 flex flex-col sm:flex-row justify-center items-center w-full space-y-4 sm:space-y-0 sm:space-x-4" id="form-1">
+      <!-- Name Input -->
+      <input class="w-full sm:w-auto sm:flex-1 px-6 py-3 sm:py-4 text-black text-base sm:text-lg rounded-md focus:outline-none focus:ring-2 focus:ring-red-500" id="form-name" placeholder="Enter Your Name..." required="" type="text"/>
+      <!-- Email Input -->
+      <input class="w-full sm:w-auto sm:flex-1 px-6 py-3 sm:py-4 text-black text-base sm:text-lg rounded-md focus:outline-none focus:ring-2 focus:ring-red-500" id="form-2" placeholder="Enter Your Email..." required="" type="email"/>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-md text-base sm:text-lg font-medium transition" id="button-7" type="submit">
+       Subscribe
+      </button>
+     </form>
+     <!-- Social Media Links -->
+     <div class="mt-12 flex justify-center space-x-6 sm:space-x-8" id="section-69">
+      <a class="text-gray-400 !bg-transparent hover:text-white text-xl sm:text-2xl md:text-3xl" href="#" id="link-14">
+       <i class="fab fa-linkedin" id="text-41">
+       </i>
+      </a>
+      <a class="text-gray-400 !bg-transparent hover:text-white text-xl sm:text-2xl md:text-3xl" href="#" id="link-15">
+       <i class="fab fa-twitter" id="text-42">
+       </i>
+      </a>
+      <a class="text-gray-400 !bg-transparent hover:text-white text-xl sm:text-2xl md:text-3xl" href="#" id="link-16">
+       <i class="fab fa-youtube" id="text-43">
+       </i>
+      </a>
+      <a class="text-gray-400 !bg-transparent hover:text-white text-xl sm:text-2xl md:text-3xl" href="#" id="link-17">
+       <i class="fab fa-instagram" id="text-44">
+       </i>
+      </a>
+     </div>
+    </div>
+ </footer>
+ 
+  <script>
+   // Hamburger menu toggle functionality
+   const menuBtn = document.getElementById('menu-btn');
+const dropdownMenu = document.getElementById('dropdown-menu');
+
+// Toggle dropdown menu on button click
+menuBtn.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('hidden');
+});
+
+// Close dropdown menu when a menu item is clicked
+const menuItems = dropdownMenu.querySelectorAll('a');
+
+menuItems.forEach((menuItem) => {
+    menuItem.addEventListener('click', () => {
+        dropdownMenu.classList.add('hidden'); // Ensure the menu is closed
+    });
+});
+
+
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+
+        document.getElementById('form-1').addEventListener('submit', function () {
+            // Retrieve form data
+            const name = document.getElementById('form-name').value;
+
+            const message = document.getElementById('form-2').value;
+
+
+    
+            const mailtoLink = `mailto:ceo@icod.ai?subject=new contact message from ${name} &body=${encodeURIComponent(
+                `${message}`
+            )}`;
+
+
+            window.location.href = mailtoLink;
+
+  
+            document.getElementById("form-1").reset();
+        });
+
+
+
+
+        document.getElementById('form-1').addEventListener('submit', function () {
+            // Retrieve form data
+            const name = document.getElementById('form-name').value;
+
+            const message = document.getElementById('form-2').value;
+
+
+    
+            const mailtoLink = `mailto:ceo@icod.ai?subject=new contact message from ${name} &body=${encodeURIComponent(
+                `${message}`
+            )}`;
+
+
+            window.location.href = mailtoLink;
+
+  
+            document.getElementById("form-1").reset();
+        });
+
+
+
+  </script>
+ </body>
+</html>

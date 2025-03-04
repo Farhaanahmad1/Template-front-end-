@@ -1,0 +1,40 @@
+:root {
+    --bg-color: #EAE6E5 !important;
+    --navbar-bg-color:  #FFFBFF  !important;
+    --footer-bg-color: #FFFBFF !important;
+    --primary-color: #363020 !important;
+    --secondary-color: #fff !important;
+    --text-color: #101010 !important;
+    --font-family: "Roboto", serif !important;
+  }
+  
+  body {
+    font-family: var(--font-family) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) ;
+  }
+  svg{
+    background-color: white !important;
+  }
+  span{
+    color: var(--secondary-color) !important;
+  }
+p{
+    color: var(--text-color) !important;
+  }
+  h1, h2, h3, a, span, i{
+    color: var(--primary-color) !important;
+  }
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-family) !important;
+  }

@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #32a927 !important;
+    --text-color: #595959 !important;
+    --navbar-bg-color: #ffffff !important;
+    --footer-bg-color: #000 !important;
+    --font-body: 'Inter', serif;
+  }
+  body {
+    font-family: var(--font-body);
+    color: var(--text-color);
+  }
+  a {
+    color: var(--text-color);
+  }
+  .navbar {
+    background-color: var(--navbar-bg-color);
+  }
+  .footer {
+    background-color: var(--footer-bg-color);
+  }
+  .nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+  }
+  footer {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  #section-20 {
+    background-color: #eeeee9ee !important;
+  }
+  .button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  #footer-company-larriott,
+  #footer-links-larriott,
+  #footer-contact-larriott,
+  #footer-social-larriott {
+    color: #fff;
+  }
+  #booking-form-larriott input,
+  #booking-form-larriott textarea {
+    border: 1px solid #e5e7eb;
+    background-color: #f3f4f6;
+    color: var(--text-color);
+  }
+  #booking-form-larriott input:focus,
+  #booking-form-larriott textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+  }
+  

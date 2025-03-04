@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <title>
+        LARRIOTT - Luxury Hotel Booking
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LARRIOTT - Luxury Hotel Booking and Reservations" />
+    <meta name="keywords" content="hotel, booking, luxury, accommodation, reservations" />
+    <meta name="author" content="LARRIOTT" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar w-full top-0 gray-900 fixed bg-opacity-95 transition-all duration-300 shadow-lg z-50"
+        id="main-nav-larriott">
+        <div class="container mx-auto px-4 flex justify-between items-center py-4" id="nav-content">
+            <a href="#" class="text-gray-800 font-bold text-2xl flex items-center" id="nav-logo-larriott">
+                <img src="https://static.vecteezy.com/system/resources/previews/027/543/231/non_2x/hotel-logo-silhouette-hotel-icon-vector.jpg"
+                    alt="Logo" class="w-12 h-12 mr-2 object-cover rounded-full ">
+                <p> LARRIOTT</p>
+            </a>
+
+            <div class="hidden md:flex items-center space-x-8" id="desktop-menu-larriott">
+                <a href="#section-home" class="nav-link hover:text-primary-600 transition-colors" id="nav-link-home">
+                    Home
+                </a>
+                <a href="#rooms" class="nav-link hover:text-primary-600 transition-colors" id="nav-link-rooms">
+                    Rooms
+                </a>
+                <a href="#section-booking" class="nav-link hover:text-primary-600 transition-colors"
+                    id="nav-link-booking">
+                    Book Now
+                </a>
+                <a href="#section-booking" class="nav-link hover:text-primary-600 transition-colors"
+                    id="nav-link-contact">
+                    Contact
+                </a>
+            </div>
+            <div class='md:hidden' id='mobile-menu-container'>
+                <button class='text-gray-600 hover:text-blue-800 focus:outline-none' id='mobile-menu-button'>
+                    <i class='fas fa-bars text-2xl'></i>
+                </button>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class='hidden md:hidden w-full bg-white absolute top-20 sticky z-50 left-0 shadow-md' id='mobile-menu'>
+        <div class='flex flex-col space-y-4 p-4' id='mobile-menu-items'>
+            <a href='#rooms' class='hover:text-blue-800 transition-colors' id='mobile-nav-rooms'>Rooms</a>
+            <a href='#section-home' class='hover:text-blue-800 transition-colors'
+                id='mobile-nav-reservations'>Reservations</a>
+            <a href='#rooms' class='hover:text-blue-800 transition-colors' id='mobile-nav-amenities'>Amenities</a>
+            <a href='#section-booking' class='hover:text-blue-800 transition-colors' id='mobile-nav-contact'>Contact</a>
+        </div>
+    </div>
+    <section id="section-home" class="px-2 py-32 md:px-0">
+        <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+            <div class="flex flex-wrap items-center sm:-mx-3">
+                <div class="w-full md:w-1/2 md:px-3">
+                    <div
+                        class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-10 xl:space-y-8 sm:pr-5 lg:pr-0 md:pb-0 ">
+                        <h1
+                            class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl !leading-[76px]">
+                            Discover Luxury in Every Stay
+                            <span class="block text-blue-800 xl:inline">
+                                With LARRIOTT
+                            </span>
+                        </h1>
+
+
+                        <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
+                            Experience elegance and comfort in our world-renowned luxury hotels, providing unforgettable
+                            moments and exceptional service.
+                        </p>
+                        <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+                            <a class="flex items-center px-6 py-3  -mb-4 text-white bg-blue-800 rounded-md hover:bg-blue-700"
+                                href="#section-booking">
+                                Book Your Stay
+                            </a>
+
+                        </div>
+                        <div class='flex items-center space-x-4' id='hero-features'>
+                            <div class='flex items-center' id='feature-1'>
+                                <i class='fas fa-check-circle text-green-500 mr-2'></i>
+                                <span class='text-gray-600'>Best Rate Guarantee</span>
+                            </div>
+                            <div class='flex items-center' id='feature-2'>
+                                <i class='fas fa-clock text-green-500 mr-2'></i>
+                                <span class='text-gray-600'>24/7 Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Luxury Hotel" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='w-full bg-gray-50 py-16' id='rooms'>
+        <div class='container mx-auto px-4 max-w-6xl' id='room-options-container'>
+            <h2 class='text-3xl font-bold text-gray-900 mb-8 text-center' id='room-options-title'>Select Your Room</h2>
+
+            <div class='grid grid-cols-1 md:grid-cols-3 gap-8' id='room-options-grid'>
+                <!-- King Bed Room -->
+                <div class='bg-white rounded-xl shadow-lg overflow-hidden' id='king-room-card'>
+                    <img src='https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg' alt='King Bed Room'
+                        class='w-full h-48 object-cover' id='king-room-image'>
+                    <div class='p-6 space-y-4'>
+                        <h3 class='text-xl font-bold text-gray-900' id='king-room-title'>1 King Bed</h3>
+                        <ul class='space-y-2 text-gray-600' id='king-room-features'>
+                            <li class='flex items-center'><i class='fas fa-bed mr-2'></i>Spacious King Bed</li>
+                            <li class='flex items-center'><i class='fas fa-ruler-combined mr-2'></i>400 sq ft</li>
+                            <li class='flex items-center'><i class='fas fa-user-friends mr-2'></i>2 Adults</li>
+                        </ul>
+                        <p class='text-2xl font-bold text-blue-800' id='king-room-price'>From $100/night</p>
+                        <a href="#section-booking"
+                            class='w-full py-3 bg-blue-800 text-white rounded-lg hover:bg-blue-700 transition-colors text-center block'
+                            id='king-room-select'>Select Room</a>
+                    </div>
+                </div>
+
+
+                <!-- Double Queen Room -->
+                <div class='bg-white rounded-xl shadow-lg overflow-hidden' id='queen-room-card'>
+                    <img src='https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg' alt='Double Queen Room'
+                        class='w-full h-48 object-cover' id='queen-room-image'>
+                    <div class='p-6 space-y-4'>
+                        <h3 class='text-xl font-bold text-gray-900' id='queen-room-title'>2 Queen Beds</h3>
+                        <ul class='space-y-2 text-gray-600' id='queen-room-features'>
+                            <li class='flex items-center'><i class='fas fa-bed mr-2'></i>Two Queen Beds</li>
+                            <li class='flex items-center'><i class='fas fa-ruler-combined mr-2'></i>450 sq ft</li>
+                            <li class='flex items-center'><i class='fas fa-user-friends mr-2'></i>4 Adults</li>
+                        </ul>
+                        <p class='text-2xl font-bold text-blue-800' id='queen-room-price'>From $200/night</p>
+                        <a href="#section-booking"
+                            class='w-full py-3 bg-blue-800 text-white rounded-lg hover:bg-blue-700 transition-colors text-center block'
+                            id='queen-room-select'>Select Room</a>
+                    </div>
+                </div>
+
+
+                <!-- Deluxe Suite -->
+                <div class='bg-white rounded-xl shadow-lg overflow-hidden' id='suite-room-card'>
+                    <img src='https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg' alt='Deluxe Suite'
+                        class='w-full h-48 object-cover' id='suite-room-image'>
+                    <div class='p-6 space-y-4'>
+                        <h3 class='text-xl font-bold text-gray-900' id='suite-room-title'>Deluxe Suite</h3>
+                        <ul class='space-y-2 text-gray-600' id='suite-room-features'>
+                            <li class='flex items-center'><i class='fas fa-bed mr-2'></i>King Bed + Living Area</li>
+                            <li class='flex items-center'><i class='fas fa-ruler-combined mr-2'></i>600 sq ft</li>
+                            <li class='flex items-center'><i class='fas fa-user-friends mr-2'></i>2 Adults + 2 Children
+                            </li>
+                        </ul>
+                        <p class='text-2xl font-bold text-blue-800' id='suite-room-price'>From $300/night</p>
+                        <a href="#section-booking"
+                            class='w-full py-3 bg-blue-800 text-white rounded-lg hover:bg-blue-700 transition-colors text-center block'
+                            id='suite-room-select'>Select Room</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class='w-full bg-gray-50 py-16' id='amenities'>
+        <div class='container mx-auto px-4 max-w-6xl' id='amenities-container'>
+            <h2 class='text-3xl font-bold text-gray-900 mb-8 text-center' id='amenities-title'>Hotel Amenities</h2>
+
+            <div class='grid grid-cols-1 md:grid-cols-3 gap-8' id='amenities-grid'>
+                <!-- Kitchenette -->
+                <div class='bg-white rounded-xl shadow-lg p-6 hover:transform hover:scale-105 transition-all'
+                    id='kitchenette-card'>
+                    <div class='text-center mb-4'>
+                        <i class='fas fa-utensils text-4xl text-blue-800'></i>
+                    </div>
+                    <h3 class='text-xl font-bold text-gray-900 text-center mb-4' id='kitchenette-title'>Kitchenette</h3>
+                    <ul class='space-y-3 text-gray-600' id='kitchenette-features'>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Microwave
+                            Oven
+                        </li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Mini
+                            Refrigerator
+                        </li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Coffee
+                            Maker</li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Basic
+                            Cookware
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Free Breakfast -->
+                <div class='bg-white rounded-xl shadow-lg p-6 hover:transform hover:scale-105 transition-all'
+                    id='breakfast-card'>
+                    <div class='text-center mb-4'>
+                        <i class='fas fa-coffee text-4xl text-blue-800'></i>
+                    </div>
+                    <h3 class='text-xl font-bold text-gray-900 text-center mb-4' id='breakfast-title'>Free Breakfast
+                    </h3>
+                    <ul class='space-y-3 text-gray-600' id='breakfast-features'>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Continental
+                            Breakfast</li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Fresh
+                            Pastries
+                        </li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Hot
+                            Beverages</li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Fresh Fruit
+                            Selection</li>
+                    </ul>
+                </div>
+
+                <!-- Pool -->
+                <div class='bg-white rounded-xl shadow-lg p-6 hover:transform hover:scale-105 transition-all'
+                    id='pool-card'>
+                    <div class='text-center mb-4'>
+                        <i class='fas fa-swimming-pool text-4xl text-blue-800'></i>
+                    </div>
+                    <h3 class='text-xl font-bold text-gray-900 text-center mb-4' id='pool-title'>Pool Facilities</h3>
+                    <ul class='space-y-3 text-gray-600' id='pool-features'>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Heated
+                            Indoor Pool
+                        </li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Jacuzzi
+                        </li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Pool Towels
+                            Provided</li>
+                        <li class='flex items-center'><i class='fas fa-check-circle text-green-500 mr-2'></i>Lounging
+                            Area</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="bg-white py-16 px-8" id="hotel-promotion-section">
+        <div class="container mx-auto text-center" id="hotel-promotion-container">
+            <!-- Title Section -->
+            <h2 class="text-4xl font-bold text-gray-800 mb-6" id="promotion-title">
+                Exclusive Promotions on Our Best Hotels!
+            </h2>
+            <p class="text-gray-700 max-w-3xl mx-auto mb-12" id="promotion-description">
+                Book now and enjoy unbeatable prices on luxurious stays. Our special offers are designed to give you the
+                best value for your getaway!
+            </p>
+
+            <!-- Promotion Cards Section -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto"
+                id="promotion-cards-section">
+                <!-- Card 1 -->
+                <div class="rounded-lg overflow-hidden shadow-2xl transform transition-transform duration-300 hover:scale-105"
+                    id="hotel-card-1">
+                    <img alt="Capital Business Hotel" class="w-full h-64 object-cover"
+                        src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsfGVufDB8fDB8fHww"
+                        id="hotel-card-1-image" />
+                    <div class="bg-white p-6" id="hotel-card-1-details">
+                        <h3 class="font-semibold text-xl text-gray-800 mb-3" id="hotel-card-1-title">
+                            Mandarin Oriental
+                        </h3>
+                        <p class="text-gray-500 text-sm mb-4 flex items-center" id="hotel-card-1-location">
+                            <i class="fas fa-map-marker-alt text-green-500 mr-2" id="hotel-card-1-location-icon"></i>
+                            New York, USA
+                        </p>
+                        <div class="flex items-center justify-between mb-4" id="hotel-card-1-price-rating">
+                            <p class="text-green-600 font-bold text-2xl" id="hotel-card-1-price">
+                                <span class="text-lg text-gray-500 line-through"
+                                    id="hotel-card-1-original-price">$1200</span>
+                                $899
+                                <span class="text-gray-500 font-normal text-sm" id="hotel-card-1-night-price">/
+                                    night</span>
+                            </p>
+                            <div class="flex items-center bg-yellow-100 text-yellow-500 text-sm font-medium px-3 py-1 rounded-lg"
+                                id="hotel-card-1-rating">
+                                <i class="fas fa-star mr-1" id="hotel-card-1-star-icon"></i> 4.9
+                            </div>
+                        </div>
+                        <a href="#section-booking"
+                            class="px-6 w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-500 transition-colors"
+                            id="hotel-card-1-book-now">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="rounded-lg overflow-hidden shadow-2xl transform transition-transform duration-300 hover:scale-105"
+                    id="hotel-card-2">
+                    <img alt="Hotel Super Winer 96" class="w-full h-64 object-cover"
+                        src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsfGVufDB8fDB8fHww"
+                        id="hotel-card-2-image" />
+                    <div class="bg-white p-6" id="hotel-card-2-details">
+                        <h3 class="font-semibold text-xl text-gray-800 mb-3" id="hotel-card-2-title">
+                            Amangiri
+                        </h3>
+                        <p class="text-gray-500 text-sm mb-4 flex items-center" id="hotel-card-2-location">
+                            <i class="fas fa-map-marker-alt text-green-500 mr-2" id="hotel-card-2-location-icon"></i>
+                            Toronto, Cananda
+                        </p>
+                        <div class="flex items-center justify-between mb-4" id="hotel-card-2-price-rating">
+                            <p class="text-green-600 font-bold text-2xl" id="hotel-card-2-price">
+                                <span class="text-lg text-gray-500 line-through"
+                                    id="hotel-card-2-original-price">$1199</span>
+                                $899
+                                <span class="text-gray-500 font-normal text-sm" id="hotel-card-2-night-price">/
+                                    night</span>
+                            </p>
+                            <div class="flex items-center bg-yellow-100 text-yellow-500 text-sm font-medium px-3 py-1 rounded-lg"
+                                id="hotel-card-2-rating">
+                                <i class="fas fa-star mr-1" id="hotel-card-2-star-icon"></i> 4.9
+                            </div>
+                        </div>
+                        <a href="#section-booking"
+                            class="px-6 w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-500 transition-colors"
+                            id="hotel-card-2-book-now">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="rounded-lg overflow-hidden shadow-2xl transform transition-transform duration-300 hover:scale-105"
+                    id="hotel-card-3">
+                    <img alt="Super Gotel Collection" class="w-full h-64 object-cover"
+                        src="https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdGVsfGVufDB8fDB8fHww"
+                        id="hotel-card-3-image" />
+                    <div class="bg-white p-6" id="hotel-card-3-details">
+                        <h3 class="font-semibold text-xl text-gray-800 mb-3" id="hotel-card-3-title">
+                            Four Seasons Resort Punta Mita
+                        </h3>
+                        <p class="text-gray-500 text-sm mb-4 flex items-center" id="hotel-card-3-location">
+                            <i class="fas fa-map-marker-alt text-green-500 mr-2" id="hotel-card-3-location-icon"></i>
+                            Nayarit, Mexico
+                        </p>
+                        <div class="flex items-center justify-between mb-4" id="hotel-card-3-price-rating">
+                            <p class="text-green-600 font-bold text-2xl" id="hotel-card-3-price">
+                                <span class="text-lg text-gray-500 line-through"
+                                    id="hotel-card-3-original-price">$1099</span>
+                                $899
+                                <span class="text-gray-500 font-normal text-sm" id="hotel-card-3-night-price">/
+                                    night</span>
+                            </p>
+                            <div class="flex items-center bg-yellow-100 text-yellow-500 text-sm font-medium px-3 py-1 rounded-lg"
+                                id="hotel-card-3-rating">
+                                <i class="fas fa-star mr-1" id="hotel-card-3-star-icon"></i> 4.9
+                            </div>
+                        </div>
+                        <a href="#section-booking"
+                            class="px-6 w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-500 transition-colors"
+                            id="hotel-card-3-book-now">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Section -->
+            <div class="mt-12" id="promotion-cta-section">
+                <p class="text-xl font-semibold text-blue-700 mb-4" id="promotion-cta-text">
+                    Limited Time Offer! Don't Miss Out!
+                </p>
+                <a href="#booking-section" class="text-lg font-medium text-blue-600 hover:underline"
+                    id="promotion-cta-link">
+                    Grab Your Deal Now and Book Your Dream Stay
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="section-booking" class="py-20 bg-gray-50">
+        <div class="container items-center max-w-8xl px-4 mx-auto sm:px-6 md:px-8 lg:px-2">
+            <h2 class="text-3xl font-bold text-center mb-12">
+                Hotel Booking
+            </h2>
+            <div class="grid md:grid-cols-12 gap-6">
+                <!-- Booking Form (70% width) -->
+                <form class="col-span-8 w-full bg-white p-8 rounded-lg shadow-lg" id="booking-form-larriott"
+                    action="mailto:reservation@larriott.com" method="POST" enctype="text/plain">
+
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="form-group">
+                            <label for="rooms" class="block mb-2">
+                                Name
+                            </label>
+                            <input type="text" id="name" name="name" min="1" name="numberofrooms"
+                                placeholder="Enter your name"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="membership" class="block mb-2">
+                                Email
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" />
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="form-group">
+                            <label for="rooms" class="block mb-2">
+                                Number of Rooms
+                            </label>
+                            <input type="number" id="rooms" min="1" name="numberofrooms"
+                                placeholder="Enter number of rooms"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="membership" class="block mb-2">
+                                Marriot Membership
+                            </label>
+                            <input type="text" id="membership" name="membership"
+                                placeholder="Enter your membership number"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" />
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-6 mb-8">
+                        <div class="form-group relative">
+                            <label for="destination" class="block mb-2">
+                                Destination/City
+                            </label>
+                            <input type="text" id="destination" name="destination" placeholder="Enter your destination"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required
+                                oninput="showCities(this)" />
+                            <div id="dropdown"
+                                class="w-full mt-2 border bg-white rounded shadow-md hidden absolute z-10">
+                                <!-- Dropdown will be populated here -->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="check-in" class="block mb-2 ">
+                                Check In
+                            </label>
+                            <input type="date" id="check-in" name="checkin" placeholder="Enter check-in date"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="check-out" class="block mb-2">
+                                Check Out
+                            </label>
+                            <input type="date" id="check-out" name="checkout" placeholder="Enter check-out date"
+                                class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required />
+                        </div>
+                    </div>
+
+
+
+                    <div class="grid md:grid-cols-3 gap-6 mb-8">
+                        <div class="form-group">
+                            <label class="block mb-2">
+                                Reason for Travel
+                            </label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="radio" name="travel" value="business" class="mr-2" />
+                                    Business
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="travel" value="leisure" class="mr-2" />
+                                    Leisure
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="travel" value="others" class="mr-2" />
+                                    Others
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="block mb-2">
+                                Room Type
+                            </label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="radio" name="roomType" value="king" class="mr-2" />
+                                    1 King Bed
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="roomType" value="double" class="mr-2" />
+                                    2 Queen Beds
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="roomType" value="suite" class="mr-2" />
+                                    Deluxe Suite
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="block mb-2">
+                                Room Budget
+                            </label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="radio" name="budget" value="100" class="mr-2" />
+                                    Above $100
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="budget" value="200" class="mr-2" />
+                                    Above $200
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="budget" value="300" class="mr-2" />
+                                    Above $300
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6 mb-8">
+                        <div class="form-group">
+                            <label class="block mb-2">
+                                Amenities
+                            </label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="amenities" value="kitchenette" class="mr-2" />
+                                    Kitchenette
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="amenities" value="breakfast" class="mr-2" />
+                                    Free Breakfast
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="amenities" value="pool" class="mr-2" />
+                                    Pool
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Guest Count Radio Buttons -->
+                        <div class="form-group" id="guest-count">
+                            <label class="block mb-2" id="guest-count-label">
+                                Number of Guests
+                            </label>
+                            <div class="space-y-2" id="guest-count-options">
+                                <label class="flex items-center" id="guest-count-1">
+                                    <input type="radio" name="guestCount" value="5+" class="mr-2"
+                                        id="guest-count-1-radio" />
+                                    5+ Guests
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="guestCount" value="10+" class="mr-2"
+                                        id="guest-count-2-radio" />
+                                    10+ Guests
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="guestCount" value="20+" class="mr-2"
+                                        id="guest-count-3-radio" />
+                                    20+ Guests
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="contact-preference">
+                            <label class="block mb-2" id="contact-preference-label">
+                                Contact Preference
+                            </label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="radio" name="contact" value="whatsapp" class="mr-2" />
+                                    WhatsApp
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="contact" value="email" class="mr-2" />
+                                    Email
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" id="book-now"
+                            class="bg-blue-800 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                            Book Now
+                        </button>
+                    </div>
+                </form>
+
+                <div class="col-span-8 sm:col-span-4 w-full bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Inquiry Form</h3>
+                    <p class="text-gray-600 mb-6">For any inquiries or special requests, please fill out the form below
+                        and we will get back to you shortly.</p>
+                    <form action="mailto:reservation@larriott.com" method="POST" enctype="text/plain" id="inquiry-form">
+                        <div class="space-y-6">
+                            <div class="form-group">
+                                <label for="inquiry-name" class="block mb-2">Your Name</label>
+                                <input type="text" id="inquiry-name" name="name1" placeholder="Enter your name"
+                                    class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiry-email" class="block mb-2">Your Email</label>
+                                <input type="email" id="inquiry-email" name="email2" placeholder=" Enter your email"
+                                    class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiry-message" class="block mb-2">Your Inquiry</label>
+                                <textarea id="inquiry-message" name="message3" placeholder="Enter your inquiry"
+                                    class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-400" rows="4"
+                                    required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" id="book-now-2"
+                                    class="bg-blue-800 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                                    Submit Inquiry
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer w-full bg-white py-12 -px-6" id="footer-section">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-4" id="footer-container">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8" id="footer-grid">
+                <!-- Company Info -->
+                <div class="space-y-4" id="company-info">
+                    <a href="#section-home" class="text-black font-bold text-2xl flex items-center hover:!text-black"
+                        id="footer-logo">
+                        <img src="https://static.vecteezy.com/system/resources/previews/027/543/231/non_2x/hotel-logo-silhouette-hotel-icon-vector.jpg"
+                            alt="Logo" class="mr-2 w-12 h-12 rounded-full object-cover">
+                        LARRIOTT
+                    </a>
+                    <p class="text-gray-600" id="company-desc">Luxury Hotels Worldwide with guaranteed best rates for
+                        USA, CANADA & MEXICO.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="space-y-4" id="quick-links">
+                    <h3 class="text-gray-900 font-semibold text-lg" id="links-title">Quick Links</h3>
+                    <ul class="space-y-2" id="links-list">
+                        <li><a href="#rooms" class="text-gray-600 hover:text-blue-800 transition-colors">Rooms</a></li>
+                        <li><a href="#rooms"
+                                class="text-gray-600 hover:text-blue-800 transition-colors">Reservations</a></li>
+                        <li><a href="#amenities"
+                                class="text-gray-600 hover:text-blue-800 transition-colors">Amenities</a></li>
+                        <li><a href="#section-booking"
+                                class="text-gray-600 hover:text-blue-800 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-4" id="contact-info">
+                    <h3 class="text-gray-900 font-semibold text-lg" id="contact-title">Contact Us</h3>
+                    <ul class="space-y-2" id="contact-list">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-phone text-blue-800"></i>
+                            <a href="tel:+14169064164" class="text-gray-600 hover:!text-gray-400">+1-416-906-4164</a>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-envelope text-blue-800"></i>
+                            <a href="mailto:reservation@larriott.com"
+                                class="text-gray-600 hover:!text-gray-400">reservation@larriott.com</a>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-map-marker-alt text-blue-800"></i>
+                            <span class="text-gray-600">Worldwide Locations</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="space-y-4" id="social-media">
+                    <h3 class="text-gray-900 font-semibold text-lg sm:text-center" id="social-title">Follow Us</h3>
+                    <div class="flex  space-x-6 sm:space-x-16" id="social-icons">
+                        <a href="#" class="text-gray-600 hover:text-blue-800 transition-colors">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-600 hover:text-blue-800 transition-colors">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-600 hover:text-blue-800 transition-colors">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-600 hover:text-blue-800 transition-colors">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 pt-8 border-t border-gray-200" id="footer-bottom">
+                <p class="text-center text-gray-600" id="copyright">© 2024 Larriott Hotels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div style="background-color: black; padding: 6px; text-align: center">
+        <p style="font-size: 14px; font-weight: 400; color: white">
+            Powered by
+            <a href="https://icod.ai/" target="_blank" style="color: #7c4ce0; font-size: 18px; font-weight: 700" ;>
+                icōd.ai</a>
+        </p>
+    </div>
+
+
+    <div id="toast-simple"
+        class="hidden z-30 fixed top-24 left-1/2 -translate-x-1/2 flex items-center w-full max-w-xs p-4 space-x-4 text-gray-500 bg-blue-100 divide-x divide-gray-200 rounded-lg shadow-sm dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800"
+        role="alert">
+        <svg class="w-5 h-5 text-blue-600 dark:text-blue-500 rotate-45" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m9 17 8 2L9 1 1 19l8-2Zm0 0V9" />
+        </svg>
+        <div class="ps-4 text-sm font-normal text-blue-800">Booking request sent successfully.</div>
+    </div>
+
+
+
+
+
+
+    <script>
+
+
+        // City data for Canada, USA, and Mexico
+        const usaCities = [
+            { city: "New York", country: "USA", code: "US" },
+            { city: "Los Angeles", country: "USA", code: "US" },
+            { city: "Chicago", country: "USA", code: "US" },
+            { city: "Houston", country: "USA", code: "US" },
+            { city: "Phoenix", country: "USA", code: "US" },
+            { city: "Philadelphia", country: "USA", code: "US" },
+            { city: "San Antonio", country: "USA", code: "US" },
+            { city: "San Diego", country: "USA", code: "US" },
+            { city: "Dallas", country: "USA", code: "US" },
+            { city: "San Jose", country: "USA", code: "US" },
+            { city: "Austin", country: "USA", code: "US" },
+            { city: "Jacksonville", country: "USA", code: "US" },
+            { city: "Fort Worth", country: "USA", code: "US" },
+            { city: "Columbus", country: "USA", code: "US" },
+            { city: "Indianapolis", country: "USA", code: "US" },
+            { city: "Charlotte", country: "USA", code: "US" },
+            { city: "Seattle", country: "USA", code: "US" },
+            { city: "Denver", country: "USA", code: "US" },
+            { city: "Washington", country: "USA", code: "US" }
+        ];
+
+        const canadaCities = [
+            { city: "Toronto", country: "Canada", code: "CA" },
+            { city: "Vancouver", country: "Canada", code: "CA" },
+            { city: "Montreal", country: "Canada", code: "CA" },
+            { city: "Ottawa", country: "Canada", code: "CA" },
+            { city: "Calgary", country: "Canada", code: "CA" },
+            { city: "Edmonton", country: "Canada", code: "CA" },
+            { city: "Quebec City", country: "Canada", code: "CA" },
+            { city: "Winnipeg", country: "Canada", code: "CA" },
+            { city: "Hamilton", country: "Canada", code: "CA" },
+            { city: "Kitchener", country: "Canada", code: "CA" },
+            { city: "London", country: "Canada", code: "CA" },
+            { city: "Brampton", country: "Canada", code: "CA" },
+            { city: "Surrey", country: "Canada", code: "CA" },
+            { city: "Mississauga", country: "Canada", code: "CA" },
+            { city: "Markham", country: "Canada", code: "CA" },
+            { city: "Richmond", country: "Canada", code: "CA" },
+            { city: "Burnaby", country: "Canada", code: "CA" },
+            { city: "Oshawa", country: "Canada", code: "CA" },
+            { city: "Saint John", country: "Canada", code: "CA" }
+        ];
+
+        const mexicoCities = [
+            { city: "Mexico City", country: "Mexico", code: "MX" },
+            { city: "Guadalajara", country: "Mexico", code: "MX" },
+            { city: "Monterrey", country: "Mexico", code: "MX" },
+            { city: "Cancún", country: "Mexico", code: "MX" },
+            { city: "Puebla", country: "Mexico", code: "MX" },
+            { city: "Mérida", country: "Mexico", code: "MX" },
+            { city: "Tijuana", country: "Mexico", code: "MX" },
+            { city: "León", country: "Mexico", code: "MX" },
+            { city: "Querétaro", country: "Mexico", code: "MX" },
+            { city: "Toluca", country: "Mexico", code: "MX" },
+            { city: "Chihuahua", country: "Mexico", code: "MX" },
+            { city: "Saltillo", country: "Mexico", code: "MX" },
+            { city: "Mexicali", country: "Mexico", code: "MX" },
+            { city: "Morelia", country: "Mexico", code: "MX" },
+            { city: "Culiacán", country: "Mexico", code: "MX" },
+            { city: "Aguascalientes", country: "Mexico", code: "MX" },
+            { city: "Torreón", country: "Mexico", code: "MX" },
+            { city: "Durango", country: "Mexico", code: "MX" },
+            { city: "Villahermosa", country: "Mexico", code: "MX" }
+        ];
+
+        // Combined array of all cities
+        const allCities = [...usaCities, ...canadaCities, ...mexicoCities];
+
+
+        // Function to show city search results based on input
+        function showCities(input) {
+            const query = input.value.toLowerCase();
+            const dropdown = document.getElementById("dropdown");
+
+            // Clear previous results
+            dropdown.innerHTML = '';
+
+            // If input is empty, hide dropdown
+            if (!query) {
+                dropdown.classList.add("hidden");
+                return;
+            }
+
+            // Filter cities based on query
+            const filteredCities = allCities.filter(item => item.city.toLowerCase().includes(query));
+
+            // If cities found, show the results
+            if (filteredCities.length > 0) {
+                dropdown.classList.remove("hidden");
+
+                // Populate the dropdown with matching cities
+                filteredCities.forEach(item => {
+                    const div = document.createElement("div");
+                    div.classList.add("p-2", "cursor-pointer", "hover:bg-gray-200");
+                    div.textContent = `${item.city}, ${item.country}`;
+                    div.onclick = () => {
+                        input.value = `${item.city}, ${item.country}`;  // Set input value to selected city
+                        dropdown.classList.add("hidden");  // Hide dropdown
+                    };
+                    dropdown.appendChild(div);
+                });
+            } else {
+                dropdown.classList.add("hidden");
+            }
+        }
+
+
+
+
+
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+
+
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+
+        document.querySelector('#inquiry-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const { name1, email2, message3 } = Object.fromEntries(new FormData(e.target));
+
+            const body = `
+        Name: ${name1}
+        Email: ${email2}
+        Inquiry: ${message3}
+    `;
+
+
+            const button = document.querySelector('#book-now-2');
+            button.disabled = true;
+            button.textContent = 'Sending...';
+
+            const response = await fetch('https://emailserver-api.icod.ai/send-email', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    to: 'farhanahmid1@gmail.com',
+                    subject: "Booking Request",
+                    text: body
+                })
+            });
+
+            button.disabled = false;
+            button.textContent = 'Book Now';
+
+            if (response.ok) {
+                // Show toaster
+                const toast = document.querySelector('#toast-simple');
+                toast.classList.remove('hidden');
+
+                // Hide toaster after 3 seconds
+                setTimeout(() => {
+                    toast.classList.add('hidden');
+                }, 3000);
+            } else {
+                alert('Failed to send booking request. Please try again.');
+            }
+
+            document.querySelector('#inquiry-form').reset();
+        });
+        
+
+
+
+
+
+
+        document.querySelector('#booking-form-larriott').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const {
+                name,
+                email,
+                destination,
+                checkin,
+                checkout,
+                numberofrooms,
+                travel,
+                roomType,
+                guestCount,
+                budget,
+                amenities,
+                contact
+            } = Object.fromEntries(new FormData(e.target));
+
+            const body = `
+            Name: ${name}
+            Email: ${email}
+            Destination: ${destination}
+            Check-in: ${checkin}
+            Check-out: ${checkout}
+            number of rooms: ${numberofrooms}
+            number of guests: ${guestCount}
+            Travel: ${travel}
+            Room Type: ${roomType}
+            Budget: ${budget}
+            Amenities: ${amenities}
+        `;
+
+        document.querySelector('#book-now').disable = true;
+        document.querySelector('#book-now').textContent = 'Sending...';
+
+
+            if (contact === "whatsapp") {
+
+                const whatsappMessage = `Booking Request:\n${body}`;
+                const phoneNumber = "+923079085388";  
+                const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+                window.location.href = whatsappURL;
+
+            } else {
+
+
+
+            const response = await fetch('https://emailserver-api.icod.ai/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    to: 'farhanahmid1@gmail.com',
+                    subject: "Booking Request",
+                    text: body
+                })
+            }); 
+
+            document.querySelector('#book-now').disable = false;
+            document.querySelector('#book-now').textContent = 'Book Now';
+
+
+
+            if (response.ok) {
+                // Show toaster
+                const toast = document.querySelector('#toast-simple');
+                toast.classList.remove('hidden');
+
+                // Hide toaster after 3 seconds
+                setTimeout(() => {
+                    toast.classList.add('hidden');
+                }, 3000);
+
+            } else {
+                alert('Failed to send booking request. Please try again.');
+            }
+        }
+
+            document.querySelector('#booking-form-larriott').reset();
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

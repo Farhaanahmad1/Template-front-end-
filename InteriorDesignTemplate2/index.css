@@ -1,0 +1,37 @@
+:root {
+    --bg-color: #fffdfd !important;
+    --navbar-bg-color:  #fffdfd  !important;
+    --footer-bg-color: #fffdfd !important;
+    --primary-color: #091540 !important;
+    --text-color: #1B2CC1 !important;
+    --font-body: "Roboto", serif !important;
+  }
+  
+  body {
+    overflow-x: hidden !important;
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  svg{
+    background-color: white !important;
+  }
+  p{
+    color: var(--text-color) !important;
+  }
+  h2, h3, svg, a {
+    color: var(--primary-color) !important;
+  }
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important; 
+    font-family: var(--font-body) !important;
+  }

@@ -1,0 +1,49 @@
+:root {
+    --bg-color: #fff ;
+    --navbar-bg-color: #fff !important;
+    --footer-bg-color: #1E3A8A !important;
+    --primary-color: #1E3A8A !important;
+    --secondary-color: #fff !important;
+    --text-color: #020202 !important;
+    --font-body: "Josefin Sans", sans-serif;  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  svg{
+    color: var(--primary-color) !important;
+  }
+  p{
+    color: var(--text-color) !important;
+  }
+  h1, h2, h3, a,i,span{
+    color: var(--primary-color) !important;  
+
+  }
+  
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button{
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-body) !important;
+
+
+  }
+  #section-2{
+    background-color: var(--primary-color) !important;
+    border-radius: 10px;
+  }
+  #svg-1{
+    background-color: white !important;
+  }
+
+  

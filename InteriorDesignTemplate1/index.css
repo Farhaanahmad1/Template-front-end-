@@ -1,0 +1,40 @@
+:root {
+    --bg-color: #ffff ;
+    --navbar-bg-color: #fffdfd !important;
+    --footer-bg-color: #fffdfd !important;
+    --primary-color: #7F3DFF !important;
+    --text-color: #020202 !important;
+    --font-body: "Inter", sans-serif;
+    /* --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important; */
+  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  svg{
+    color: #7F3DFF !important;
+    background-color: white !important;
+  }
+  p{
+    color: var(--text-color) !important;
+  }
+  h1, h2, h3, a{
+    color: var(--primary-color) !important;
+
+  }
+  
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-body) !important;
+  }

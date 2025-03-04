@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Elegant Interiors
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="index.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Vollkorn:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet"> 
+</head>
+ <body>
+  <!-- Navigation -->
+  <nav class="bg-white fixed shadow-lg w-full z-50" id="link-1" x-data="{ isOpen: false }">
+   <div class="max-w-7xl mx-auto px-4" id="section-1">
+    <div class="flex justify-between items-center h-16" id="section-2">
+     <div class="flex-shrink-0" id="section-3">
+      <span class="text-2xl font-bold text-yellow-400" id="text-1">
+       Elegant Interiors
+      </span>
+     </div>
+     <!-- Desktop Menu -->
+     <div class="hidden md:flex items-center space-x-8" id="section-4">
+      <a class="text-gray-800 hover:text-gray-600" href="#section-8" id="link-2">
+       Home
+      </a>
+      <a class="text-gray-800 hover:text-gray-600" href="#section-16" id="link-3">
+       Services
+      </a>
+      <a class="text-gray-800 hover:text-gray-600" href="#section-28" id="link-4">
+       Portfolio
+      </a>
+      <a class="text-gray-800 hover:text-gray-600" href="#section-89" id="link-5">
+       Contact
+      </a>
+     </div>
+     <!-- Mobile menu button -->
+     <div class="md:hidden" id="mobile-menu-button">
+      <button @click="isOpen = !isOpen" class="text-gray-800 hover:text-gray-600" id="button-1">
+       <svg class="h-6 w-6 text-gray-800 hover:text-blue-500 transition duration-300 ease-in-out cursor-pointer" fill="none" id="svg-1" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <!-- Line 1 -->
+        <path d="M4 6h16" id="svg-2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+        <!-- Line 2 -->
+        <path d="M4 12h16" id="svg-3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+        <!-- Line 3 -->
+        <path d="M4 18h16" id="svg-4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </button>
+     </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="md:hidden" id="mobile-menu" x-show="isOpen">
+     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3" id="section-7">
+      <a class="block px-3 py-2 text-gray-800 hover:text-gray-600" href="#section-8" id="link-6">
+       Home
+      </a>
+      <a class="block px-3 py-2 text-gray-800 hover:text-gray-600" href="#section-16" id="link-7">
+       Services
+      </a>
+      <a class="block px-3 py-2 text-gray-800 hover:text-gray-600" href="#section-28" id="link-8">
+       Portfolio
+      </a>
+      <a class="block px-3 py-2 text-gray-800 hover:text-gray-600" href="#section-89" id="link-9">
+       Contact
+      </a>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="pt-20 md:pt-20" id="section-8">
+   <div class="container mx-auto px-4" id="section-9">
+    <div class="flex flex-col md:flex-row items-center justify-between" id="section-10">
+     <!-- Left Content -->
+     <div class="md:w-1/2 mt-0 md:mb-0" id="section-11">
+      <h1 class="text-4xl md:text-5xl font-bold mb-3 leading-tight" id="text-2">
+       Transform Your Space with Elegant Interiors
+      </h1>
+      <p class="text-lg md:text-lg mb-8 max-w-lg mx-left" id="text-3">
+       Create the home of your dreams with our expert interior design services. We bring vision to life.
+      </p>
+      <div class="space-x-4" id="section-12">
+       <button class="text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" id="button-2">
+        Get Started
+       </button>
+       <button class="text-white border-2 text-gray-800 px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" id="button-3">
+        Learn More
+       </button>
+      </div>
+     </div>
+     <!-- Right Image -->
+     <div class="md:w-1/2 mb-20 mt-5" id="section-13">
+      <img alt="Interior Design" class="rounded-lg shadow-xl w-full md:w-auto" id="image-1" src="https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Hero Section -->
+  <section class="relative text-black" id="section-14">
+   <div class="container mx-auto px-4 py-2 text-center relative z-10" id="section-15">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-4">
+     Welcome to Elegant Interior
+    </h2>
+    <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-5">
+     At Elegant Interior, we specialize in transforming your living and workspace into extraordinary, functional, and beautifully designed environments. Let us help you create a space that reflects your unique style.
+    </p>
+    <button class="text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" href="#section-16" id="button-4">
+     Explore Our Services
+    </button>
+   </div>
+   <!-- Services Section -->
+   <section class="py-16" id="section-16">
+    <div class="container mx-auto px-4 text-center" id="section-17">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-6">
+      Our Work
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8" id="section-18">
+      <!-- Residential Design -->
+      <div class="bg-white p-8 rounded-lg shadow-lg transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out" id="section-19">
+       <div class="mb-6 flex justify-center" id="section-20">
+        <i class="fa-solid fa-house text-4xl" id="text-7">
+        </i>
+       </div>
+       <h3 class="text-xl font-bold text-gray-800 mb-4 text-center" id="text-8">
+        Residential Design
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-9">
+        Transform your home into a beautiful and functional space that reflects your personal style.
+       </p>
+      </div>
+      <!-- Commercial Design -->
+      <div class="bg-white p-8 rounded-lg shadow-lg transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out" id="section-21">
+       <div class="mb-6 flex justify-center" id="section-22">
+        <i class="fa-solid fa-dumpster-fire text-4xl" id="text-10">
+        </i>
+       </div>
+       <h3 class="text-xl font-bold mb-4 text-center" id="text-11">
+        Commercial Design
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-12">
+        Create inspiring workspaces that boost productivity and impress clients.
+       </p>
+      </div>
+      <!-- Consultation -->
+      <div class="bg-white p-8 rounded-lg shadow-lg transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out" id="section-23">
+       <div class="mb-6 flex justify-center" id="section-24">
+        <i class="fa-solid fa-comment text-4xl" id="text-13">
+        </i>
+       </div>
+       <h3 class="text-xl font-bold text-gray-800 mb-4 text-center" id="text-14">
+        Consultation
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-15">
+        Get expert advice and guidance for your interior design projects.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <section class="py-6" id="section-25">
+    <div class="container mx-auto px-4" id="section-26">
+     <div class="max-w-2xl mx-auto text-center" id="section-27">
+      <!-- Heading with subtle animation -->
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-16">
+       Ready to Start Your Project?
+      </h2>
+      <!-- Description Text -->
+      <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-17">
+       Contact us today for a free consultation and let's create something beautiful together. 
+                We are here to turn your vision into reality with creative and functional designs.
+      </p>
+      <!-- Contact Button with hover and focus effects -->
+      <button class="bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" id="button-5">
+       Contact Us
+      </button>
+     </div>
+    </div>
+   </section>
+   <!-- Portfolio Section -->
+   <section class="py-10" id="section-28">
+    <div class="container mx-auto px-6 text-center" id="section-29">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-18">
+      Our Portfolio
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8" id="section-30">
+      <!-- Portfolio Item 1 -->
+      <div class="relative group overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-31">
+       <img alt="Portfolio 1" class="w-full h-72 object-cover group-hover:opacity-80 transition-opacity duration-300" id="image-2" src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-opacity duration-300" id="section-32">
+       </div>
+       <div class="p-6 absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent text-white" id="section-33">
+        <span class="text-xl font-bold mb-2 !text-white group-hover:text-blue-400" id="text-19">
+         Modern Living Room
+        </span>
+        <span class="block !text-white text-sm mt-2" id="text-20">
+         Completed: Dec 2023
+        </span>
+        <span class="block !text-white text-sm mt-2" id="text-21">
+         Tools Used: Sketch, Figma
+        </span>
+       </div>
+      </div>
+      <!-- Portfolio Item 2 -->
+      <div class="relative group overflow-hidden rounded-lg shadow-lg bg-white transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-34">
+       <img alt="Portfolio 2" class="w-full h-72 object-cover group-hover:opacity-80 transition-opacity duration-300" id="image-3" src="https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-opacity duration-300" id="section-35">
+       </div>
+       <div class="p-6 absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent text-white" id="section-36">
+        <h3 class="text-xl !text-white font-bold mb-2 group-hover:text-blue-400" id="text-22">
+         Office Workspace
+        </h3>
+        <span class="block !text-white text-sm text-gray-400 mt-2" id="text-23">
+         Completed: Aug 2023
+        </span>
+        <span class="block !text-white text-sm text-gray-400" id="text-24">
+         Tools Used: Revit
+        </span>
+       </div>
+      </div>
+      <!-- Portfolio Item 3 -->
+      <div class="relative group overflow-hidden rounded-lg shadow-lg bg-white transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-37">
+       <img alt="Portfolio 3" class="w-full h-72 object-cover group-hover:opacity-80 transition-opacity duration-300" id="image-4" src="https://images.pexels.com/photos/342800/pexels-photo-342800.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-opacity duration-300" id="section-38">
+       </div>
+       <div class="p-6 absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent text-white" id="section-39">
+        <h3 class="text-xl !text-white font-bold mb-2 group-hover:text-blue-400" id="text-25">
+         Cozy Bedroom
+        </h3>
+        <span class="block !text-white text-sm text-gray-400 mt-2" id="text-26">
+         Completed: Nov 2023
+        </span>
+        <span class="block !text-white text-sm text-gray-400" id="text-27">
+         Tools Used: SketchUp, 3ds Max
+        </span>
+       </div>
+      </div>
+      <!-- Portfolio Item 4 -->
+      <div class="relative group overflow-hidden rounded-lg shadow-lg bg-white transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-40">
+       <img alt="Portfolio 4" class="w-full h-72 object-cover group-hover:opacity-80 transition-opacity duration-300" id="image-5" src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-opacity duration-300" id="section-41">
+       </div>
+       <div class="p-6 absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent text-white" id="section-42">
+        <h3 class="text-xl !text-white font-bold mb-2 group-hover:text-blue-400" id="text-28">
+         Minimalist Kitchen
+        </h3>
+        <span class="block !text-white text-sm text-gray-400 mt-2" id="text-29">
+         Completed: Oct 2023
+        </span>
+        <span class="block !text-white text-sm text-gray-400" id="text-30">
+         Tools Used: Adobe Illustrator
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="py-10" id="section-43">
+    <div class="container mx-auto px-6 text-center" id="section-44">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-31">
+      Meet Our Team
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12" id="section-45">
+      <!-- Team Member 1 -->
+      <div class="bg-white shadow-lg rounded-lg text-center p-6 transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-46">
+       <img alt="Team Member 1" class="object-cover w-32 h-32 rounded-full mx-auto mb-4" id="image-6" src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-32">
+        Alice Johnson
+       </h3>
+       <p class="text-lg text-gray-600 mb-4" id="text-33">
+        Lead Designer
+       </p>
+       <!-- Social Icons -->
+       <div class="flex justify-center gap-6 text-gray-500" id="section-47">
+        <a class="hover:text-blue-500" href="#" id="link-10">
+         <i class="fab fa-facebook-f text-2xl" id="text-34">
+         </i>
+        </a>
+        <a class="hover:text-blue-500" href="#" id="link-11">
+         <i class="fab fa-twitter text-2xl" id="text-35">
+         </i>
+        </a>
+        <a class="hover:text-blue-500" href="#" id="link-12">
+         <i class="fab fa-linkedin-in text-2xl" id="text-36">
+         </i>
+        </a>
+        <a class="hover:text-red-500" href="#" id="link-13">
+         <i class="fab fa-instagram text-2xl" id="text-37">
+         </i>
+        </a>
+       </div>
+      </div>
+      <!-- Team Member 2 -->
+      <div class="bg-white shadow-lg rounded-lg text-center p-6 transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-48">
+       <img alt="Team Member 2" class="object-cover w-32 h-32 rounded-full mx-auto mb-4" id="image-7" src="https://images.pexels.com/photos/8864283/pexels-photo-8864283.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-38">
+        Michael Lee
+       </h3>
+       <p class="text-lg text-gray-600 mb-4" id="text-39">
+        Project Manager
+       </p>
+       <!-- Social Icons -->
+       <div class="flex justify-center gap-6 text-gray-500" id="section-49">
+        <a class="hover:text-blue-500" href="#" id="link-14">
+         <i class="fab fa-facebook-f text-2xl" id="text-40">
+         </i>
+        </a>
+        <a class="hover:text-blue-500" href="#" id="link-15">
+         <i class="fab fa-twitter text-2xl" id="text-41">
+         </i>
+        </a>
+        <a class="hover:text-blue-500" href="#" id="link-16">
+         <i class="fab fa-linkedin-in text-2xl" id="text-42">
+         </i>
+        </a>
+        <a class="hover:text-red-500" href="#" id="link-17">
+         <i class="fab fa-instagram text-2xl" id="text-43">
+         </i>
+        </a>
+       </div>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="bg-white shadow-lg rounded-lg text-center p-6 transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:opacity-90" id="section-50">
+       <img alt="Team Member 3" class="object-cover w-32 h-32 rounded-full mx-auto mb-4" id="image-8" src="https://images.pexels.com/photos/29844942/pexels-photo-29844942/free-photo-of-young-woman-smiling-indoors-in-istanbul-cafe.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-44">
+        Sophia Brown
+       </h3>
+       <p class="text-lg text-gray-600 mb-4" id="text-45">
+        Interior Decorator
+       </p>
+       <!-- Social Icons -->
+       <div class="flex justify-center gap-6 text-gray-500" id="section-51">
+        <a class="hover:text-blue-500" href="#" id="link-18">
+         <i class="fab fa-facebook-f text-2xl" id="text-46">
+         </i>
+        </a>
+        <a class="hover:text-blue-500" href="#" id="link-19">
+         <i class="fab fa-twitter text-2xl" id="text-47">
+         </i>
+        </a>
+        <a class="hover:text-blue-500" href="#" id="link-20">
+         <i class="fab fa-linkedin-in text-2xl" id="text-48">
+         </i>
+        </a>
+        <a class="hover:text-red-500" href="#" id="link-21">
+         <i class="fab fa-instagram text-2xl" id="text-49">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Services Section -->
+   <section class="py-10" id="section-52">
+    <div class="container mx-auto px-4 text-center" id="section-53">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-50">
+      Our Services
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="section-54">
+      <div class="bg-gray-50 shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-2xl" id="section-55">
+       <i class="fas fa-couch text-4xl mb-4" id="text-51">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-52">
+        Living Room Design
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-53">
+        Creating stylish and functional living spaces tailored to your needs, with a focus on comfort and aesthetics.
+       </p>
+      </div>
+      <div class="bg-gray-50 shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-2xl" id="section-56">
+       <i class="fas fa-bed text-4xl mb-4" id="text-54">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-55">
+        Bedroom Makeover
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-56">
+        Transforming bedrooms into relaxing retreats, with soothing colors, textures, and layouts that promote tranquility.
+       </p>
+      </div>
+      <div class="bg-gray-50 shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-2xl" id="section-57">
+       <i class="fas fa-briefcase text-4xl mb-4" id="text-57">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-58">
+        Office Spaces
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-59">
+        Designing professional spaces to enhance productivity and aesthetics, ensuring your workspace is both efficient and inspiring.
+       </p>
+      </div>
+     </div>
+     <!-- Additional Service Rows -->
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8" id="section-58">
+      <div class="bg-gray-50 shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-2xl" id="section-59">
+       <i class="fas fa-paint-brush text-4xl mb-4" id="text-60">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-61">
+        Interior Styling
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-62">
+        Add personality and charm to your space with curated decor, furniture, and styling solutions.
+       </p>
+      </div>
+      <div class="bg-gray-50 shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-2xl" id="section-60">
+       <i class="fas fa-cogs text-4xl mb-4" id="text-63">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-64">
+        Renovation &amp; Remodeling
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-65">
+        Breathing new life into outdated spaces with expert renovations that meet both style and functionality needs.
+       </p>
+      </div>
+      <div class="bg-gray-50 shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-2xl" id="section-61">
+       <i class="fas fa-lightbulb text-4xl mb-4" id="text-66">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-67">
+        Lighting Solutions
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-68">
+        Illuminate your space with elegant lighting designs that add warmth and enhance the ambiance of any room.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- About Us Section -->
+   <section class="py-10" id="section-62">
+    <div class="container mx-auto px-4 text-center" id="section-63">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-69">
+      About Elegant Interior
+     </h2>
+     <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-70">
+      Elegant Interior is a dedicated team of passionate designers, committed to creating beautiful and functional spaces that reflect your unique style. With years of experience in the design industry, we specialize in modern and timeless designs, transforming homes and offices into personalized sanctuaries. Whether you're looking to revamp your living room, create a relaxing bedroom, or design an inspiring office space, we bring your vision to life with attention to detail and innovative solutions.
+     </p>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="section-64">
+      <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-xl" id="section-65">
+       <i class="fas fa-users text-4xl text-yellow-500 mb-4" id="text-71">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-72">
+        Experienced Team
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-73">
+        Our team consists of skilled designers and experts who bring years of experience and creativity to each project.
+       </p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-xl" id="section-66">
+       <i class="fas fa-lightbulb text-4xl text-yellow-500 mb-4" id="text-74">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-75">
+        Innovative Designs
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-76">
+        We incorporate innovative and unique design solutions that are both functional and aesthetically pleasing.
+       </p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 transform hover:scale-105 hover:shadow-xl" id="section-67">
+       <i class="fas fa-cogs text-4xl text-yellow-500 mb-4" id="text-77">
+       </i>
+       <h3 class="text-xl font-bold text-gray-800 mb-2" id="text-78">
+        Custom Solutions
+       </h3>
+       <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-79">
+        Every project is tailored to meet your specific needs and preferences, ensuring a personalized touch to every space.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Testimonials Section -->
+   <section class="py-10" id="section-68">
+    <div class="container mx-auto px-6 text-center" id="section-69">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-80">
+      What Our Clients Say
+     </h2>
+     <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-81">
+      Our clients' feedback is our greatest reward. Read what they have to say about our work and how we transformed their spaces into something extraordinary.
+     </p>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="section-70">
+      <!-- Testimonial 1 -->
+      <div class="bg-white shadow-xl text-center rounded-lg p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl" id="section-71">
+       <p class="text-lg italic mb-6" id="text-82">
+        "Elegent Interiors completely transformed our living room. The design is stunning, and we couldn't be happier!"
+       </p>
+       <h4 class="text-xl font-semibold text-gray-800" id="text-83">
+        Sarah M
+       </h4>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="bg-white shadow-xl text-center rounded-lg p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl" id="section-72">
+       <p class="text-lg italic mb-6" id="text-84">
+        "Professional, creative, and easy to work with. Our office space now looks fantastic and inspires productivity."
+       </p>
+       <h4 class="text-xl font-semibold text-gray-800" id="text-85">
+        John D
+       </h4>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="bg-white shadow-xl text-center rounded-lg p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl" id="section-73">
+       <p class="text-lg italic mb-6" id="text-86">
+        "The team at Elegent Interiors did an incredible job on our kitchen renovation. Highly recommended!"
+       </p>
+       <h4 class="text-xl font-semibold text-gray-800" id="text-87">
+        Emily R
+       </h4>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Portfolio Section -->
+   <section class="py-10" id="section-74">
+    <div class="container mx-auto px-4 text-center" id="section-75">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-88">
+      Our Portfolio
+     </h2>
+     <p class="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto" id="text-89">
+      Explore some of our recent projects that showcase our expertise in interior design, from stylish living rooms to elegant bedrooms and contemporary office spaces.
+     </p>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="section-76">
+      <!-- Portfolio Item 1 -->
+      <div class="relative group rounded-lg overflow-hidden shadow-xl" id="section-77">
+       <img alt="Project 1" class="w-full h-full object-cover transition-transform transform group-hover:scale-105 duration-300" id="image-9" src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+      </div>
+      <!-- Portfolio Item 2 -->
+      <div class="relative group rounded-lg overflow-hidden shadow-xl" id="section-78">
+       <img alt="Project 2" class="w-full h-full object-cover transition-transform transform group-hover:scale-105 duration-300" id="image-10" src="https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+      </div>
+      <!-- Portfolio Item 3 -->
+      <div class="relative group rounded-lg overflow-hidden shadow-xl" id="section-79">
+       <img alt="Project 3" class="w-full h-full object-cover transition-transform transform group-hover:scale-105 duration-300" id="image-11" src="https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&amp;cs=tinysrgb&amp;w=400"/>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Blog Section -->
+   <section class="py-10 text-white" id="section-80">
+    <div class="container mx-auto px-6 text-center" id="section-81">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight" id="text-90">
+      Latest Insights &amp; Inspiration
+     </h2>
+     <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-91">
+      Discover the latest tips, trends, and expert advice on interior design, home decor, and more. Stay updated with our exclusive blog posts.
+     </p>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="section-82">
+      <!-- Blog Post 1 -->
+      <div class="shadow-2xl rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl" id="section-83">
+       <img alt="Blog Post 1" class="w-full h-64 object-cover mb-6 rounded-t-xl" id="image-12" src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="p-6" id="section-84">
+        <h3 class="text-2xl font-semibold text-yellow-400 mb-3" id="text-92">
+         Tips for a Perfect Room
+        </h3>
+        <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-93">
+         Create a welcoming and stylish living room with these practical tips. Turn your space into the heart of your home.
+        </p>
+       </div>
+      </div>
+      <!-- Blog Post 2 -->
+      <div class="shadow-2xl rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl" id="section-85">
+       <img alt="Blog Post 2" class="w-full h-64 object-cover mb-6 rounded-t-xl" id="image-13" src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="p-6" id="section-86">
+        <h3 class="text-2xl font-semibold mb-3" id="text-94">
+         Top Interior Design Trends
+        </h3>
+        <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-95">
+         Stay ahead with the latest interior design trends for this year. Discover what's new and how to incorporate them into your space.
+        </p>
+       </div>
+      </div>
+      <!-- Blog Post 3 -->
+      <div class="shadow-2xl rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl" id="section-87">
+       <img alt="Blog Post 3" class="w-full h-64 object-cover mb-6 rounded-t-xl" id="image-14" src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1"/>
+       <div class="p-6" id="section-88">
+        <h3 class="text-2xl font-semibold text-yellow-400 mb-3" id="text-96">
+         Choosing the Right Furniture
+        </h3>
+        <p class="text-lg md:text-lg mb-8 max-w-lg mx-auto" id="text-97">
+         Find out how to select the perfect furniture pieces that balance both style and functionality for your home.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Contact Us Section -->
+   <section class="py-10" id="section-89">
+    <div class="container mx-auto px-4" id="section-90">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight text-center" id="text-98">
+      Contact Us
+     </h2>
+     <form class="max-w-lg mx-auto bg-white p-6 shadow-lg rounded-lg" id="form-1">
+      <div class="mb-4" id="section-91">
+       <label class="block text-gray-700 font-medium mb-2" for="name3" id="form-2">
+        Name
+       </label>
+       <input class="w-full border-gray-300 rounded-md shadow-sm p-3 focus:border-yellow-500 focus:ring-yellow-500" id="form-3" placeholder="Your Name" required="" type="text"/>
+      </div>
+      <div class="mb-4" id="section-92">
+       <label class="block text-gray-700 font-medium mb-2" for="email3" id="form-4">
+        Email
+       </label>
+       <input class="w-full border-gray-300 rounded-md shadow-sm p-3 focus:border-yellow-500 focus:ring-yellow-500" id="form-5" placeholder="Your Email" required="" type="email"/>
+      </div>
+      <div class="mb-4" id="section-93">
+       <label class="block text-gray-700 font-medium mb-2" for="message3" id="form-6">
+        Message
+       </label>
+       <textarea class="w-full border-gray-300 rounded-md shadow-sm p-3 focus:border-yellow-500 focus:ring-yellow-500" id="form-7" placeholder="Your Message" required="" rows="4"></textarea>
+      </div>
+      <button class="bg-yellow-500 hover:bg-yellow-600 text-white py-3 px-6 rounded-md font-medium" id="button-6" type="submit">
+       Send Message
+      </button>
+     </form>
+    </div>
+   </section>
+   <!-- Footer -->
+   <footer class="bg-gray-800 text-white py-8" id="section-94">
+    <div class="container mx-auto px-4" id="section-95">
+     <div class="flex flex-col md:flex-row justify-between items-center" id="section-96">
+      <!-- Company Name -->
+      <div class="mb-4 md:mb-0" id="section-97">
+       <span class="text-xl font-bold" id="text-99">
+        Elegant Interiors
+       </span>
+      </div>
+      <!-- Links Section -->
+      <div class="flex space-x-6 mb-4 md:mb-0" id="section-98">
+       <a class="hover:text-gray-300" href="#" id="link-22">
+        Privacy Policy
+       </a>
+       <a class="hover:text-gray-300" href="#" id="link-23">
+        Terms of Service
+       </a>
+       <a class="hover:text-gray-300" href="#" id="section-89">
+        Contact
+       </a>
+      </div>
+     </div>
+     <!-- Social Media Links (Optional) -->
+     <div class="mt-6 text-center" id="section-99">
+      <div class="flex justify-center space-x-6" id="section-100">
+       <a class="text-gray-400 hover:text-gray-300" href="#" id="link-25">
+        <i class="fab fa-facebook-f text-xl" id="text-100">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-gray-300" href="#" id="link-26">
+        <i class="fab fa-twitter text-xl" id="text-101">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-gray-300" href="#" id="link-27">
+        <i class="fab fa-instagram text-xl" id="text-102">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-gray-300" href="#" id="link-28">
+        <i class="fab fa-linkedin-in text-xl" id="text-103">
+        </i>
+       </a>
+      </div>
+     </div>
+     <!-- Copyright Section -->
+     <div class="mt-8 text-center text-sm text-gray-400" id="section-101">
+      <p id="text-104">
+       © 2024 Elegant Interiors. All rights reserved.
+      </p>
+     </div>
+    </div>
+   </footer>
+   <script>
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+// Ensure the menu is hidden when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    mobileMenu.classList.add('hidden');
+});
+
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+mobileMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+});
+
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+
+ document.getElementById('form-1').addEventListener('submit', function () {
+    // Retrieve form data
+    const name = document.getElementById('form-3').value;
+    const email = document.getElementById('form-4').value;
+    const message = document.getElementById('form-7').value;
+
+
+    // Construct the mailto link
+    const mailtoLink = `mailto:ceo@icod.ai?subject=new contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(
+      `${message}`
+    )}`;
+
+    // Open the default email client
+    window.location.href = mailtoLink;
+
+
+    document.getElementById('form-1').reset();
+  });
+   </script>
+  </section>
+ </body>
+</html>

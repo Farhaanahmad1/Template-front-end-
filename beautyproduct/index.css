@@ -1,0 +1,112 @@
+:root {
+    --bg-color: #fff !important;
+    --navbar-bg-color:  #fff  !important;
+    --footer-bg-color: #fff !important;
+    --primary-color: #EC4899 !important;
+    --secondary-color: #fff !important;
+    --text-color: #000 !important;
+    --font-family: "Lexend Giga", serif !important;
+  }
+  
+  body {
+    font-family: var(--font-family) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) ;
+  }
+  svg{
+    background-color: white !important;
+  }
+  span,a{
+    color: var(--secondary-color) !important;
+  }
+p{
+    color: var(--text-color) !important;
+  }
+
+  h1, h2, h3, span, i{
+    color: var(--primary-color) !important;
+  }
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  a{
+    background-color: var(--primary-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-family) !important;
+  }
+
+  @keyframes pulse {
+
+      0%,
+      100% {
+          transform: scale(1);
+      }
+
+      50% {
+          transform: scale(1.1);
+      }
+  }
+
+  .animate-pulse {
+      animation: pulse 2s infinite;
+  }
+
+
+  @keyframes float {
+
+      0%,
+      100% {
+          transform: translateY(0);
+      }
+
+      50% {
+          transform: translateY(-20px);
+      }
+  }
+
+  .animate-float {
+      animation: float 6s ease-in-out infinite;
+  }
+
+  .flip-card {
+      perspective: 1000px;
+      width: 50px;
+      height: 60px;
+  }
+
+  .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: #f8f9fa;
+      border: 2px solid #e5e7eb;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .flip-card-back {
+      transform: rotateX(180deg);
+  }

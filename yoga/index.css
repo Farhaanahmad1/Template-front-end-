@@ -1,0 +1,108 @@
+:root {
+    --bg-color: #fff !important ;
+    --navbar-bg-color: #fff !important;
+    --footer-bg-color: #111827 !important;
+    --primary-color: #000 !important;
+    --secondary-color: #F97316 !important;
+    --text-color: #fff !important;
+    --font-body: "IBM Plex Serif", sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  svg{
+    color: var(--secondary-color) !important;
+    background-color: white !important;
+  }
+  p{
+    color: var(--text-color) !important;
+  }
+ i{
+    color: var(--text-color) !important;    
+
+  }
+  nav{
+    background-color: var(--navbar-bg-color) !important;
+    }
+    a{
+        color: var(--primary-color) !important;
+        background-color: var(--secondary-color) !important;
+      }
+
+  
+  .header-white {
+    background-color: var(--navbar-bg-color);
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--secondary-color) !important;
+    font-family: var(--font-body) !important;
+  }
+  h1,h2,h3,h4,i{
+    color: var(--secondary-color) !important;
+  }
+
+
+  @keyframes fade-in {
+           from {
+               opacity: 0;
+           }
+           to {
+               opacity: 1;
+           }
+       }
+       
+       @keyframes scale-pulse {
+           0%, 100% {
+               transform: scale(1);
+               opacity: 0.8;
+           }
+           50% {
+               transform: scale(1.2);
+               opacity: 1;
+           }
+       }
+       
+       @keyframes slide-up {
+           from {
+               transform: translateY(50px);
+               opacity: 0;
+           }
+           to {
+               transform: translateY(0);
+               opacity: 1;
+           }
+       }
+       
+       .animate-fade-in {
+           animation: fade-in 2s ease-in-out forwards;
+       }
+       
+       .animate-scale-pulse {
+           animation: scale-pulse 3s ease-in-out infinite;
+       }
+       
+       .animate-slide-up {
+           animation: slide-up 1.5s ease-out forwards;
+       }
+
+
+       @keyframes scroll {
+     0% {
+       transform: translateY(0);
+     }
+     100% {
+       transform: translateY(100%);
+     }
+   }
+   .animate-scroll {
+     animation: scroll 2s linear infinite;
+   }

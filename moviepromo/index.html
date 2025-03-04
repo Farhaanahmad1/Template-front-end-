@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Movie Promo
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="index.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <nav class="fixed top-0 left-0 w-full bg-black text-white shadow-xl z-50 border-b-2 border-white" id="link-1">
+   <div class="container mx-auto flex items-center justify-between py-4 px-6" id="section-1">
+    <!-- Logo -->
+    <div class="relative flex flex-col items-center" id="section-2">
+     <!-- Border with Text -->
+     <div class="border border-white px-6 py-2" id="section-3">
+      <h1 class="text-3xl font-bold italic text-red-600" id="text-1">
+       Cinema
+       <span class="font-semibold text-white" id="text-2">
+        Promo
+       </span>
+      </h1>
+     </div>
+     <!-- Text Below Border -->
+     <div class="absolute top-9 mt-1 text-xs text-white bg-black px-3 py-1" id="section-4">
+      Experience The Magic of Movies
+     </div>
+    </div>
+    <!-- Hamburger Menu -->
+    <div class="md:hidden" id="section-5">
+     <button class="focus:outline-none !bg-transparent" id="menu-toggle">
+      <svg class="w-6 h-6" fill="none" id="svg-1" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M4 6h16M4 12h16M4 18h16" id="svg-2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+       </path>
+      </svg>
+     </button>
+    </div>
+    <!-- Navigation Links -->
+    <ul class="hidden lg:flex items-right border border-white px-4 space-x-8 text-lg" id="list-1">
+     <li id="item-1">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-7" id="link-2">
+       Home
+      </a>
+     </li>
+     <li id="item-2">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-16" id="link-3">
+       Movies
+      </a>
+     </li>
+     <li id="item-3">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-21" id="link-4">
+       Cast &amp; Crew
+      </a>
+     </li>
+     <li id="item-4">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-27" id="link-5">
+       Trailers
+      </a>
+     </li>
+     <li id="item-5">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-35" id="link-6">
+       News
+      </a>
+     </li>
+     <li id="item-6">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-31" id="link-7">
+       FAQ
+      </a>
+     </li>
+     <li id="item-7">
+      <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-43" id="link-8">
+       Contact
+      </a>
+     </li>
+    </ul>
+    <!-- Book Now Button -->
+    <a class="hidden md:block bg-red-600 hover:bg-red-500 text-white text-sm py-2 px-4 transition duration-300" href="#section-43" id="menu-toggle">
+     BOOK NOW
+    </a>
+   </div>
+   <!-- Mobile Dropdown Menu -->
+   <ul class="hidden flex-col items-center space-y-4 bg-black text-white py-6 px-8 md:hidden" id="mobile-menu">
+    <li id="item-8">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-7" id="link-10">
+      Home
+     </a>
+    </li>
+    <li id="item-9">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-16" id="link-11">
+      Movies
+     </a>
+    </li>
+    <li id="item-10">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-21" id="link-12">
+      Cast &amp; Crew
+     </a>
+    </li>
+    <li id="item-11">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-27" id="link-13">
+      Trailers
+     </a>
+    </li>
+    <li id="item-12">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-35" id="link-14">
+      News
+     </a>
+    </li>
+    <li id="item-13">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-31" id="link-15">
+      FAQ
+     </a>
+    </li>
+    <li id="item-14">
+     <a class="hover:text-gray-400 transition duration-300 !bg-transparent" href="#section-43" id="link-16">
+      Contact
+     </a>
+    </li>
+    <li id="item-15">
+     <a class="bg-red-600 hover:bg-red-500 text-white text-sm py-2 px-4 transition duration-300" href="#section-43" id="link-17">
+      BOOK NOW
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <section class="relative min-h-screen flex flex-col md:flex-row items-center mt-6 px-6 md:px-12 py-16 isolate " id="section-6">
+   <!-- Background Shapes -->
+   <div class="absolute inset-0" id="section-7">
+    <div class="absolute top-0 left-0 w-[50%] h-[50%] bg-gray-800/50 rounded-tl-[150px]" id="section-8">
+    </div>
+    <div class="absolute bottom-0 right-0 w-[60%] h-[70%] bg-gray-800/40 rounded-br-[150px]" id="section-9">
+    </div>
+   </div>
+   <!-- Content Area -->
+   <div class="relative z-10 flex flex-col md:flex-row items-center w-full max-w-7xl mx-auto text-center md:text-left gap-10" id="section-10">
+    <!-- Movie Poster Section -->
+    <div class="relative w-full md:w-1/2 flex justify-center" id="section-11">
+     <!-- Background Shape -->
+     <div class="absolute top-6 left-6 w-[250px] h-[350px] md:w-[300px] md:h-[400px] bg-gray-700 rounded-tl-[150px]" id="section-12">
+     </div>
+     <!-- Movie Poster -->
+     <img alt="Movie Poster" class="relative mt-10 z-10 w-[250px] h-[350px] md:w-[350px] md:h-[450px] rounded-tl-[150px] border-4 border-gray-400 shadow-lg" id="image-1" src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vdmllfGVufDB8MHwwfHx8MA%3D%3D"/>
+    </div>
+    <!-- Movie Info Section -->
+    <div class="w-full md:w-1/2 !text-white" id="section-13">
+     <h1 class="text-4xl md:text-6xl font-bold leading-tight !text-white" id="text-3">
+      Welcome to the Premiere
+      <br/>
+      Movie of the Year
+     </h1>
+     <p class="mt-4 text-lg text-gray-400 mb-10" id="text-4">
+      Experience an unforgettable journey through the world of cinema.
+      <br/>
+      A film that will leave you speechless.
+     </p>
+     <a class="!mt-10 px-8 py-3 bg-red-700 hover:bg-red-600 text-white text-sm font-medium transition-all duration-300 ease-in-out" href="#trailer" id="link-18">
+      WATCH TRAILER
+     </a>
+    </div>
+   </div>
+   <!-- Social Media Section -->
+   <div class="absolute top-1/2 right-4 md:right-8 transform -translate-y-1/2 space-y-4 text-center z-30 -pt-24" id="section-14">
+    <div class="text-white !bg-transparent px-2 py-1 uppercase text-xs tracking-wide rounded" id="section-15">
+     <a class="flex flex-col items-center" id="link-19">
+      <span id="text-5">
+       F
+      </span>
+      <span id="text-6">
+       O
+      </span>
+      <span id="text-7">
+       L
+      </span>
+      <span id="text-8">
+       L
+      </span>
+      <span id="text-9">
+       O
+      </span>
+      <span id="text-10">
+       W
+      </span>
+      <span class="mt-2" id="text-11">
+       U
+      </span>
+      <span id="text-12">
+       S
+      </span>
+     </a>
+    </div>
+    <!-- Social Media Links -->
+    <a class="block bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full" href="#" id="link-21">
+      <svg class="w-5 h-5" fill="currentColor" id="svg-5" viewbox="0 0 24 24">
+       <path d="M24 4.557a9.793 9.793 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.865 9.865 0 01-3.127 1.2A4.918 4.918 0 0016.845 3c-2.737 0-4.948 2.206-4.948 4.92 0 .386.045.764.13 1.126A14.021 14.021 0 011.671 3.149a4.913 4.913 0 00-.669 2.475c0 1.707.872 3.214 2.195 4.099a4.899 4.899 0 01-2.241-.616v.061c0 2.385 1.693 4.374 3.946 4.827a4.93 4.93 0 01-2.235.085c.63 1.963 2.45 3.393 4.607 3.432A9.869 9.869 0 010 19.54 13.912 13.912 0 007.548 21c9.14 0 14.143-7.583 14.143-14.168 0-.216-.004-.432-.014-.647A10.086 10.086 0 0024 4.557z" id="svg-6">
+       </path>
+      </svg>
+     </a>
+    <a class="block bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full" href="#" id="link-21">
+     <svg class="w-5 h-5" fill="currentColor" id="svg-5" viewbox="0 0 24 24">
+      <path d="M12 0c6.624 0 12 5.376 12 12s-5.376 12-12 12S0 18.624 0 12 5.376 0 12 0zm0 2.18c-5.419 0-9.82 4.402-9.82 9.82 0 5.419 4.402 9.82 9.82 9.82s9.82-4.402 9.82-9.82c0-5.419-4.402-9.82-9.82-9.82zm0 2.736a7.084 7.084 0 017.084 7.084c0 3.912-3.171 7.084-7.084 7.084s-7.084-3.171-7.084-7.084 3.171-7.084 7.084-7.084zm0 1.791a5.292 5.292 0 100 10.584 5.292 5.292 0 000-10.584z" id="svg-6">
+      </path>
+     </svg>
+    </a>
+    <a class="block bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full" href="#" id="link-22">
+     <svg class="w-5 h-5" fill="currentColor" id="svg-7" viewbox="0 0 24 24">
+      <path d="M24 4.557a9.793 9.793 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.865 9.865 0 01-3.127 1.2A4.918 4.918 0 0016.845 3c-2.737 0-4.948 2.206-4.948 4.92 0 .386.045.764.13 1.126A14.021 14.021 0 011.671 3.149a4.913 4.913 0 00-.669 2.475c0 1.707.872 3.214 2.195 4.099a4.899 4.899 0 01-2.241-.616v.061c0 2.385 1.693 4.374 3.946 4.827a4.93 4.93 0 01-2.235.085c.63 1.963 2.45 3.393 4.607 3.432A9.869 9.869 0 010 19.54 13.912 13.912 0 007.548 21c9.14 0 14.143-7.583 14.143-14.168 0-.216-.004-.432-.014-.647A10.086 10.086 0 0024 4.557z" id="svg-8">
+      </path>
+     </svg>
+    </a>
+   </div>
+  </section>
+  <section class="relative text-white px-2 md:px-6 py-16 pt-10 sm:pt-32 h-full" id="section-16">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10" id="section-17">
+    <!-- Movie Poster Section -->
+    <div class="relative w-full md:w-1/2 flex justify-center md:justify-start" id="section-18">
+     <!-- Border Frame (Adjusted to Show with Padding) -->
+     <div class="absolute left-6 bottom-6 w-[95%] h-[95%] border-l-[10px] border-b-[10px] border-red-600" id="section-19">
+     </div>
+     <!-- Movie Poster Image (Centered Inside Border) -->
+     <img alt="Movie Poster" class="relative md:left-10 md:bottom-10 z-10 w-[280px] h-[320px] md:w-[550px] md:h-[400px] object-cover rounded-md shadow-2xl p-2 bg-black" id="image-2" src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdmllfGVufDB8fDB8fHww"/>
+    </div>
+    <!-- Movie Details -->
+    <div class="w-full md:w-1/2 text-center md:text-left" id="section-20">
+     <h2 class="text-4xl md:text-5xl font-extrabold text-red-500 uppercase" id="text-13">
+      The Final Hour
+     </h2>
+     <p class="mt-4 text-gray-400 text-lg italic" id="text-14">
+      "Every second counts... One last mission before time runs out."
+     </p>
+     <p class="mt-4 mb-10 text-gray-300 leading-relaxed" id="text-15">
+      Witness the most thrilling action-packed ride of the year. Starring John Doe &amp; Jane Smith, directed by Michael
+          Ray.
+          Experience the adrenaline-fueled adventure that will leave you breathless.
+     </p>
+     <a class="inline-block px-8 py-3 bg-red-600 hover:bg-red-500 text-white text-lg font-medium tracking-wide uppercase shadow-lg" href="#" id="link-23">
+      Watch Trailer
+     </a>
+    </div>
+   </div>
+  </section>
+  <section class="text-white py-10 px-6 md:px-12" id="section-21">
+   <div class="max-w-7xl mx-auto text-center" id="section-22">
+    <!-- Section Title -->
+    <h2 class="text-4xl md:text-5xl font-extrabold text-red-500 uppercase" id="text-16">
+     Now Showing
+    </h2>
+    <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto italic" id="text-17">
+     "Experience the biggest blockbusters on the big screen!"
+    </p>
+    <!-- Movie Grid -->
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8" id="section-23">
+     <!-- Movie 1 -->
+     <div class="group relative cursor-pointer" id="section-24">
+      <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-140 group-hover:opacity-60 transition-all" id="section-25">
+      </div>
+      <img alt="Action Movie Poster" class="w-full h-96 object-cover rounded-lg shadow-lg transition-transform group-hover:scale-105" id="image-3" src="https://images.unsplash.com/photo-1596221780522-71f822d9f63b?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ5fHx8ZW58MHx8fHx8"/>
+      <h3 class="absolute bottom-4 left-4 text-xl font-semibold text-white transition-opacity duration-300 group-hover:opacity-0" id="text-18">
+       Edge of Time
+      </h3>
+     </div>
+     <!-- Movie 2 -->
+     <div class="group relative cursor-pointer" id="section-26">
+      <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-140 group-hover:opacity-60 transition-all" id="section-27">
+      </div>
+      <img alt="Sci-Fi Movie Poster" class="w-full h-96 object-cover rounded-lg shadow-lg transition-transform group-hover:scale-105" id="image-4" src="https://images.unsplash.com/photo-1570745859748-6ba2014423eb?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ2fHx8ZW58MHx8fHx8"/>
+      <h3 class="absolute bottom-4 left-4 text-xl font-semibold text-white transition-opacity duration-300 group-hover:opacity-0" id="text-19">
+       Galactic Odyssey
+      </h3>
+     </div>
+     <!-- Movie 3 -->
+     <div class="group relative cursor-pointer" id="section-28">
+      <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-140 group-hover:opacity-60 transition-all" id="section-29">
+      </div>
+      <img alt="Thriller Movie Poster" class="w-full h-96 object-cover rounded-lg shadow-lg transition-transform group-hover:scale-105" id="image-5" src="https://images.unsplash.com/photo-1585230236369-0305c0f7299a?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUzfHx8ZW58MHx8fHx8"/>
+      <h3 class="absolute bottom-4 left-4 text-xl font-semibold text-white transition-opacity duration-300 group-hover:opacity-0" id="text-20">
+       The Last Chase
+      </h3>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="text-white py-16 px-6 md:px-12" id="section-30">
+   <div class="max-w-7xl mx-auto space-y-16" id="section-31">
+    <!-- Row 1: Image Left, Content Right -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8" id="section-32">
+     <img alt="Movie Poster 1" class="w-full md:w-1/2 rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-6" src="https://images.unsplash.com/photo-1585951237313-1979e4df7385?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vdmllfGVufDB8MHwwfHx8MA%3D%3D"/>
+     <div class="md:w-1/2" id="section-33">
+      <h2 class="text-4xl font-extrabold text-red-500 uppercase" id="text-21">
+       Shadow of the Night
+      </h2>
+      <p class="mt-4 text-gray-400 leading-relaxed" id="text-22">
+       An ex-hitman is pulled back into the world of crime when his past comes haunting.
+            A fast-paced thriller filled with suspense, action, and unexpected twists.
+            As the story unravels, he’s forced to confront old enemies and face the demons of his past.
+            With danger lurking around every corner, he must navigate a world that has changed since he left.
+            His skills are put to the test, and betrayal becomes a constant threat.
+            The stakes get higher as the lines between friend and foe blur, and survival becomes a matter of instinct.
+            With each step he takes, he uncovers deeper conspiracies that threaten everything he holds dear.
+            Reluctantly drawn into a game of cat and mouse, he’s left wondering who he can trust.
+            The action is relentless, with high-speed chases, brutal confrontations, and shocking revelations.
+            But as the past resurfaces, the ex-hitman must come to terms with his own morality.
+            Is redemption still possible, or is he doomed to repeat his mistakes?
+            As the tension builds to a climax, every move could be his last.
+      </p>
+      <a class="inline-block mt-4 bg-red-600 text-white px-6 py-2 font-semibold shadow-md hover:bg-red-500 transition" href="#" id="link-24">
+       Watch Trailer
+      </a>
+     </div>
+    </div>
+    <!-- Row 2: Image Right, Content Left -->
+    <div class="flex flex-col md:flex-row-reverse items-center md:items-start gap-8" id="section-34">
+     <img alt="Movie Poster 2" class="w-full md:w-1/2 rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-7" src="https://images.unsplash.com/photo-1615986201152-7686a4867f30?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1vdmllfGVufDB8MHwwfHx8MA%3D%3D"/>
+     <div class="md:w-1/2" id="section-35">
+      <h2 class="text-4xl font-extrabold text-yellow-500 uppercase" id="text-23">
+       Galactic Odyssey
+      </h2>
+      <p class="mt-4 text-gray-400 leading-relaxed" id="text-24">
+       A space explorer sets out on a dangerous mission to save humanity.
+            With breathtaking visuals and a compelling storyline, this is the sci-fi adventure of the decade.
+            As the journey unfolds, unexpected alliances are formed, and thrilling challenges arise that test the
+            courage and resolve of the crew.
+            The fate of the world hangs in the balance as they venture into the unknown, battling hostile forces and
+            uncovering secrets that could change the universe forever.
+            Throughout the mission, the crew faces emotional dilemmas, struggling with their personal pasts while trying
+            to stay focused on the goal.
+            They encounter strange, alien worlds filled with incredible beauty and terrifying dangers.
+            Each decision made could be the difference between survival and destruction.
+            As the pressure mounts, bonds between the explorers grow stronger, but so do the stakes.
+            In the face of overwhelming odds, they must rely on each other to succeed.
+            The tension builds as the crew faces betrayal, and the true nature of their mission is revealed.
+            With the final countdown looming, they must race against time to prevent a catastrophe.
+            But even with all their efforts, they wonder if humanity is truly worth saving.
+      </p>
+      <a class="inline-block mt-4 bg-yellow-500 text-black px-6 py-2 font-semibold shadow-md hover:bg-yellow-400 transition" href="#" id="link-25">
+       Watch Trailer
+      </a>
+     </div>
+    </div>
+    <!-- Row 3: Image Left, Content Right -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8" id="section-36">
+     <img alt="Movie Poster 3" class="w-full md:w-1/2 rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-8" src="https://plus.unsplash.com/premium_photo-1661284807863-89df07cde422?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fG1vdmllfGVufDB8MHwwfHx8MA%3D%3D"/>
+     <div class="md:w-1/2" id="section-37">
+      <h2 class="text-4xl font-extrabold text-blue-500 uppercase" id="text-25">
+       The Last Stand
+      </h2>
+      <p class="mt-4 text-gray-400 leading-relaxed" id="text-26">
+       In a dystopian future, one rebel rises against an oppressive regime.
+            A visually stunning film with action-packed sequences and a gripping storyline.
+            The world as we know it has fallen, and only a few dare to fight for freedom.
+            With secret underground networks, high-tech weaponry, and unexpected betrayals,
+            the rebel leader must navigate a dangerous path to reclaim justice.
+            As tensions rise, alliances will be tested, and sacrifices must be made.
+            With breathtaking cinematography and heart-pounding action, every scene immerses you in the chaos.
+            The Last Stand is not just a battle of weapons but a war of ideologies,
+            where one choice could alter the course of history forever.
+            Featuring an ensemble cast, including award-winning actors,
+            this film delivers both emotional depth and adrenaline-fueled moments.
+            Critics have called it "the most intense dystopian thriller of the decade."
+            Each character has their own motives, secrets, and struggles, and movie.
+      </p>
+      <a class="inline-block mt-4 bg-blue-600 text-white px-6 py-2 font-semibold shadow-md hover:bg-blue-500 transition" href="#" id="link-26">
+       Watch Trailer
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="text-white px-8 py-12 flex flex-col items-center " id="section-38">
+   <div class="max-w-4xl text-center" id="section-39">
+    <h2 class="text-5xl font-bold tracking-wide text-red-500" id="text-27">
+     What Audiences Are Saying
+    </h2>
+    <p class="text-gray-300 mt-4 text-lg" id="text-28">
+     Experience the thrill and emotions of this year's most anticipated blockbuster!
+    </p>
+   </div>
+   <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl" id="section-40">
+    <div class="bg-gray-900 p-6 shadow-lg" id="section-41">
+     <p class="text-gray-100 italic text-lg leading-relaxed" id="text-29">
+      "An absolute masterpiece! The cinematography, storytelling, and performances left me speechless. A
+          must-watch!"
+     </p>
+     <p class="mt-3 text-red-400 font-semibold" id="text-30">
+      - Alex Johnson, Film Critic
+     </p>
+    </div>
+    <div class="bg-gray-900 p-6 shadow-lg" id="section-42">
+     <p class="text-gray-100 italic text-lg leading-relaxed" id="text-31">
+      "A breathtaking cinematic journey that keeps you on the edge of your seat. The action sequences are
+          phenomenal!"
+     </p>
+     <p class="mt-3 text-red-400 font-semibold" id="text-32">
+      - Emma Carter, Movie Enthusiast
+     </p>
+    </div>
+   </div>
+   <a class="mt-12 px-8 py-3 bg-red-600 hover:bg-red-500 text-white uppercase tracking-widest text-sm font-bold transition-all" href="#" id="link-27">
+    Read More Reviews
+   </a>
+  </section>
+  <section class="text-white py-10 flex justify-center bg-black px-6" id="section-43">
+   <div class="max-w-5xl w-full grid md:grid-cols-2 gap-12 items-center" id="section-44">
+    <!-- Left Side: Movie Promotion Message -->
+    <div id="section-45">
+     <h2 class="text-5xl font-bold leading-tight text-red-500" id="text-33">
+      Be Part of the Story
+     </h2>
+     <p class="text-gray-300 mt-4 text-lg" id="text-34">
+      Whether you’re a fan, a critic, or an industry professional, we’d love to hear from you!
+     </p>
+     <p class="mt-6 text-gray-400" id="text-35">
+      Want exclusive behind-the-scenes access? Have press inquiries or collaboration ideas? Drop us a message and be part of the action.
+     </p>
+     <p class="mt-6 text-red-400 font-semibold" id="text-36">
+      The next blockbuster starts with you!
+     </p>
+    </div>
+    <!-- Right Side: Contact Form -->
+    <form class="space-y-10 bg-gray-900 p-6 shadow-lg" id="form-1">
+     <div id="section-46">
+      <label class="block text-gray-300 text-sm font-medium mb-2" id="form-2">
+       Your Name
+      </label>
+      <input class="w-full bg-gray-800 border border-gray-700 py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-red-500" id="form-3" placeholder="Enter your name" type="text" required/>
+     </div>
+     <div id="section-47">
+      <label class="block text-gray-300 text-sm font-medium mb-2" id="form-4">
+       Email Address
+      </label>
+      <input class="w-full bg-gray-800 border border-gray-700 py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-red-500" id="form-5" placeholder="Enter your email" type="email" required/>
+     </div>
+     <div id="section-48">
+      <label class="block text-gray-300 text-sm font-medium mb-2" id="form-6">
+       Message
+      </label>
+      <textarea class="w-full bg-gray-800 border border-gray-700 py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-red-500" id="form-7" placeholder="Write your message here" rows="4" required></textarea>
+     </div>
+     <button class="w-full py-3 !bg-red-600 hover:bg-red-500 !text-white uppercase tracking-widest text-sm font-bold transition-all" id="button-2" type="submit">
+      Contact Us
+     </button>
+    </form>
+   </div>
+  </section>
+  <section class="text-white py-12 bg-black" id="section-49">
+   <!-- Movie Poster Gallery -->
+   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 px-6" id="section-50">
+    <img alt="Movie Poster 1" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-9" src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+    <img alt="Movie Poster 2" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-10" src="https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"/>
+    <img alt="Movie Poster 3" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-11" src="https://plus.unsplash.com/premium_photo-1683740128013-2929ed2c5a38?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D"/>
+    <img alt="Movie Poster 4" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform" id="image-12" src="https://images.unsplash.com/photo-1608170825938-a8ea0305d46c?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D"/>
+    <img alt="Movie Poster 5" class="w-full h-64 object-cover rounded-lg shadow-lg hidden lg:block hover:scale-105 transition-transform" id="image-13" src="https://images.unsplash.com/photo-1677344297888-81f04aa12a60?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8"/>
+   </div>
+   <!-- Footer Section -->
+   <footer class="border-t border-gray-700 mt-12 py-8 px-6 text-center bg-gray-900" id="section-51">
+    <!-- Movie Logo -->
+    <div class="flex justify-center mb-6" id="section-52">
+     <img alt="Movie Logo" class="h-14" id="image-14" src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdmllJTIwbG9nb3xlbnwwfDB8MHx8fDA%3D"/>
+    </div>
+    <!-- Navigation Links -->
+    <ul class="flex flex-wrap justify-center space-x-4 text-gray-400 text-sm uppercase font-semibold !bg-transparent" id="list-3">
+     <li id="item-16 !bg-transparent">
+      <a class="!bg-transparent" href="#section-7" id="link-28">
+       Home
+      </a>
+     </li>
+     <li id="item-17">
+      <a class="!bg-transparent" href="#section-16" id="link-29">
+       Cast &amp; Crew
+      </a>
+     </li>
+     <li id="item-18">
+      <a class="!bg-transparent" href="#section-21" id="link-30">
+       Trailers
+      </a>
+     </li>
+     <li id="item-19">
+      <a class="!bg-transparent" href="#section-27" id="link-31">
+       Behind the Scenes
+      </a>
+     </li>
+     <li id="item-20">
+      <a class="!bg-transparent" href="#section-35" id="link-32">
+       Tickets
+      </a>
+     </li>
+     <li id="item-21">
+      <a class="!bg-transparent" href="#section-43 " id="link-33">
+       Contact
+      </a>
+     </li>
+    </ul>
+    <!-- Contact & Social Media -->
+    <div class="mt-6 text-gray-500 text-sm grid grid-cols-1 md:grid-cols-3 gap-6" id="section-53">
+     <p id="text-37">
+      © 2025 Blockbuster Films. All Rights Reserved.
+     </p>
+     <p id="text-38">
+      Email:
+      <span class="text-gray-300 hover:text-red-500" href="mailto:info@blockbuster.com" id="link-34">
+       info@blockbuster.com
+      </span>
+     </p>
+     <p id="text-39">
+      Phone:
+      <span class="text-gray-300 hover:text-red-500" href="tel:+1234567890" id="link-35">
+       +123-456-7890
+      </span>
+     </p>
+    </div>
+    <!-- Social Media Icons -->
+    <div class="flex justify-center space-x-6 mt-6 text-2xl" id="section-54">
+     <div href="#section-7 " id="link-36">
+      <i class="fab fa-facebook" id="text-40">
+      </i>
+     </div>
+     <div href="#section-7" id="link-37">
+      <i class="fab fa-instagram" id="text-41">
+      </i>
+     </div>
+     <div id="link-38">
+      <i class="fab fa-twitter" id="text-42">
+      </i>
+     </div>
+     <div id="link-39">
+      <i class="fab fa-youtube" id="text-43">
+      </i>
+     </div>
+    </div>
+   </footer>
+  </section>
+  <script>
+   // Hamburger menu functionality
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    })
+
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+
+
+    document.getElementById('form-1').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const name = document.getElementById('form-3').value;
+      const email = document.getElementById('form-5').value;
+      const message = document.getElementById('form-7').value;
+
+      const mailtolink = `mailto:ceo@icod.ai?subject=new contact message from ${name} &body=${encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+      )}`;
+
+      window.location.href = mailtolink;
+      document.getElementById('form-1').reset();
+    });
+  </script>
+ </body>
+</html>

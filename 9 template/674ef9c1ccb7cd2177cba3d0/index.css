@@ -1,0 +1,38 @@
+:root {
+  --bg-color: white; 
+  --navbar-bg-color: #fff !important; 
+  --footer-bg-color: #fff; 
+  --primary-color: #3b82f6; 
+  --text-color: #334155; 
+  --font-body:'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-family) !important;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) ;
+}
+
+
+p, a{
+  color: var(--text-color) !important;
+}
+h2, h3, span, i{
+  color: var(--primary-color) !important;
+}
+nav {
+  background-color: var(--navbar-bg-color) !important;
+}
+
+footer {
+  background-color: var(--footer-bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+button {
+  background-color: var(--primary-color) !important;
+  font-family: var(--font-family) !important;
+}
+#mobile-menu-button{
+  background-color: #fff !important;
+}

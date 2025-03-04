@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>
+    Futuristic Navbar
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="index.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </link>
+</head>
+
+<body class="">
+  <!-- Navbar -->
+  <nav
+    class="bg-[#4a503d] z-50 bg-opacity-80 backdrop-blur-xl px-12 py-4 flex items-center justify-between rounded-full shadow-lg fixed top-2 left-[4%] sm:left-[10%] transform -translate-x-1/2 w-[92%] sm:w-[80%] floating-shape"
+    id="link-1">
+    <!-- Logo -->
+    <div class="text-white text-xl font-bold" id="section-1">
+      GreenDoors
+    </div>
+    <!-- Navigation Links (Desktop) -->
+    <div class="hidden md:flex space-x-6 text-white text-sm" id="section-2">
+      <a class="nav-link" href="#section-6" id="link-2">
+        Home
+      </a>
+      <a class="nav-link" href="#section-22" id="link-3">
+        Services
+      </a>
+      <a class="nav-link" href="#section-31" id="link-4">
+        Events
+      </a>
+      <a class="nav-link" href="#section-46" id="link-5">
+        Blog
+      </a>
+      <a class="nav-link" href="#section-61" id="link-6">
+        About Us
+      </a>
+    </div>
+    <!-- Signup & Login Buttons -->
+    <div class="hidden lg:flex space-x-4" id="section-3">
+      <a class="px-4 py-1 border border-white rounded-full !text-white" href="#section-83" id="link-7">
+        CONTACT
+      </a>
+    </div>
+    <!-- Hamburger Menu (Mobile) -->
+    <div class="lg:hidden" id="menu-btn">
+      <button class="hamburger" id="button-1">
+        <span id="text-1">
+        </span>
+        <span id="text-2">
+        </span>
+        <span id="text-3">
+        </span>
+      </button>
+    </div>
+  </nav>
+  <!-- Mobile Menu -->
+  <div
+    class="hidden bg-[#4a503d] text-white p-6 absolute top-20 z-20 left-1/2 transform -translate-x-1/2 w-[80%] rounded-lg shadow-lg"
+    id="mobile-menu">
+    <a class="block py-2" href="#section-6" id="link-8">
+      Home
+    </a>
+    <a class="block py-2" href="#section-22" id="link-9">
+      Services
+    </a>
+    <a class="block py-2" href="#section-31" id="link-10">
+      Events
+    </a>
+    <a class="block py-2" href="#section-46" id="link-11">
+      Blog
+    </a>
+    <a class="block py-2" href="#section-61" id="link-12">
+      About Us
+    </a>
+    <hr class="border-gray-500 my-2" />
+    <a class="block py-2" href="#" id="link-13">
+      Signup
+    </a>
+    <a class="block py-2 border border-white rounded-lg text-center" href="#section-83" id="link-14">
+      LOGIN
+    </a>
+  </div>
+  <section class="bg-[#3f442e] text-white min-h-screen flex items-center justify-center px-6 md:px-16 pt-12 pb-10"
+    id="section-6">
+    <div class="max-w-7xl w-full" id="section-7">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-12" id="section-8">
+        <!-- Left Content -->
+        <div class="md:w-1/2 p-6 md:p-10 md:text-left" id="section-9">
+          <h1 class="text-3xl lg:text-6xl font-bold mb-6 leading-snug" id="text-4">
+            Your Gateway
+            <br class="hidden md:block" />
+            to Comfort and
+            <br />
+            Convenience.
+          </h1>
+          <p class="text-gray-300 text-base md:text-lg !text-white" id="text-5">
+            Book now and get the best prices
+          </p>
+        </div>
+        <!-- Right Image -->
+        <div class="relative md:w-1/2 flex justify-center" id="section-10">
+          <div
+            class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-[8px] md:border-[10px] border-white shadow-lg"
+            id="section-11">
+            <img alt="Hotel Room" class="w-full h-full object-cover" id="image-1"
+              src="https://plus.unsplash.com/premium_photo-1661929519129-7a76946c1d38?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWx8ZW58MHx8MHx8fDA%3D" />
+          </div>
+          <div
+            class="absolute top-2 md:top-4 right-6 md:right-10 w-6 h-6 md:w-8 md:h-8 bg-white rounded-full flex items-center justify-center shadow-md"
+            id="section-12">
+            ✨
+          </div>
+        </div>
+      </div>
+      <!-- Booking Form -->
+      <div
+        class="bg-white rounded-xl shadow-lg p-6 mt-10 mx-auto max-w-4xl flex flex-wrap items-center justify-between gap-6"
+        id="section-13">
+        <!-- Location -->
+        <div class="flex items-center space-x-3 w-full sm:w-auto" id="section-14">
+          <span class="text-gray-500 text-xl" id="text-6">
+            📍
+          </span>
+          <div id="section-15">
+            <p class="text-gray-500 text-sm" id="text-7">
+              Place/Hotel
+            </p>
+            <p class="font-semibold text-gray-900" id="text-8">
+              Bali, Indonesia
+            </p>
+          </div>
+        </div>
+        <!-- Arrival Date -->
+        <div class="flex items-center space-x-3 w-full sm:w-auto" id="section-16">
+          <span class="text-gray-500 text-xl" id="text-9">
+            📅
+          </span>
+          <div id="section-17">
+            <p class="text-gray-500 text-sm" id="text-10">
+              Arrival Date
+            </p>
+            <p class="font-semibold text-gray-900" id="text-11">
+              24/06/23
+            </p>
+          </div>
+        </div>
+        <!-- Departure Date -->
+        <div class="flex items-center space-x-3 w-full sm:w-auto" id="section-18">
+          <span class="text-gray-500 text-xl" id="text-12">
+            📅
+          </span>
+          <div id="section-19">
+            <p class="text-gray-500 text-sm" id="text-13">
+              Departure Date
+            </p>
+            <p class="font-semibold text-gray-900" id="text-14">
+              26/06/23
+            </p>
+          </div>
+        </div>
+        <!-- Room & Guests -->
+        <div class="flex items-center space-x-3 w-full sm:w-auto" id="section-20">
+          <span class="text-gray-500 text-xl" id="text-15">
+            🛏
+          </span>
+          <div id="section-21">
+            <p class="text-gray-500 text-sm" id="text-16">
+              Room &amp; Guest
+            </p>
+            <p class="font-semibold text-gray-900" id="text-17">
+              1 Room, 2 Guests
+            </p>
+          </div>
+        </div>
+        <!-- Search Button -->
+        <button class="bg-[#3f442e] text-white px-6 py-3 rounded-lg font-semibold shadow-md w-full sm:w-auto"
+          id="button-2">
+          Search
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#333b2e] py-10" id="section-22">
+    <div class="container mx-auto flex flex-wrap justify-center gap-8 md:gap-16" id="section-23">
+      <!-- Hotel Santika -->
+      <div class="flex items-center" id="section-24">
+        <i class="fas fa-hotel text-white text-5xl md:text-8xl" id="text-18">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+      <!-- Tauzia -->
+      <div class="flex items-center" id="section-25">
+        <i class="fas fa-tree text-white text-5xl md:text-8xl" id="text-19">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+      <!-- Horison -->
+      <div class="flex items-center" id="section-26">
+        <i class="fas fa-mountain text-white text-5xl md:text-8xl" id="text-20">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+      <!-- Artotel Group -->
+      <div class="flex items-center" id="section-27">
+        <i class="fas fa-palette text-white text-5xl md:text-8xl" id="text-21">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+      <!-- Wyndham -->
+      <div class="flex items-center" id="section-28">
+        <i class="fas fa-building text-white text-5xl md:text-8xl" id="text-22">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+      <!-- Shangri-La -->
+      <div class="flex items-center" id="section-29">
+        <i class="fas fa-umbrella-beach text-white text-5xl md:text-8xl" id="text-23">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+      <!-- IHG -->
+      <div class="flex items-center" id="section-30">
+        <i class="fas fa-globe text-white text-5xl md:text-8xl" id="text-24">
+        </i>
+        <!-- Replace with Font Awesome icon or SVG -->
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-10 px-8" id="section-31">
+    <div class="container mx-auto text-center" id="section-32">
+      <!-- Title Section -->
+      <h2 class="text-3xl font-semibold mb-2" id="text-25">
+        Our Popular Hotels We Recommend for You
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-8" id="text-26">
+        We offer a curated selection of exceptional hotels that cater to your preferences and ensure a delightful stay.
+      </p>
+      <!-- Hotel Cards Section -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="section-33">
+        <!-- Card 1 -->
+        <div class="rounded-2xl shadow-lg overflow-hidden border" id="section-34">
+          <img alt="Capital Business Hotel" class="w-full h-48 object-cover" id="image-2"
+            src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsfGVufDB8fDB8fHww" />
+          <div class="p-4" id="section-35">
+            <h3 class="font-medium text-lg" id="text-27">
+              Capital Business Hotel
+            </h3>
+            <p class="text-gray-500 text-sm mb-4 flex items-center" id="text-28">
+              <i class="fas fa-map-marker-alt text-green-500 mr-2" id="text-29">
+              </i>
+              Bali, Indonesia
+            </p>
+            <div class="flex items-center justify-between" id="section-36">
+              <p class="text-green-600 font-bold text-lg" id="text-30">
+                $1200
+                <span class="text-gray-500 font-normal text-sm" id="text-31">
+                  / night
+                </span>
+              </p>
+              <div class="flex items-center bg-yellow-100 text-yellow-500 text-sm font-medium px-2 py-1 rounded"
+                id="section-37">
+                <i class="fas fa-star mr-1" id="text-32">
+                </i>
+                4.9
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="rounded-2xl shadow-lg overflow-hidden border" id="section-38">
+          <img alt="Hotel Super Winer 96" class="w-full h-48 object-cover" id="image-3"
+            src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsfGVufDB8fDB8fHww" />
+          <div class="p-4" id="section-39">
+            <h3 class="font-medium text-lg" id="text-33">
+              Hotel Super Winer 96
+            </h3>
+            <p class="text-gray-500 text-sm mb-4 flex items-center" id="text-34">
+              <i class="fas fa-map-marker-alt text-green-500 mr-2" id="text-35">
+              </i>
+              Bali, Indonesia
+            </p>
+            <div class="flex items-center justify-between" id="section-40">
+              <p class="text-green-600 font-bold text-lg" id="text-36">
+                $1199
+                <span class="text-gray-500 font-normal text-sm" id="text-37">
+                  / night
+                </span>
+              </p>
+              <div class="flex items-center bg-yellow-100 text-yellow-500 text-sm font-medium px-2 py-1 rounded"
+                id="section-41">
+                <i class="fas fa-star mr-1" id="text-38">
+                </i>
+                4.9
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="rounded-2xl shadow-lg overflow-hidden border" id="section-42">
+          <img alt="Super Gotel Collection" class="w-full h-48 object-cover" id="image-4"
+            src="https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdGVsfGVufDB8fDB8fHww" />
+          <div class="p-4" id="section-43">
+            <h3 class="font-medium text-lg" id="text-39">
+              Super Gotel Collection
+            </h3>
+            <p class="text-gray-500 text-sm mb-4 flex items-center" id="text-40">
+              <i class="fas fa-map-marker-alt text-green-500 mr-2" id="text-41">
+              </i>
+              Tulungagung, Indonesia
+            </p>
+            <div class="flex items-center justify-between" id="section-44">
+              <p class="text-green-600 font-bold text-lg" id="text-42">
+                $1099
+                <span class="text-gray-500 font-normal text-sm" id="text-43">
+                  / night
+                </span>
+              </p>
+              <div class="flex items-center bg-yellow-100 text-yellow-500 text-sm font-medium px-2 py-1 rounded"
+                id="section-45">
+                <i class="fas fa-star mr-1" id="text-44">
+                </i>
+                4.9
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-16 px-6 text-center" id="section-46">
+    <div class="max-w-4xl mx-auto" id="section-47">
+      <h2 class="text-4xl font-bold leading-tight text-gray-800" id="text-45">
+        Unforgettable Memories
+        <br />
+        <span class="block mt-2" id="text-46">
+          Unparalleled Comfort
+        </span>
+      </h2>
+      <p class="text-gray-600 text-lg mt-6" id="text-47">
+        Experience ultimate travel comfort with our innovative hotel booking app.
+        Explore a curated collection of exclusive hotels worldwide for an
+        unforgettable accommodation experience.
+      </p>
+      <button
+        class="mt-8 px-8 py-3 border border-gray-800 text-gray-800 rounded-full font-semibold hover:bg-gray-100 transition"
+        id="button-3">
+        READ MORE
+      </button>
+    </div>
+  </section>
+  <section class="bg-white" id="section-48">
+    <div class="relative" id="section-49">
+      <!-- Image Section -->
+      <div class="flex justify-center space-x-6 bg-white py-10" id="section-50">
+        <!-- Image 1 -->
+        <div class="relative w-64 h-96 rounded-full border-[10px] border-gray-200 overflow-hidden" id="section-51">
+          <img alt="Room 1" class="w-full h-full object-cover" id="image-5"
+            src="https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsfGVufDB8fDB8fHww" />
+        </div>
+        <!-- Image 2 -->
+        <div class="relative w-64 h-96 rounded-full border-[10px] border-gray-200 overflow-hidden" id="section-52">
+          <img alt="Room 2" class="w-full h-full object-cover" id="image-6"
+            src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsfGVufDB8fDB8fHww" />
+        </div>
+        <!-- Image 3 -->
+        <div class="relative w-64 h-96 rounded-full border-[10px] border-gray-200 overflow-hidden" id="section-53">
+          <img alt="Room 3" class="w-full h-full object-cover" id="image-7"
+            src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsfGVufDB8fDB8fHww" />
+        </div>
+      </div>
+      <!-- Green Section -->
+      <div class="bg-[#3f442e] py-12 text-center text-white mt-[-20px]" id="section-54">
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl font-bold mb-6" id="text-48">
+          With Our Experience
+          <br class="hidden md:block" />
+          We Will Serve You
+        </h2>
+        <!-- Icon Section -->
+        <div class="flex justify-center items-center space-x-4 md:space-x-8 mb-6" id="section-55">
+          <div class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-white flex items-center justify-center"
+            id="section-56">
+            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" id="svg-1" stroke="white" stroke-width="2"
+              viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" id="svg-2" r="10">
+              </circle>
+            </svg>
+          </div>
+        </div>
+        <!-- Stats Section -->
+        <div class="flex flex-wrap justify-center gap-6 md:gap-10" id="section-57">
+          <!-- Cities -->
+          <div class="text-center" id="section-58">
+            <p class="text-2xl md:text-3xl font-bold" id="text-49">
+              800+
+            </p>
+            <p class="text-gray-300 text-sm md:text-base" id="text-50">
+              Cities
+            </p>
+          </div>
+          <!-- Hotels -->
+          <div class="text-center" id="section-59">
+            <p class="text-2xl md:text-3xl font-bold" id="text-51">
+              35,000+
+            </p>
+            <p class="text-gray-300 text-sm md:text-base" id="text-52">
+              Exclusive Hotels
+            </p>
+          </div>
+          <!-- Rooms -->
+          <div class="text-center" id="section-60">
+            <p class="text-2xl md:text-3xl font-bold" id="text-53">
+              1.5M+
+            </p>
+            <p class="text-gray-300 text-sm md:text-base" id="text-54">
+              Exclusive Rooms
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-12" id="section-61">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8" id="section-62">
+      <!-- Section Heading -->
+      <div class="text-center mb-8" id="section-63">
+        <h2 class="text-3xl font-bold text-[#3f442e]" id="text-55">
+          Our Hot News
+        </h2>
+      </div>
+      <!-- Grid Layout -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6" id="section-64">
+        <!-- Left Section -->
+        <div class="lg:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden" id="section-65">
+          <img alt="Main News" class="w-full h-64 sm:h-80 md:h-96 object-cover" id="image-8"
+            src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdGVsfGVufDB8MHwwfHx8MA%3D%3D" />
+          <div class="p-6" id="section-66">
+            <div class="flex flex-wrap items-center justify-between text-sm text-gray-500 mb-4" id="section-67">
+              <p id="text-56">
+                4 min read
+              </p>
+              <p id="text-57">
+                24 June 2023
+              </p>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-3" id="text-58">
+              The Rise of Boutique Hotels: Unveiling Unique and Personalized Hospitality
+            </h3>
+            <p class="text-gray-600 mb-4" id="text-59">
+              The growing phenomenon of boutique hotels is revolutionizing the travel and hospitality industry, offering
+              guests more than just a place to sleep...
+            </p>
+            <a class="text-[#3f442e] font-semibold hover:underline" href="#" id="link-15">
+              Read More →
+            </a>
+          </div>
+        </div>
+        <!-- Right Section -->
+        <div class="space-y-6" id="section-68">
+          <!-- News Item 1 -->
+          <div class="flex bg-white rounded-xl shadow-lg overflow-hidden" id="section-69">
+            <div class="w-1/3 flex-shrink-0" id="section-70">
+              <img alt="News 1" class="w-full h-full object-cover" id="image-9"
+                src="https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGhvdGVsfGVufDB8MHwwfHx8MA%3D%3D" />
+            </div>
+            <div class="p-4 flex-1" id="section-71">
+              <h4 class="font-bold text-gray-800 mb-2" id="text-60">
+                Hotels Go Beyond Accommodation to Create Memorable Stays
+              </h4>
+              <p class="text-sm text-gray-600 mb-2" id="text-61">
+                Discover how hotels not only provide a place to stay but also create memorable experiences...
+              </p>
+              <a class="text-[#3f442e] text-sm font-semibold hover:underline" href="#" id="link-16">
+                Read More →
+              </a>
+            </div>
+          </div>
+          <!-- News Item 2 -->
+          <div class="flex bg-white rounded-xl shadow-lg overflow-hidden" id="section-72">
+            <div class="w-1/3 flex-shrink-0" id="section-73">
+              <img alt="News 2" class="w-full h-full object-cover" id="image-10"
+                src="https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGhvdGVsfGVufDB8MHwwfHx8MA%3D%3D" />
+            </div>
+            <div class="p-4 flex-1" id="section-74">
+              <h4 class="font-bold text-gray-800 mb-2" id="text-62">
+                Luxury Reimagined: Iconic Hotels Undergo Stunning Renovations
+              </h4>
+              <p class="text-sm text-gray-600 mb-2" id="text-63">
+                Be enchanted by the extraordinary transformations experienced by iconic hotels...
+              </p>
+              <a class="text-[#3f442e] text-sm font-semibold hover:underline" href="#" id="link-17">
+                Read More →
+              </a>
+            </div>
+          </div>
+          <!-- News Item 3 -->
+          <div class="flex bg-white rounded-xl shadow-lg overflow-hidden" id="section-75">
+            <div class="w-1/3 flex-shrink-0" id="section-76">
+              <img alt="News 3" class="w-full h-full object-cover" id="image-11"
+                src="https://images.unsplash.com/photo-1596436889106-be35e843f974?w=600&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsfGVufDB8MHwwfHx8MA%3D%3D" />
+            </div>
+            <div class="p-4 flex-1" id="section-77">
+              <h4 class="font-bold text-gray-800 mb-2" id="text-64">
+                Preserving History Through Unique Accommodations
+              </h4>
+              <p class="text-sm text-gray-600 mb-2" id="text-65">
+                Reveals how heritage hotels preserve history through unique accommodations...
+              </p>
+              <a class="text-[#3f442e] text-sm font-semibold hover:underline" href="#" id="link-18">
+                Read More →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full max-w-2xl bg-white md:max-w-4xl px-8 rounded-2xl border-4 shadow-lg mx-auto" id="section-78">
+    <h2 class="text-center text-3xl font-bold mb-8 text-gray-800 my-10" id="text-66">
+      What Our Customer Says
+    </h2>
+    <div class="relative" id="section-79">
+      <div class="text-center" id="testimonial">
+        <i class="fas fa-quote-left text-3xl text-gray-300" id="text-67">
+        </i>
+        <p class="text-gray-600 text-lg italic px-4 mb-6" id="text-68">
+          The app has a user-friendly interface, so I was quickly able to find hotels that fit our needs.
+        </p>
+        <i class="fas fa-quote-right text-3xl text-gray-300" id="text-69">
+        </i>
+        <div class="flex items-center justify-center mt-6 space-x-4" id="section-81">
+          <img alt="User Image" class="w-12 h-12 rounded-full shadow-md" id="image-12"
+            src="https://via.placeholder.com/50" />
+          <div class="text-left" id="section-82">
+            <h3 class="font-semibold text-gray-800 mb-10" id="text-70">
+              Khomarun Balman
+            </h3>
+            <p class="text-yellow-500 text-sm" id="text-71">
+              <i class="fas fa-star" id="text-72">
+              </i>
+              4.9
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"
+        id="prev-btn">
+        <i class="fas fa-chevron-left text-2xl" id="text-73">
+        </i>
+      </button>
+      <button class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"
+        id="next-btn">
+        <i class="fas fa-chevron-right text-2xl" id="text-74">
+        </i>
+      </button>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="bg-[#3f442e] py-16" id="section-83">
+    <div class="max-w-5xl mx-auto px-6 text-center text-white" id="section-84">
+      <!-- Heading Section -->
+      <div class="mb-12" id="section-85">
+        <h2 class="text-4xl font-bold mb-4 !text-white" id="text-75">
+          Get In Touch
+        </h2>
+        <p class="text-lg text-gray-300 !text-white" id="text-76">
+          Need help with your booking or have questions about our services? Drop us a message and we’ll get back to you
+          promptly!
+        </p>
+      </div>
+      <!-- Form -->
+      <form class="bg-white rounded-lg shadow-lg p-8 text-gray-800 space-y-6" id="form-1" method="POST">
+        <!-- Name and Email -->
+        <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0" id="section-86">
+          <input
+            class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+            id="form-2" name="name" placeholder="Your Full Name" required="" type="text" />
+          <input
+            class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+            id="form-3" name="email" placeholder="Your Email Address" required="" type="email" />
+        </div>
+        <!-- Phone and Number of Guests -->
+        <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0" id="section-87">
+          <input
+            class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+            id="form-4" name="phone" placeholder="Your Phone Number" required="" type="tel" />
+          <input
+            class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+            id="form-5" max="20" min="1" name="guests" placeholder="Number of Guests" required="" type="number" />
+        </div>
+        <!-- Check-in and Check-out Dates -->
+        <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0" id="section-88">
+          <input
+            class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+            id="form-6" name="check_in" placeholder="Check-in Date" required="" type="date" />
+          <input
+            class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+            id="form-7" name="check_out" placeholder="Check-out Date" required="" type="date" />
+        </div>
+        <!-- Message -->
+        <textarea
+          class="w-full px-4 py-3 rounded-md border border-gray-300 placeholder-gray-500 shadow focus:outline-none focus:ring-2 focus:ring-green-500"
+          id="form-8" name="message" placeholder="Your Message (Optional)" rows="4"></textarea>
+        <!-- Submit Button -->
+        <button
+          class="py-3 px-4 rounded-md !bg-[#3f442e] text-white font-semibold text-lg shadow hover:from-green-600 hover:to-yellow-600 transition"
+          id="button-6" type="submit">
+          Send Message
+        </button>
+      </form>
+      <!-- Decorative Info Section -->
+      <div class="mt-12" id="section-89">
+        <p class="text-lg text-gray-300 !text-white" id="text-77">
+          Or reach us directly at:
+        </p>
+        <p class="text-2xl font-semibold !text-white" id="text-78">
+          support@booking.com
+        </p>
+        <p class="text-lg mt-2 !text-white" id="text-79">
+          +1 234 567 890
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-[#4a503d] text-white py-6" id="section-90">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-6 space-y-4 md:space-y-0"
+      id="section-91">
+      <!-- Logo and Brand Name -->
+      <div class="flex items-center space-x-2" id="section-92">
+        <span class="text-lg font-semibold !text-white" id="text-80">
+          GreenDoors
+        </span>
+      </div>
+      <!-- Navigation Links -->
+      <nav class=" flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center !bg-transparent" id="link-19">
+        <a class="hover:text-gray-300 !bg-transparent" href="#section-6" id="link-20">
+          Home
+        </a>
+        <a class="hover:text-gray-300 !bg-transparent" href="#section-22" id="link-21">
+          Service
+        </a>
+        <a class="hover:text-gray-300 !bg-transparent" href="#section-31" id="link-22">
+          Event
+        </a>
+        <a class="hover:text-gray-300 !bg-transparent" href="#section-46" id="link-23">
+          Blog
+        </a>
+        <a class="hover:text-gray-300 !bg-transparent" href="#section-61" id="link-24">
+          About Us
+        </a>
+      </nav>
+      <!-- Social Icons -->
+      <div class="flex space-x-4" id="section-93">
+        <a class="hover:text-gray-300" href="#" id="link-25">
+          <i class="fab fa-facebook-f" id="text-81">
+          </i>
+        </a>
+        <a class="hover:text-gray-300" href="#" id="link-26">
+          <i class="fab fa-instagram" id="text-82">
+          </i>
+        </a>
+        <a class="hover:text-gray-300" href="#" id="link-27">
+          <i class="fab fa-youtube" id="text-83">
+          </i>
+        </a>
+        <a class="hover:text-gray-300" href="#" id="link-28">
+          <i class="fab fa-twitter" id="text-84">
+          </i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+
+    const menuBtn = document.getElementById('menu-btn');
+    const dropdownMenu = document.getElementById('mobile-menu');
+
+    // Toggle dropdown menu on button click
+    menuBtn.addEventListener('click', () => {
+      dropdownMenu.classList.toggle('hidden');
+    });
+
+    // Close dropdown menu when a menu item is clicked
+    const menuItems = dropdownMenu.querySelectorAll('a');
+
+    menuItems.forEach((menuItem) => {
+      menuItem.addEventListener('click', () => {
+        dropdownMenu.classList.add('hidden'); // Ensure the menu is closed
+      });
+    });
+
+
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+
+
+
+
+
+    const testimonials = [
+      {
+        text: "The app has a user-friendly interface, so I was quickly able to find hotels that fit our needs. I can see photos of the room.",
+        name: "Khomarun",
+        rating: "4.9",
+        img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8MHwwfHx8MA%3D%3D"
+      },
+      {
+        text: "Amazing app! I found the best deals on hotels in minutes. It's simple, fast, and reliable. Highly recommended.",
+        name: "Khomarun",
+        rating: "5.0",
+        img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8MHwwfHx8MA%3D%3D"
+      },
+      {
+        text: "I love how easy it is to navigate this app. The filters are very helpful, and the customer reviews gave me confidence.",
+        name: "Khomarun",
+        rating: "4.8",
+        img: "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8MHwwfHx8MA%3D%3D"
+      }
+    ];
+
+    let currentIndex = 0;
+
+    const testimonialContainer = document.getElementById("testimonial");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+
+    function updateTestimonial() {
+      const { text, name, rating, img } = testimonials[currentIndex];
+      testimonialContainer.innerHTML = `
+        <i class="fas fa-quote-left text-3xl text-gray-300"></i>
+        <p class="text-gray-600 text-lg italic px-4 mb-6">${text}</p>
+        <i class="fas fa-quote-right text-3xl text-gray-300"></i>
+        <div class="flex items-center justify-center mt-6 space-x-4">
+          <img src="${img}" alt="User Image" class="w-12 h-12 rounded-full shadow-md object-cover">
+          <div class="text-left">
+            <h3 class="font-semibold text-gray-800">${name}</h3>
+            <p class="text-yellow-500 text-sm"><i class="fas fa-star mb-2"></i> ${rating}</p>
+          </div>
+        </div>
+      `;
+    }
+
+    prevBtn.addEventListener("click", () => {
+      currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+      updateTestimonial();
+    });
+
+    nextBtn.addEventListener("click", () => {
+      currentIndex = (currentIndex + 1) % testimonials.length;
+      updateTestimonial();
+    });
+
+    // Initialize
+    updateTestimonial();
+
+
+
+
+    document.getElementById('form-1').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Retrieve form data
+            const name = document.getElementById('form-2').value;
+            const email = document.getElementById('form-3').value;
+            const phone = document.getElementById('form-4').value;
+            const guest = document.getElementById('form-5').value;
+            const date = document.getElementById('form-6').value;
+            const message = document.getElementById('form-8').value;
+
+
+
+    
+            const mailtoLink = `mailto:ceo@icod.ai?subject=new contact message from ${name} &body=${encodeURIComponent(
+                ` Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nGuest: ${guest}\nDate: ${date}\nMessage: ${message}`
+            )}`;
+
+
+            window.location.href = mailtoLink;
+
+  
+            document.getElementById("form-1").reset();
+        });
+  </script>
+</body>
+
+</html>

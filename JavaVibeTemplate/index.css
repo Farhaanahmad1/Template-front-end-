@@ -1,0 +1,73 @@
+:root {
+    --bg-color: #f8f8f8;
+    --navbar-bg-color: #2C2C2C;
+    --footer-bg-color: #2C2C2C;
+    --primary-color: #fff;
+    --text-color: black;
+    --font-body: "Inter", sans-serif;
+    --contact-color: #eae8e8;
+  }
+  
+  body {
+    font-family: var(--font-body) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  p{
+    color: var(--text-color) !important;
+  }
+  #about {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color);
+  }
+  #contact {
+    background-color: var(--contact-color);
+    color: var(--text-color);
+  }
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+    color: var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--primary-color) !important;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover,
+  a:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  h4,
+  h5,
+  h6 {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  #main-nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  #footer {
+    background-color: var(--footer-bg-color) !important;
+  }
+  
+  .menu-item {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  

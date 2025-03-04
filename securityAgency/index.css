@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #fff !important;
+    --navbar-bg-color:  #fff  !important;
+    --footer-bg-color: #1f2937 !important;
+    --primary-color: #facc15 !important;
+    --secondary-color: #000 !important;
+    --text-color: #000 !important;
+    --font-family: "Space Grotesk", serif !important;
+  }
+  
+  body {
+    font-family: var(--font-family) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) ;
+  }
+
+
+p, a,h2,h3{
+    color: var(--text-color) !important;
+  }
+i{
+    color: var(--primary-color) !important;
+  }
+  span{
+    color: var(--secondary-color) !important;
+  }
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  svg{
+    background-color: transparent !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    color: var(--text-color) !important;
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-family) !important;
+  }

@@ -1,0 +1,36 @@
+    :root {
+    --bg-color: #fff !important;
+    --navbar-bg-color:  #fff  !important;
+    --footer-bg-color: #fff !important;
+    --primary-color: #7E22CE !important;
+    --secondary-color: #fff !important;
+    --text-color: #6B7280 !important;
+    --font-family: "Inter", serif !important;
+  }
+  
+  body {
+    font-family: var(--font-family) !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) ;
+  }
+
+
+p, a{
+    color: var(--text-color) !important;
+  }
+  h1, h2, h3, span, i{
+    color: var(--primary-color) !important;
+  }
+  nav {
+    background-color: var(--navbar-bg-color) !important;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  button {
+    background-color: var(--primary-color) !important;
+    font-family: var(--font-family) !important;
+  }

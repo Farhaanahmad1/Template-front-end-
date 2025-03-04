@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        HealthCare Pro
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed top-0 w-full z-30" id="link-1">
+        <div class="container mx-auto flex justify-between items-center px-6 py-4" id="section-1">
+            <!-- Logo -->
+            <span class="text-2xl font-bold flex items-center" href="#" id="link-2">
+                <i class="fas fa-hospital text-blue-600 text-3xl mr-2" id="text-1">
+                </i>
+                HealthCare Pro
+            </span>
+            <!-- Links (Desktop View) -->
+            <ul class="hidden md:flex space-x-6 font-medium" id="list-1">
+                <li id="item-1">
+                    <a class="hover:underline" href="#section-5" id="link-3">
+                        Home
+                    </a>
+                </li>
+                <li id="item-2">
+                    <a class="hover:underline" href="#section-17" id="link-4">
+                        About Us
+                    </a>
+                </li>
+                <li id="item-3">
+                    <a class="hover:underline" href="#section-45" id="link-5">
+                        Services
+                    </a>
+                </li>
+                <li id="item-4">
+                    <a class="hover:underline" href="#section-52" id="link-6">
+                        Doctors
+                    </a>
+                </li>
+                <li id="item-5">
+                    <a class="hover:underline" href="#section-67" id="link-7">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="hidden md:flex items-center space-x-4" id="section-2">
+                <a class="!text-white px-5 py-2" href="#section-67"
+                    id="link-8">
+                    Book
+                    Appointment
+                </a>
+            </div>
+            <!-- Mobile Menu Icon -->
+            <button class="md:hidden !bg-transparent text-gray-700" id="menu-btn">
+                <i class="fas fa-bars text-2xl" id="text-2">
+                </i>
+            </button>
+        </div>
+        <!-- Dropdown Menu (Mobile View) -->
+        <div class="hidden md:hidden shadow-md" id="dropdown-menu">
+            <ul class="text-gray-700 font-medium space-y-2 py-4 px-6" id="list-2">
+                <li id="item-6">
+                    <a class="block" href="#section-5" id="link-9">
+                        Home
+                    </a>
+                </li>
+                <li id="item-7">
+                    <a class="block" href="#section-17" id="link-10">
+                        About Us
+                    </a>
+                </li>
+                <li id="item-8">
+                    <a class="block" href="#section-45" id="link-11">
+                        Services
+                    </a>
+                </li>
+                <li id="item-9">
+                    <a class="block" href="#section-52" id="link-12">
+                        Doctors
+                    </a>
+                </li>
+                <li id="item-10">
+                    <a class="block" href="#section-67" id="link-13">
+                        Contact
+                    </a>
+                </li>
+                <li id="item-12">
+                    <a class="px-5 py-2 rounded-md text-center block"
+                        href="#section-67" id="link-15">
+                        Book
+                        Appointment
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="pt-20 min-h-screen flex items-center" id="section-4">
+        <div class="container mx-auto px-6 lg:flex lg:items-center" id="section-5">
+            <!-- Left Content -->
+            <div class="lg:w-1/2 text-center lg:text-left py-10 space-y-6" id="section-6">
+                <h1 class="text-5xl font-bold text-blue-900 leading-tight" id="text-3">
+                    Your Health, Our Priority
+                </h1>
+                <p class="text-gray-600" id="text-4">
+                    We provide world-class healthcare services to ensure your well-being.
+                    <br />
+                    Our experienced team of doctors and facilities are here to support you.
+                </p>
+                <!-- Icons -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-6" id="section-7">
+                    <div class="text-center group transition-transform duration-200 hover:scale-110 hover:text-blue-900"
+                        id="section-8">
+                        <i class="fas fa-user-md text-blue-600 text-4xl mb-2" id="text-5">
+                        </i>
+                        <p class="text-sm font-medium" id="text-6">
+                            Consultation
+                        </p>
+                    </div>
+                    <div class="text-center group transition-transform duration-200 hover:scale-110 hover:text-blue-900"
+                        id="section-9">
+                        <i class="fas fa-pills text-blue-600 text-4xl mb-2" id="text-7">
+                        </i>
+                        <p class="text-sm font-medium" id="text-8">
+                            Pharmacy
+                        </p>
+                    </div>
+                    <div class="text-center group transition-transform duration-200 hover:scale-110 hover:text-blue-900"
+                        id="section-10">
+                        <i class="fas fa-heartbeat text-blue-600 text-4xl mb-2" id="text-9">
+                        </i>
+                        <p class="text-sm font-medium" id="text-10">
+                            Cardiology
+                        </p>
+                    </div>
+                    <div class="text-center group transition-transform duration-200 hover:scale-110 hover:text-blue-900"
+                        id="section-11">
+                        <i class="fas fa-x-ray text-blue-600 text-4xl mb-2" id="text-11">
+                        </i>
+                        <p class="text-sm font-medium" id="text-12">
+                            Radiology
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Image -->
+            <div class="lg:w-1/2" id="section-12">
+                <img alt="Medical Care" class="rounded-lg shadow-lg" id="image-1"
+                    src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1" />
+            </div>
+        </div>
+    </section>
+    <!-- Bottom Information Cards -->
+    <section class="container mx-auto px-6 mt-8 grid md:grid-cols-3 gap-6" id="section-13">
+        <div class="!bg-teal-200 p-6 rounded-md shadow-md hover:shadow-lg transition-transform hover:-translate-y-2"
+            id="section-14">
+            <h3 class="text-lg font-bold mb-2" id="text-13">
+                Emergency Cases
+            </h3>
+            <p class="text-sm" id="text-14">
+                Contact our 24/7 emergency team for immediate medical assistance.
+            </p>
+            <p class="mt-4" id="text-15">
+                <i class="fas fa-phone-alt" id="text-16">
+                </i>
+                +1 800 123 4567
+            </p>
+        </div>
+        <div class="!bg-blue-300 p-6 rounded-md shadow-md hover:shadow-lg transition-transform hover:-translate-y-2"
+            id="section-15">
+            <h3 class="text-lg font-bold mb-2" id="text-17">
+                Doctors Timetable
+            </h3>
+             <p class="text-sm" id="text-14">
+                Contact our 24/7 emergency team for immediate medical assistance.
+            </p>
+            <p class="mt-4" id="text-19">
+                <i class="fas fa-calendar-alt" id="text-20">
+                </i>
+                Monday - Saturday
+            </p>
+        </div>
+        <div class="!bg-indigo-300 p-6 rounded-md shadow-md hover:shadow-lg transition-transform hover:-translate-y-2"
+            id="section-16">
+            <h3 class="text-lg font-bold mb-2" id="text-21">
+                Opening Hours
+            </h3>
+            <p class="text-sm" id="text-22">
+                We are open to serve you:
+            </p>
+            <p class="mt-4" id="text-23">
+                <i class="fas fa-clock" id="text-24">
+                </i>
+                Mon-Fri: 8 AM - 8 PM
+            </p>
+            <p id="text-25">
+                <i class="fas fa-clock" id="text-26">
+                </i>
+                Sat-Sun: 10 AM - 4 PM
+            </p>
+        </div>
+    </section>
+    <section class="py-12 px-6 sm:px-20" id="section-17">
+        <div class="text-center mb-12" id="section-18">
+            <h1 class="text-4xl font-extrabold text-blue-600 mb-4" id="text-27">
+                Largest Selections of Medical Products
+            </h1>
+            <p class="text-lg text-gray-600" id="text-28">
+                High-quality, affordable medical supplies for your health and wellness.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10" id="section-19">
+            <!-- Card 1 -->
+            <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" id="section-20">
+                <div class="overflow-hidden rounded-t-xl" id="section-21">
+                    <img alt="Green Tea" class="w-full h-40 object-cover" id="image-2"
+                        src="https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" />
+                </div>
+                <div class="p-6" id="section-22">
+                    <h3 class="text-2xl font-bold text-blue-600" id="text-29">
+                        Green Tea
+                    </h3>
+                    <p class="text-gray-500 mt-2" id="text-30">
+                        Rich in antioxidants to boost health.
+                    </p>
+                    <div class="flex items-center justify-between mt-4" id="section-23">
+                        <p class="text-lg font-bold text-blue-600" id="text-31">
+                            $15.00
+                        </p>
+                        <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" id="section-24">
+                <div class="overflow-hidden rounded-t-xl" id="section-25">
+                    <img alt="Biotin Complex" class="w-full h-40 object-cover" id="image-3"
+                        src="https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1" />
+                </div>
+                <div class="p-6" id="section-26">
+                    <h3 class="text-2xl font-bold text-blue-600" id="text-33">
+                        Biotin Complex
+                    </h3>
+                    <p class="text-gray-500 mt-2" id="text-34">
+                        Supports hair, skin, and nail health.
+                    </p>
+                    <div class="flex items-center justify-between mt-4" id="section-27">
+                        <p class="text-lg font-bold text-blue-600" id="text-35">
+                            $25.00
+                        </p>
+                        <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" id="section-28">
+                <div class="overflow-hidden rounded-t-xl" id="section-29">
+                    <img alt="Facial Serum" class="w-full h-40 object-cover" id="image-4"
+                        src="https://images.pexels.com/photos/2566853/pexels-photo-2566853.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1" />
+                </div>
+                <div class="p-6" id="section-30">
+                    <h3 class="text-2xl font-bold text-blue-600" id="text-37">
+                        Facial Serum
+                    </h3>
+                    <p class="text-gray-500 mt-2" id="text-38">
+                        Nourishes and hydrates your skin.
+                    </p>
+                    <div class="flex items-center justify-between mt-4" id="section-31">
+                        <p class="text-lg font-bold text-blue-600" id="text-39">
+                            $27.00
+                        </p>
+                        <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" id="section-32">
+                <div class="overflow-hidden rounded-t-xl" id="section-33">
+                    <img alt="Calming Herbs" class="w-full h-40 object-cover" id="image-5"
+                        src="https://images.pexels.com/photos/8330249/pexels-photo-8330249.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1290" />
+                </div>
+                <div class="p-6" id="section-34">
+                    <h3 class="text-2xl font-bold text-blue-600" id="text-41">
+                        Calming Herbs
+                    </h3>
+                    <p class="text-gray-500 mt-2" id="text-42">
+                        Promotes relaxation and better sleep.
+                    </p>
+                    <div class="flex items-center justify-between mt-4" id="section-35">
+                        <p class="text-lg font-bold text-blue-600" id="text-43">
+                            $30.00
+                        </p>
+                        <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" id="section-36">
+                <div class="overflow-hidden rounded-t-xl" id="section-37">
+                    <img alt="Essential Oil" class="w-full h-40 object-cover" id="image-6"
+                        src="https://images.pexels.com/photos/672051/pexels-photo-672051.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1290" />
+                </div>
+                <div class="p-6" id="section-38">
+                    <h3 class="text-2xl font-bold text-blue-600" id="text-45">
+                        Essential Oil
+                    </h3>
+                    <p class="text-gray-500 mt-2" id="text-46">
+                        Aromatic oil for relaxation and wellness.
+                    </p>
+                    <div class="flex items-center justify-between mt-4" id="section-39">
+                        <p class="text-lg font-bold text-blue-600" id="text-47">
+                            $20.00
+                        </p>
+                        <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" id="section-40">
+                <div class="overflow-hidden rounded-t-xl" id="section-41">
+                    <img alt="Natural Cacao Powder" class="w-full h-40 object-cover" id="image-7"
+                        src="https://images.pexels.com/photos/1212845/pexels-photo-1212845.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1290" />
+                </div>
+                <div class="p-6" id="section-42">
+                    <h3 class="text-2xl font-bold text-blue-600" id="text-49">
+                        Natural Cacao Powder
+                    </h3>
+                    <p class="text-gray-500 mt-2" id="text-50">
+                        Rich in nutrients for energy and vitality.
+                    </p>
+                    <div class="flex items-center justify-between mt-4" id="section-43">
+                        <p class="text-lg font-bold text-blue-600" id="text-51">
+                            $18.00
+                        </p>
+                        <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12" id="section-44">
+            <a class="!text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition" href="#" id="section-2">
+                Explore All Products
+            </a>
+        </div>
+    </section>
+    <section class="py-16" id="section-45">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 px-6" id="section-46">
+            <!-- Text Section -->
+            <div class="space-y-6" id="section-47">
+                <h1 class="text-5xl font-bold text-blue-700 leading-tight" id="text-53">
+                    Comprehensive Care for Your Health
+                </h1>
+                <p class="text-lg text-gray-600" id="text-54">
+                    At our medical practice, we prioritize your well-being by offering personalized and compassionate
+                    care. Whether it's a routine checkup or managing a chronic condition, we're here to guide you toward
+                    a healthier life.
+                </p>
+                <ul class="space-y-3 text-gray-700" id="list-3">
+                    <li class="flex items-center" id="item-13">
+                        <i class="fas fa-check-circle text-blue-600 mr-3" id="text-55">
+                        </i>
+                        <span id="text-56">
+                            Individualized treatment plans tailored to your needs
+                        </span>
+                    </li>
+                    <li class="flex items-center" id="item-14">
+                        <i class="fas fa-check-circle text-blue-600 mr-3" id="text-57">
+                        </i>
+                        <span id="text-58">
+                            State-of-the-art medical facilities and technology
+                        </span>
+                    </li>
+                    <li class="flex items-center" id="item-15">
+                        <i class="fas fa-check-circle text-blue-600 mr-3" id="text-59">
+                        </i>
+                        <span id="text-60">
+                            A caring and professional team you can trust
+                        </span>
+                    </li>
+                </ul>
+                <div class="flex items-center space-x-4" id="section-48">
+                    <a class="!text-white px-6 py-3 rounded-lg shadow-md"
+                        href="#" id="section-2">
+                        Learn More
+                    </a>
+                    <div class="text-gray-600" id="section-49">
+                        <p class="font-semibold" id="text-62">
+                            Dr. Michael Brian
+                        </p>
+                        <p class="text-sm" id="text-63">
+                            General Physician
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="relative" id="section-50">
+                <div class="overflow-hidden rounded-3xl shadow-xl transform hover:scale-105 transition duration-300"
+                    id="section-51">
+                    <img alt="Doctor" class="w-full h-96 object-cover" id="image-8"
+                        src="https://images.pexels.com/photos/8460049/pexels-photo-8460049.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1" />
+                </div>
+                <button
+                    class="absolute bottom-6 left-6 w-14 h-14 rounded-full flex items-center justify-center hover:bg-blue-600 transition shadow-lg"
+                    id="button-2">
+                    <i class="fas fa-play !text-white" id="text-64">
+                    </i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="py-16" id="section-52">
+        <div class="max-w-7xl mx-auto px-6 text-center" id="section-53">
+            <!-- Header -->
+            <h2 class="text-4xl font-extrabold text-gray-800 mb-4" id="text-65">
+                Meet Our Doctors
+            </h2>
+            <p class="text-lg text-gray-600 mb-12" id="text-66">
+                Get to know our experienced medical professionals dedicated to providing exceptional care and ensuring
+                your well-being.
+            </p>
+            <!-- Doctor Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10" id="section-54">
+                <!-- Doctor 1 -->
+                <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 overflow-hidden"
+                    id="section-55">
+                    <div class="relative overflow-hidden h-56" id="section-56">
+                        <img alt="Richard Muldoone" class="w-full h-full object-cover" id="image-9"
+                            src="https://images.pexels.com/photos/2182979/pexels-photo-2182979.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" />
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition"
+                            id="section-57">
+                            <i class="fas fa-user-md text-white text-4xl" id="text-67">
+                            </i>
+                        </div>
+                    </div>
+                    <div class="p-6 text-left" id="section-58">
+                        <h3 class="text-xl font-bold text-gray-800" id="text-68">
+                            Richard Muldoone
+                        </h3>
+                        <p class="text-sm text-blue-600 mb-3" id="text-69">
+                            Cardiology Specialist
+                        </p>
+                        <p class="text-sm text-gray-600 mb-4" id="text-70">
+                            An expert in cardiology, Richard helps patients manage and treat heart conditions using the
+                            latest medical advancements.
+                        </p>
+                        <span class="text-sm font-semibold hover:underline flex items-center" href="#"
+                            id="link-24">
+                            Read More
+                        </span>
+                    </div>
+                </div>
+                <!-- Doctor 2 -->
+                <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 overflow-hidden"
+                    id="section-59">
+                    <div class="relative overflow-hidden h-56" id="section-60">
+                        <img alt="Michael Brian" class="w-full h-full object-cover" id="image-10"
+                            src="https://images.pexels.com/photos/8460049/pexels-photo-8460049.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" />
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition"
+                            id="section-61">
+                            <i class="fas fa-stethoscope text-white text-4xl" id="text-72">
+                            </i>
+                        </div>
+                    </div>
+                    <div class="p-6 text-left" id="section-62">
+                        <h3 class="text-xl font-bold text-gray-800" id="text-73">
+                            Michael Brian
+                        </h3>
+                        <p class="text-sm text-blue-600 mb-3" id="text-74">
+                            Dermatologist
+                        </p>
+                        <p class="text-sm text-gray-600 mb-4" id="text-75">
+                            Specializing in dermatology, Michael provides advanced care for skin, hair, and nail health,
+                            offering tailored solutions.
+                        </p>
+                        <span class="text-blue-600 text-sm font-semibold hover:underline flex items-center" href="#"
+                            id="link-25">
+                            Read More
+                        </span>
+                    </div>
+                </div>
+                <!-- Doctor 3 -->
+                <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 overflow-hidden"
+                    id="section-63">
+                    <div class="relative overflow-hidden h-56" id="section-64">
+                        <img alt="Maria Andaloro" class="w-full h-full object-cover" id="image-11"
+                            src="https://images.pexels.com/photos/3985166/pexels-photo-3985166.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" />
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition"
+                            id="section-65">
+                            <i class="fas fa-heartbeat text-white text-4xl" id="text-77">
+                            </i>
+                        </div>
+                    </div>
+                    <div class="p-6 text-left" id="section-66">
+                        <h3 class="text-xl font-bold text-gray-800" id="text-78">
+                            Maria Andaloro
+                        </h3>
+                        <p class="text-sm text-blue-600 mb-3" id="text-79">
+                            Pediatrician
+                        </p>
+                        <p class="text-sm text-gray-600 mb-4" id="text-80">
+                            Maria specializes in pediatric care, ensuring children receive personalized attention for
+                            their health and well-being.
+                        </p>
+                        <span class="text-blue-600 text-sm font-semibold hover:underline flex items-center" href="#"
+                            id="link-26">
+                            Read More
+                            </i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class=" py-10  px-5" id="section-67">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center lg:justify-between gap-10" id="section-68">
+            <!-- Form Section -->
+            <div class="bg-gray-200 p-8 rounded-lg shadow-lg w-full lg:w-1/2" id="section-69">
+                <h2 class="text-2xl font-bold text-teal-600 mb-4" id="text-82">
+                    Book An Appointment
+                </h2>
+                <p class="text-gray-600 mb-6" id="text-83">
+                    Please feel welcome to contact our friendly reception staff with any general or
+                    medical enquiry. Our doctors will receive and return any urgent calls.
+                </p>
+                <form class="space-y-4" id="form-1">
+                    <!-- Row 1 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="section-70">
+                        <select class="w-full p-3 border border-gray-300 rounded-lg focus:outline-teal-500" required="" id="form-2">
+                            <option disabled="" id="form-3" selected="" value="">
+                                Choose Clinic
+                            </option>
+                            <option id="form-4" value="Neurology Clinic">
+                                Neurology Clinic
+                            </option>
+                            <option id="form-5" value="Cardiology Clinic">
+                                Cardiology Clinic
+                            </option>
+                            <option id="form-6" value="Laboratory Analysis">
+                                Laboratory Analysis
+                            </option>
+                            <option id="form-7" value="Pediatric Clinic">
+                                Pediatric Clinic
+                            </option>
+                            <option id="form-8" value="Dental Clinic">
+                                Dental Clinic
+                            </option>
+                        </select>
+                        <select class="w-full p-3 border border-gray-300 rounded-lg focus:outline-teal-500" required="" id="form-9">
+                            <option disabled="" id="form-10" selected="" value="" >
+                                Choose Doctor
+                            </option>
+                            <option id="form-11" value="Dr. Emily Smith">
+                                Dr. Emily Smith
+                            </option>
+                            <option id="form-12" value="Dr. John Doe">
+                                Dr. John Doe
+                            </option>
+                            <option id="form-13" value="Dr. Sarah Williams">
+                                Dr. Sarah Williams
+                            </option>
+                            <option id="form-14" value="Dr. Michael Brown">
+                                Dr. Michael Brown
+                            </option>
+                            <option id="form-15" value="Dr. Olivia Johnson">
+                                Dr. Olivia Johnson
+                            </option>
+                        </select>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="section-71">
+                        <input class="w-full p-3 border border-gray-300 rounded-lg focus:outline-teal-500" id="form-16" required=""
+                            placeholder="Name" type="text" />
+                        <input class="w-full p-3 border border-gray-300 rounded-lg focus:outline-teal-500" id="form-17" required=""
+                            placeholder="Email" type="email" />
+                    </div>
+                    <!-- Row 3 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="section-72">
+                        <input class="w-full p-3 border border-gray-300 rounded-lg focus:outline-teal-500" id="form-18" required=""
+                            placeholder="Phone" type="tel" />
+                        <input class="w-full p-3 border border-gray-300 rounded-lg focus:outline-teal-500" id="form-19" required=""
+                            type="date" />
+                    </div>
+                    <!-- Submit Button -->
+                    <button class="w-full !text-white py-3 rounded-lg hover:bg-teal-700 transition"
+                        id="button-3" type="submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <!-- Map Section -->
+            <div class="w-full lg:w-1/2 text-center" id="section-74">
+                <div class="w-full max-w-md mx-auto lg:max-w-full" id="section-75">
+                    <!-- Inline SVG for a Globe -->
+                    <svg class="w-[400px] mx-auto hidden sm:block" data-name="Layer 1" id="svg-1" viewbox="0 0 110.53 122.88"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs id="svg-2">
+                            <style>
+                                .cls-1 {
+                                    fill: #2394e0;
+                                }
+
+                                .cls-1,
+                                .cls-2,
+                                .cls-3 {
+                                    fill-rule: evenodd;
+                                }
+
+                                .cls-2 {
+                                    fill: #a1e367;
+                                }
+
+                                .cls-3 {
+                                    fill: #ef4136;
+                                }
+                            </style>
+                        </defs>
+                        <path class="cls-1"
+                            d="M73,31.83A47.42,47.42,0,0,1,92.9,47.06,18.79,18.79,0,0,0,89,49.44,16.81,16.81,0,0,0,87.39,51l-.29.29a15.75,15.75,0,0,0-1.6,2.1,16.37,16.37,0,0,0-2.27,5.92,19.07,19.07,0,0,0,0,6.44,23.51,23.51,0,0,0,1.92,6.22,28.18,28.18,0,0,0,3.55,5.72,31,31,0,0,0,3.62,3.83,34,34,0,0,0,4.26,3.2,5.26,5.26,0,0,0,2.77.83h.26a5.16,5.16,0,0,0,2-.46,47.25,47.25,0,0,1-83.88,19.21,30.86,30.86,0,0,0,7.77-7.69,30.52,30.52,0,0,0,5-11.39,24.34,24.34,0,0,0,.35-8.09A19.11,19.11,0,0,0,28.44,70l-.2-.35a15.86,15.86,0,0,0-1.43-2,15.7,15.7,0,0,0-1.37-1.48l-.32-.31a18.31,18.31,0,0,0-5.4-3.45v0a16.59,16.59,0,0,0-6.25-1.25,17.16,17.16,0,0,0-3.28.28A47.4,47.4,0,0,1,29.7,35.89a44.58,44.58,0,0,0,4.45,6.74,48.49,48.49,0,0,0,5.63,6v0a51.34,51.34,0,0,0,6.63,5,8.25,8.25,0,0,0,8.92-.07A42.88,42.88,0,0,0,67.77,41.8a43.54,43.54,0,0,0,5.24-10Z"
+                            id="svg-3">
+                        </path>
+                        <path class="cls-2"
+                            d="M96.65,89.5c-.11.34-.23.69-.35,1h-.38v-1ZM71.82,34.74a44.71,44.71,0,0,1,18,14.15c-.25.17-.5.36-.74.55A16.81,16.81,0,0,0,87.39,51l-.29.29a15.75,15.75,0,0,0-1.6,2.1,16.37,16.37,0,0,0-2.27,5.92,19.07,19.07,0,0,0,0,6.44,23.51,23.51,0,0,0,1.92,6.22c.15.32.3.63.46.94l-1.13,1.17-.07,4-1.72,1.16L80.87,68.9l-1.1.8L77.3,66.36l-3.71.11-1.41-1.62-1.45.4L67.87,62l-.55.37,1.77,4.52h2v-1h1c.74,2,1.53.83,1.53,2.05,0,4.27-5.27,7.4-8.72,8.2.19.78.12,1.55,1,1.55,1.93,0,1-.34,3.08-.52-.1,4.36-5,9.57-7.09,12.81l.93,6.68c.25,1.45-3,3-4.12,4.62l.53,2.56-1.5.61C57.58,107,55,110,52.16,110H49.08c0-3.6-2.56-8.74-2.56-11.29,0-2.16,1-2.45,1-5.13,0-2.47-2.56-6-2.56-6.66V82.77h-2c-.31-1.14-.12-1.54-1.54-1.54h-.51c-2.24,0-1.86,1-4.11,1H34.72c-1.85,0-5.13-5.94-5.13-6.67V69.44c0-2.66,2.43-5.55,4.11-6.67V60.2L36,57.86l1.29-.22c2.75,0,2.42-1.54,4.1-1.54H46v3.59l5.07,2.17.48-2.19c2.3.54,2.9,1.56,5.73,1.56h1c1.94,0,2-2.58,2-4.61l-4.11.4L54.8,53.84l.54-.32A42.88,42.88,0,0,0,67.77,41.8a44.49,44.49,0,0,0,4-7.06ZM53,54.57a1.67,1.67,0,0,1,.18,1c0,.69-.57.77-1,1l-.7-1.78A8,8,0,0,0,53,54.57Zm-4,.09c-.28,1.36-.67,2.73-2,.93l1.68-.81-.24-.25.53.13Zm-6.19-3.59-.79.31-2.47,2.37c-.26,1.91-.78,2.87-2.77,2.87-1.33,0-.53-.35-2.57-.52V51h4.62l-1.5-3.41-.55.34v-1l.8-.37c.71.71,1.44,1.41,2.2,2.09v0c1,.87,2,1.71,3,2.5Z"
+                            id="svg-4">
+                        </path>
+                        <path class="cls-3"
+                            d="M99.75,80.78a.68.68,0,0,1-.78,0,27.55,27.55,0,0,1-6.74-6A21.41,21.41,0,0,1,87.69,65a13,13,0,0,1,1.63-9.16,11,11,0,0,1,2.51-2.79,12.22,12.22,0,0,1,7.69-2.83,11.22,11.22,0,0,1,9.24,5.34,14.54,14.54,0,0,1,1.39,10.5,23.08,23.08,0,0,1-10.4,14.72ZM51.48,47.57a1.07,1.07,0,0,1-1.22,0,42.82,42.82,0,0,1-10.5-9.36,33.36,33.36,0,0,1-7-15.25A20.19,20.19,0,0,1,35.24,8.75a17.39,17.39,0,0,1,3.91-4.34A19,19,0,0,1,51.11,0,16.84,16.84,0,0,1,62.46,4.63a16.65,16.65,0,0,1,3,3.69c2.79,4.58,3.38,10.42,2.16,16.34A36,36,0,0,1,51.48,47.57ZM50.32,9.24a8.93,8.93,0,1,1-8.92,8.92,8.92,8.92,0,0,1,8.92-8.92ZM13.78,100.69a.75.75,0,0,1-.87,0A30.73,30.73,0,0,1,5.33,94,24.17,24.17,0,0,1,.23,83a14.64,14.64,0,0,1,1.83-10.3,13,13,0,0,1,2.82-3.13,13.77,13.77,0,0,1,8.64-3.18,12.18,12.18,0,0,1,8.2,3.34,12.42,12.42,0,0,1,2.19,2.67,16.3,16.3,0,0,1,1.55,11.79,25.9,25.9,0,0,1-11.68,16.54ZM13,73a6.44,6.44,0,1,1-6.44,6.44A6.45,6.45,0,0,1,13,73ZM99,56.15a5.74,5.74,0,1,1-5.73,5.74A5.74,5.74,0,0,1,99,56.15Z"
+                            id="svg-5">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="bg-blue-900 text-white py-12" id="section-76">
+        <div class="container mx-auto px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-3 gap-8" id="section-77">
+            <!-- Logo and About -->
+            <div id="section-78">
+                <div class="flex items-center space-x-3" id="section-79">
+                    <!-- Logo -->
+                    <div class="rounded-full p-2" id="section-80">
+                        <i class="fas fa-hospital !text-white text-3xl" id="text-84">
+                        </i>
+                    </div>
+                    <h1 class="text-2xl !text-white font-bold" id="text-85">
+                        HealthCare Pro
+                    </h1>
+                </div>
+                <p class="mt-4 text-sm leading-relaxed !text-white" id="text-86">
+                    Our goal is to deliver quality care in a courteous, respectful, and compassionate manner. We hope
+                    you will allow us to care for you and strive to be the first and best choice for your family
+                    healthcare.
+                </p>
+                <a class="mt-4 inline-block !text-green-400 text-sm font-semibold text-green-400 hover:text-green-300"
+                    href="#section-67" id="link-27">
+                    Make an Appointment →
+                </a>
+            </div>
+            <!-- Departments and Links -->
+            <div class="grid grid-cols-2 gap-6 " id="section-81">
+                <div id="section-82">
+                    <h3 class="text-lg font-semibold mb-4 !text-white" id="text-87">
+                        Departments
+                    </h3>
+                    <ul class="space-y-2 text-sm" id="list-4">
+                        <li id="item-16">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-28">
+                                Neurology Clinic
+                            </a>
+                        </li>
+                        <li id="item-17">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-29">
+                                Cardiology Clinic
+                            </a>
+                        </li>
+                        <li id="item-18">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-30">
+                                Pathology Clinic
+                            </a>
+                        </li>
+                        <li id="item-19">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-31">
+                                Laboratory Analysis
+                            </a>
+                        </li>
+                        <li id="item-20">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-32">
+                                Pediatric Clinic
+                            </a>
+                        </li>
+                        <li id="item-21">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-33">
+                                Dental Clinic
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="section-83">
+                    <h3 class="text-lg font-semibold mb-4" id="text-88">
+                        Links
+                    </h3>
+                    <ul class="space-y-2 text-sm" id="list-5">
+                        <li id="item-22">
+                            <a class="!text-white hover:underline" href="#section-17" id="link-34">
+                                About Us
+                            </a>
+                        </li>
+                        <li id="item-23">
+                            <a class="!text-white hover:underline" href="#section-45" id="link-35">
+                                Our Clinic
+                            </a>
+                        </li>
+                        <li id="item-24">
+                            <a class="!text-white hover:underline" href="#section-52" id="link-36">
+                                Our Doctors
+                            </a>
+                        </li>
+
+                        <li id="item-26">
+                            <a class="!text-white hover:underline" href="#section-67" id="link-38">
+                                Appointments
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Quick Contacts -->
+            <div class="bg-white text-blue-900 p-6 rounded-lg shadow-md" id="section-84">
+                <h3 class="text-lg font-semibold mb-4" id="text-89">
+                    Quick Connects
+                </h3>
+                <p class="text-sm mb-4" id="text-90">
+                    If you have any questions or need help, feel free to contact us for medical assistance.
+                </p>
+                <div class="flex items-center space-x-4 mt-6" id="section-85">
+                    <span class="text-blue-500 hover:text-blue-400" href="#" id="link-39">
+                        <i class="fab fa-twitter w-6 h-6" id="text-91">
+                        </i>
+                    </span>
+                    <span class="text-blue-500 hover:text-blue-400" href="#" id="link-40">
+                        <i class="fab fa-facebook-f w-6 h-6" id="text-92">
+                        </i>
+                    </span>
+                    <span class="text-blue-500 hover:text-blue-400" href="#" id="link-41">
+                        <i class="fab fa-linkedin-in w-6 h-6" id="text-93">
+                        </i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+
+        menuBtn.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('hidden');
+        });
+
+        dropdownMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                dropdownMenu.classList.add('hidden');
+            });
+        });
+
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+        document.getElementById('form-1').addEventListener('submit', function () {
+            // Retrieve form data
+            const firstName = document.getElementById('form-16').value;
+            const email = document.getElementById('form-17').value;
+            const message = document.getElementById('form-9').value;
+            const phone = document.getElementById('form-18').value;
+            const date = document.getElementById('form-19').value;
+            const clinic = document.getElementById('form-2').value;
+            const doctor = document.getElementById('form-9').value;
+
+
+    
+            const mailtoLink = `mailto:healthcarepro@gmail.com?subject=New patient ${firstName} &body=${encodeURIComponent(
+                `Clinic name: ${clinic}\nDoctor name: ${doctor}\nPatient name: ${firstName}\nPhone number: ${phone}\nDate: ${date}`
+            )}`;
+
+
+            window.location.href = mailtoLink;
+
+  
+            document.getElementById("form-1").reset();
+        });
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
